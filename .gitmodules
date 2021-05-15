@@ -1,0 +1,3 @@
+[submodule "assets/gotscss"]
+	path = assets/gotscss
+	url = https://github.com/gotpop/gotscss.git
