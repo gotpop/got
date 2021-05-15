@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-GB{{ end }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+        <title>
+            {{ block "title" . }}
+                {{ .Site.Title }}
+            {{ end }}
+        </title>
+    </head>
+    <body>
+        {{ partial "header.html" . }}
+        <!-- Code that all your templates share, like a header -->
+        {{ block "main" . }}
+            <!-- The part of the page that begins to differ between templates -->
+        {{ end }}
+
+        {{ partial "footer.html" . }}
+        <script>
+            if (window.netlifyIdentity) {
+                window
+                    .netlifyIdentity
+                    .on("init", user => {
+                        if (!user) {
+                            window
+                                .netlifyIdentity
+                                .on("login", () => {
+                                    document.location.href = "/admin/";
+                                });
+                        }
+                    });
+            }
+        </script>
+    </body>
+</html>

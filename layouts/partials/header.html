@@ -1,0 +1,20 @@
+<header role="banner">
+	<a href="/">
+		<h1>Si</h1>
+	</a>
+
+	<ul>
+		{{ range .Site.Sections.Reverse}}
+			<li>
+				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+			</li>
+		{{ end -}}
+
+		{{ range where .Site.RegularPages.Reverse "Section" ""}}
+			<li>
+				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+			</li>
+		{{ end }}
+	</ul>
+
+</header>
