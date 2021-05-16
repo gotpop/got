@@ -1,4 +1,9 @@
 baseURL = "https://gotpop.netlify.app/"
 languageCode = "en-us"
 title = "Got"
+[module]
+    [[module.imports]]
+        target = "assets/modules/scss"
+        path = "github.com/gotpop/gotscss"
+        disable=false
 
