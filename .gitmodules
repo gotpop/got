@@ -1,6 +1,6 @@
-[submodule "assets/gotscss"]
-	path = assets/gotscss
+[submodule "assets/modules/scss"]
+	path = assets/modules/scss
 	url = https://github.com/gotpop/gotscss.git
-[submodule "assets/gotjs"]
-	path = assets/gotjs
+[submodule "assets/modules/js"]
+	path = assets/modules/js
 	url = https://github.com/gotpop/gotjs.git
