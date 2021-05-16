@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://gotpop.netlify.app/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Got"
 
