@@ -5,7 +5,7 @@
     "tasks": [
         {
             "type": "npm",
-            "script": "start",
+            "script": "hugo server -D",
             "group": {
                 "kind": "build",
                 "isDefault": true
