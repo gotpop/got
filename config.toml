@@ -3,7 +3,8 @@ languageCode = "en-us"
 title = "Got"
 [module]
     [[module.imports]]
-        target = "assets/modules/scss"
+        disable = false
         path = "github.com/gotpop/gotscss"
-        disable=false
-
+            [[module.imports.mounts]]
+                source = "styles"
+                target = "assets"
