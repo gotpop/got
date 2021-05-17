@@ -28,3 +28,5 @@ https://www.hugofordevelopers.com/articles/master-hugo-modules-managing-themes-a
 https://craftsmandigital.net/blog/hugo-modules
 
 https://blog.jemu.name/2020/05/hugo-theme-components-modules
+
+https://thewebivore.com/using-replace-in-go-mod-to-point-to-your-local-module
