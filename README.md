@@ -4,6 +4,10 @@
 
 A static hugo build, content magaged with NetlifyCMS.
 
+## Live site
+
+https://gotpop.netlify.app
+
 ## Build tools
 
 * Hugo 
