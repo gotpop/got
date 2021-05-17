@@ -1,5 +1,5 @@
 baseURL = "https://gotpop.netlify.app/"
-languageCode = "en-us"
+languageCode = "en-GB"
 title = "Got"
 [module]
     [[module.imports]]
