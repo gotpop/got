@@ -30,3 +30,7 @@ https://craftsmandigital.net/blog/hugo-modules
 https://blog.jemu.name/2020/05/hugo-theme-components-modules
 
 https://thewebivore.com/using-replace-in-go-mod-to-point-to-your-local-module
+
+https://discourse.gohugo.io/t/hugo-modules-for-dummies/20758
+
+https://discourse.gohugo.io/t/how-to-add-a-theme-using-modules-for-beginners/20665/3
