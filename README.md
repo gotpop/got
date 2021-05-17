@@ -18,6 +18,8 @@ https://gotpop.netlify.app
 
 ## Local development
 
+http://localhost:1313
+
 Your website´s `config.toml` file should look something like this whilst developing the module locally. The replaced path only seems to work when it´s relative.
 
 ```
