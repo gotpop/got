@@ -14,25 +14,15 @@
         </title>
     </head>
     <body>
-        <div class="site">
-            {{ partial "header.html" . }}
-            {{ block "main" . }}{{ end }}
-            {{ partial "footer.html" . }}
-        </div>
-        <script>
-            if (window.netlifyIdentity) {
-                window
-                    .netlifyIdentity
-                    .on("init", user => {
-                        if (!user) {
-                            window
-                                .netlifyIdentity
-                                .on("login", () => {
-                                    document.location.href = "/admin/";
-                                });
-                        }
-                    });
-            }
-        </script>
+        {{ if $.Site.Params.wrap }}
+            <div class="site">
+        {{ end }}
+        {{ partial "header.html" . }}
+        {{ block "main" . }}{{ end }}
+        {{ partial "footer.html" . }}
+        {{ if $.Site.Params.wrap }}
+            </div>
+        {{ end }}
+        {{ partial "admin.html" . }}
     </body>
 </html>
