@@ -17,6 +17,8 @@ Your website must itself be declared a Hugo module.
 Go modules are updated via the use of Git tags.
 
 Go modules inside the website are in memory and will not be rendered to the file system.
+
+Deleting the themes folder can create errors even if you are not using one.
 ### Files
 
 If you wish to view the files within the project you can use `hugo mod vender` this will render the files to a directory called `_vender` in the website´s project root.
