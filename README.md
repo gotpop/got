@@ -35,7 +35,7 @@ require github.com/gotpop/gotscss v0.0.0-20210516231850-0acaf8043c06 // indirect
 * Go modules are updated via the use of Git tags. Push the tags to update changes to the module in your project.
 * Go modules inside the website are in memory and will not be rendered to the file system.
 * Deleting the themes folder from the root can create errors even if you are not using one.
-* If you wish to view the files within the project you can use `hugo mod vender` this will render the files to a directory called `_vender` * in the website´s project root.
+* If you wish to view the files within the project you can use `hugo mod vender` this will render the files to a directory called `_vender` in the website´s project root.
 
 ## Resources
 
