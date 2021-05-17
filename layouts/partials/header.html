@@ -1,17 +1,15 @@
-<header role="banner">
-	<a href="/">
-		<h1>Si</h1>
-	</a>
-	<ul>
-		{{ range .Site.Sections.Reverse}}
-			<li>
-				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-			</li>
-		{{ end -}}
-		{{ range where .Site.RegularPages.Reverse "Section" ""}}
-			<li>
-				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-			</li>
-		{{ end }}
-	</ul>
+<header class="header" role="banner">
+	<div class="header__inner">
+		<a class="header__logo" href="/">
+			<h1>Si</h1>
+		</a>
+		<nav class="header__nav">
+			{{ range .Site.Sections.Reverse}}
+				<a class="header__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+			{{ end -}}
+			{{ range where .Site.RegularPages.Reverse "Section" ""}}
+				<a class="header__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+			{{ end }}
+		</nav>
+	</div>
 </header>

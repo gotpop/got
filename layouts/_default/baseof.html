@@ -14,9 +14,11 @@
         </title>
     </head>
     <body>
-        {{ partial "header.html" . }}
-        {{ block "main" . }}{{ end }}
-        {{ partial "footer.html" . }}
+        <div class="site">
+            {{ partial "header.html" . }}
+            {{ block "main" . }}{{ end }}
+            {{ partial "footer.html" . }}
+        </div>
         <script>
             if (window.netlifyIdentity) {
                 window
