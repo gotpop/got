@@ -4,21 +4,28 @@
 
 A static hugo build content magaged with NetlifyCMS.
 
-## Frontend
+## Build tools
 
-* Hugo pipes
+* Hugo 
+* Netlify
 * SCSS
 * JS
 * CSS Grid layout
 
-
+## Hints and tips
+### Your website must itself be declared a Hugo module.
 Your website must itself be declared a Hugo module.
 
+### Go modules are updated via the use of Git tags.
 Go modules are updated via the use of Git tags.
+
+### Go Modules are in memory
 
 Go modules inside the website are in memory and will not be rendered to the file system.
 
-Deleting the themes folder can create errors even if you are not using one.
+### Don´t delete the themes folder
+
+Deleting the themes folder from the root can create errors even if you are not using one.
 ### Files
 
 If you wish to view the files within the project you can use `hugo mod vender` this will render the files to a directory called `_vender` in the website´s project root.
@@ -36,3 +43,5 @@ https://thewebivore.com/using-replace-in-go-mod-to-point-to-your-local-module
 https://discourse.gohugo.io/t/hugo-modules-for-dummies/20758
 
 https://discourse.gohugo.io/t/how-to-add-a-theme-using-modules-for-beginners/20665/3
+
+https://stackoverflow.com/questions/59014404/referencing-a-go-module-that-is-local
