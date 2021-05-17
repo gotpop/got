@@ -4,11 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
         {{ $style := resources.Get "scss/main.scss" }}
         {{ $style := $style | resources.ToCSS | fingerprint }}
         <link rel="stylesheet" href="{{ $style.Permalink }}">
-
         <title>
             {{ block "title" . }}
                 {{ .Site.Title }}
@@ -17,11 +15,7 @@
     </head>
     <body>
         {{ partial "header.html" . }}
-        <!-- Code that all your templates share, like a header -->
-        {{ block "main" . }}
-            <!-- The part of the page that begins to differ between templates -->
-        {{ end }}
-
+        {{ block "main" . }}{{ end }}
         {{ partial "footer.html" . }}
         <script>
             if (window.netlifyIdentity) {

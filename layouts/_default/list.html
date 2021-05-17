@@ -1,7 +1,5 @@
 {{ define "main" }}
-
 	<main role="main">
-
 		<h1>Tag: {{ .Title }}</h1>
 		{{ .Content }}
 		<ul class="list-pages">
@@ -11,8 +9,6 @@
 				</li>
 			{{ end }}
 		</ul>
-
 		{{ $paginator := .Paginate ( where .Site.RegularPages "Type" "post" ) 10 }}
 	</main>
-
 {{ end }}
