@@ -1,12 +1,12 @@
 {{ define "main" }}
-	<div class="container">
-		<main role="main">
-			<h3>Work 2</h3>
-			{{ range where .Site.RegularPages "Section" "work" }}
-				<h2 class="entry-title" itemprop="headline">
-					<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-				</h2>
-			{{ end }}
-		</main>
+<main role="main">
+	<div class="main__inner">
+		<h3>Work 2</h3>
+		{{ range where .Site.RegularPages "Section" "work" }}
+		<h2 class="entry-title" itemprop="headline">
+			<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+		</h2>
+		{{ end }}
 	</div>
+</main>
 {{ end }}

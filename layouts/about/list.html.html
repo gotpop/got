@@ -1,13 +1,13 @@
 {{ define "main" }}
-	<div class="container">
-		<main role="main">
-			<h3>About....</h3>
-			{{ range .Pages }}
-				<h2 class="entry-title" itemprop="headline">
-					{{ .Title }}
-				</h2>
-				{{ .Content}}
-			{{ end }}
-		</main>
+<main role="main">
+	<div class="main__inner">
+		<h3>About....</h3>
+		{{ range .Pages }}
+		<h2 class="entry-title" itemprop="headline">
+			{{ .Title }}
+		</h2>
+		{{ .Content}}
+		{{ end }}
 	</div>
+</main>
 {{ end }}

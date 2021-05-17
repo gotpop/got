@@ -1,14 +1,17 @@
 {{ define "main" }}
-	<main role="main">
+<main role="main">
+	<div class="main__inner">
 		<h1>Tag: {{ .Title }}</h1>
 		{{ .Content }}
 		<ul class="list-pages">
 			{{ range .Site.RegularPages }}
-				<li class="lh-copy">
-					<a href="{{ .Permalink | relURL }}" class="link f5">{{ .Title }}</a> - <time>{{ .Date.Format "January 02, 2006" }}</time>
-				</li>
+			<li class="lh-copy">
+				<a href="{{ .Permalink | relURL }}" class="link f5">{{ .Title }}</a> -
+				<time>{{ .Date.Format "January 02, 2006" }}</time>
+			</li>
 			{{ end }}
 		</ul>
 		{{ $paginator := .Paginate ( where .Site.RegularPages "Type" "post" ) 10 }}
-	</main>
+	</div>
+</main>
 {{ end }}
