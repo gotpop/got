@@ -21,4 +21,10 @@ Go modules inside the website are in memory and will not be rendered to the file
 
 If you wish to view the files within the project you can use `hugo mod vender` this will render the files to a directory called `_vender` in the website´s project root.
 
+## Resources
+
 https://www.hugofordevelopers.com/articles/master-hugo-modules-managing-themes-as-modules
+
+https://craftsmandigital.net/blog/hugo-modules
+
+https://blog.jemu.name/2020/05/hugo-theme-components-modules
