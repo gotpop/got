@@ -18,7 +18,7 @@ https://gotpop.netlify.app
 
 ## Local development
 
-Your websites config file should look something like this whilst developing the module locally. The replaced path only seems to work when it´s relative.
+Your website´s config file should look something like this whilst developing the module locally. The replaced path only seems to work when it´s relative.
 
 ```
 go 1.16
@@ -30,20 +30,12 @@ require github.com/gotpop/gotscss v0.0.0-20210516231850-0acaf8043c06 // indirect
 ```
 
 ## Hints and tips
-**Website must itself be a Hugo module.**
-Your website must itself be declared a Hugo module.
 
-**Go modules are updated via the use of Git tags.**
-Go modules are updated via the use of Git tags. Push the tags to upadte changes to the module in your project.
-
-**Go Modules are in memory**
-Go modules inside the website are in memory and will not be rendered to the file system.
-
-**Don´t delete the themes folder**
-Deleting the themes folder from the root can create errors even if you are not using one.
-
-**Files**
-If you wish to view the files within the project you can use `hugo mod vender` this will render the files to a directory called `_vender` in the website´s project root.
+* Your website must itself be declared a Hugo module.
+* Go modules are updated via the use of Git tags. Push the tags to upadte changes to the module in your project.
+* Go modules inside the website are in memory and will not be rendered to the file system.
+* Deleting the themes folder from the root can create errors even if you are not using one.
+* If you wish to view the files within the project you can use `hugo mod vender` this will render the files to a directory called `_vender` * in the website´s project root.
 
 ## Resources
 
