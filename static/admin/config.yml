@@ -29,9 +29,16 @@ collections:
           - {label: "Description", name: "description", widget: "text"}
           - {label: "Publish Date", name: "date", widget: "datetime"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Now Page"
-        name: "now"
-        file: "content/now/_index.md"
+          - label: "City"
+            name: "airport-code"
+            widget: "select"
+            options:
+              - { label: "Chicago", value: "ORD" }
+              - { label: "Paris", value: "CDG" }
+              - { label: "Tokyo", value: "HND" }
+      - label: "Work Page"
+        name: "work"
+        file: "content/work/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "text"}
