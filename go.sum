@@ -4,3 +4,5 @@ github.com/gotpop/gotscss v0.0.0-20210516231850-0acaf8043c06 h1:OCZYZP7RsJ2SoabV
 github.com/gotpop/gotscss v0.0.0-20210516231850-0acaf8043c06/go.mod h1:dp539SAbhdfd5cKPVKgeGTOFN15Xn6DzkmrAr1+JNog=
 github.com/gotpop/gotscss v0.0.0-20210517105401-5f4340b0805f h1:4NLNSWGATaFxiCmENonJ129MUL/t25AiFrXTCqaGmEM=
 github.com/gotpop/gotscss v0.0.0-20210517105401-5f4340b0805f/go.mod h1:dp539SAbhdfd5cKPVKgeGTOFN15Xn6DzkmrAr1+JNog=
+github.com/gotpop/gotscss v0.0.1 h1:x9qmAVdzVv/1bj7+E2uGCiRaEhPOaafLO6lpxv34xpw=
+github.com/gotpop/gotscss v0.0.1/go.mod h1:dp539SAbhdfd5cKPVKgeGTOFN15Xn6DzkmrAr1+JNog=
