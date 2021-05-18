@@ -12,3 +12,5 @@ title = "Got"
             [[module.imports.mounts]]
                 source = "styles"
                 target = "assets"
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-heroicons"
