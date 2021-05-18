@@ -18,8 +18,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Gallery"
-    name: "galleryImages"
+  - label: "posts"
+    name: "posts"
     widget: "list"
     fields:
       - { label: "Source", name: "src", widget: "string" }
