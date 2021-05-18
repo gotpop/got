@@ -28,7 +28,7 @@ go 1.16
 // For local testing
 replace github.com/gotpop/gotscss => ../gotscss
 
-require github.com/gotpop/gotscss v0.0.0-20210516231850-0acaf8043c06 // indirect
+require github.com/gotpop/gotscss v0.0.1 // indirect
 ```
 
 ## Hints and tips
@@ -38,7 +38,7 @@ require github.com/gotpop/gotscss v0.0.0-20210516231850-0acaf8043c06 // indirect
 * Go modules inside the website are in memory and will not be rendered to the file system.
 * Deleting the themes folder from the root can create errors even if you are not using one.
 * If you wish to view the files within the project you can use `hugo mod vender` this will render the files to a directory called `_vender` in the website´s project root.
-
+* Ensure correct hugo version is specified in the netlify.toml config file in the project root.
 ## Resources
 
 https://www.hugofordevelopers.com/articles/master-hugo-modules-managing-themes-as-modules
@@ -54,3 +54,5 @@ https://discourse.gohugo.io/t/hugo-modules-for-dummies/20758
 https://discourse.gohugo.io/t/how-to-add-a-theme-using-modules-for-beginners/20665/3
 
 https://stackoverflow.com/questions/59014404/referencing-a-go-module-that-is-local
+
+
