@@ -1,5 +1,6 @@
 <a class="header__logo" href="/">
     <h1>Si</h1>
-    {{ $icon := resources.Get "svg/heroicons/outline/search.svg" }}
+    {{ $liam := "academic-cap.svg"}}
+    {{ $icon := resources.Get (print "svg/heroicons/outline/" $liam) }}
     {{ $icon.Content | safeHTML }}
 </a>

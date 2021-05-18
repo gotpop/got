@@ -1,8 +1,10 @@
 <nav class="header__nav">
-    {{ range .Site.Sections.Reverse}}
-        <a class="header__link" href="{{ .RelPermalink }}">{{ .Params.menutitle }}</a>
-    {{ end }}
-    {{ range where .Site.RegularPages.Reverse "Section" ""}}
-        <a class="header__link" href="{{ .RelPermalink }}">{{ .Params.menutitle }}</a>
+    {{ range .Site.Menus.mainmenu}}
+        <a class="header__link" href="{{ .URL }}">
+            {{ .Name }}
+            {{ $liam := .Params.menuIcon }}
+            {{ $icon := resources.Get (print "svg/heroicons/outline/" $liam) }}
+            {{ $icon.Content | safeHTML }}
+        </a>
     {{ end }}
 </nav>
