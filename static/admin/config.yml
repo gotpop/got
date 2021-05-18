@@ -26,11 +26,9 @@ collections:
         file: "content/about/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Publish Date", name: "date", widget: "datetime"}
           - {label: "Body", name: "body", widget: "markdown"}
           - label: "Menu Icon"
-            name: "menu.mainmenu.params.menuIcon"
+            name: "params.menuIcon"
             widget: "select"
             options:
               - { label: "Academic cap", value: "academic-cap.svg" }
@@ -41,6 +39,4 @@ collections:
         file: "content/work/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Publish Date", name: "date", widget: "datetime"}
           - {label: "Body", name: "body", widget: "markdown"}
