@@ -30,12 +30,12 @@ collections:
           - {label: "Publish Date", name: "date", widget: "datetime"}
           - {label: "Body", name: "body", widget: "markdown"}
           - label: "Menu Icon"
-            name: "menuIcon"
+            name: "menu.mainmenu.params.menuIcon"
             widget: "select"
             options:
-              - { label: "Chicago", value: "ORD" }
-              - { label: "Paris", value: "CDG" }
-              - { label: "Tokyo", value: "HND" }
+              - { label: "Academic cap", value: "academic-cap.svg" }
+              - { label: "Adjustments", value: "adjustments.svg" }
+              - { label: "Annotation", value: "annotation.svg" }
       - label: "Work Page"
         name: "work"
         file: "content/work/_index.md"
