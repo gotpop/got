@@ -1,11 +1,8 @@
 {{ define "main" }}
 <main class="main" role="main">
 	<div class="main__inner">
-		<h3>Work 2</h3>
 		{{ range where .Site.RegularPages "Section" "work" }}
-		<h2 class="entry-title" itemprop="headline">
-			<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-		</h2>
+		{{ partial "card.html" . }}
 		{{ end }}
 	</div>
 </main>

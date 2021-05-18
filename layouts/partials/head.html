@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ $style := resources.Get "scss/main.scss" }}
+{{ $style := $style | resources.ToCSS | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+<title>
+    {{ block "title" . }}
+        {{ .Site.Title }}
+    {{ end }}
+</title>

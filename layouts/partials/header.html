@@ -1,15 +1,10 @@
 <header class="header" role="banner">
 	<div class="header__inner">
-		<a class="header__logo" href="/">
-			<h1>Si</h1>
-		</a>
-		<nav class="header__nav">
-			{{ range .Site.Sections.Reverse}}
-				<a class="header__link" href="{{ .RelPermalink }}">{{ .Params.menutitle }}</a>
-			{{ end -}}
-			{{ range where .Site.RegularPages.Reverse "Section" ""}}
-				<a class="header__link" href="{{ .RelPermalink }}">{{ .Params.menutitle }}</a>
-			{{ end }}
-		</nav>
+		{{ if $.Site.Params.headerLogo }}
+			{{ partial "logo.html" . }}
+        {{ end }}
+		{{ if $.Site.Params.headerNav }}
+			{{ partial "nav.html" . }}
+        {{ end }}
 	</div>
 </header>

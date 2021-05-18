@@ -3,6 +3,8 @@ languageCode = "en-GB"
 title = "Got"
 [params]
     wrap = true
+    headerLogo = true
+    headerNav = true
 [module]
     [[module.imports]]
         disable = false
