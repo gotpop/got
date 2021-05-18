@@ -5,10 +5,10 @@
 		</a>
 		<nav class="header__nav">
 			{{ range .Site.Sections.Reverse}}
-				<a class="header__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+				<a class="header__link" href="{{ .RelPermalink }}">{{ .Params.menutitle }}</a>
 			{{ end -}}
 			{{ range where .Site.RegularPages.Reverse "Section" ""}}
-				<a class="header__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+				<a class="header__link" href="{{ .RelPermalink }}">{{ .Params.menutitle }}</a>
 			{{ end }}
 		</nav>
 	</div>
