@@ -9,3 +9,4 @@ menu:
             menuIcon: "academic-cap.svg"
 ---
  
+ This is the info about the org.
