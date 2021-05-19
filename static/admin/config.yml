@@ -19,7 +19,7 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - label: "Menu Icon"
-            name: "logoIcon"
+            name: ".Site.Params.logoIcon"
             widget: "select"
             options:
               - { label: "Academic cap", value: "academic-cap" }
