@@ -9,6 +9,7 @@ menu:
       menuIcon: academic-cap.svg
 params.menuIcon: annotation.svg
 menuIcon: adjustments.svg
+menu.main.params.menuIcon: annotation.svg
 ---
  
  This is the info about the org.
