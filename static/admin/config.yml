@@ -10,6 +10,21 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
+  - label: "Site"
+    name: "site"
+    files:
+      - label: "Site settings"
+        name: "sitesettings"
+        file: "config.toml"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Menu Icon"
+            name: "logoIcon"
+            widget: "select"
+            options:
+              - { label: "Academic cap", value: "academic-cap" }
+              - { label: "Adjustments", value: "adjustments" }
+              - { label: "Annotation", value: "annotation" }
   - label: "Work"
     name: "work"
     folder: "work"
@@ -31,9 +46,9 @@ collections:
             name: "menu.mainmenu.params.menuIcon"
             widget: "select"
             options:
-              - { label: "Academic cap", value: "academic-cap.svg" }
-              - { label: "Adjustments", value: "adjustments.svg" }
-              - { label: "Annotation", value: "annotation.svg" }
+              - { label: "Academic cap", value: "academic-cap" }
+              - { label: "Adjustments", value: "adjustments" }
+              - { label: "Annotation", value: "annotation" }
       - label: "Work Page"
         name: "work"
         file: "content/work/_index.md"

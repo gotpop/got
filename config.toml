@@ -5,6 +5,7 @@ title = "Got"
     wrap = true
     headerLogo = true
     headerNav = true
+    logoIcon = "adjustments"
 [module]
     [[module.imports]]
         disable = false
