@@ -2,7 +2,7 @@
     {{ range .Site.Menus.mainmenu}}
         <a class="header__link" href="{{ .URL }}">
             {{ .Name }}
-            {{ $menuIcon := .Site.Data.settings.menuIcon }}
+            {{ $menuIcon := .Params.menuIcon }}
             {{ $icon := resources.Get (print "svg/heroicons/outline/" $menuIcon ".svg") }}
             {{ $icon.Content | safeHTML }}
         </a>
