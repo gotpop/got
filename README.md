@@ -55,4 +55,5 @@ https://discourse.gohugo.io/t/how-to-add-a-theme-using-modules-for-beginners/206
 
 https://stackoverflow.com/questions/59014404/referencing-a-go-module-that-is-local
 
-
+# Netliy config
+https://github.com/netlify/netlify-cms/blob/master/dev-test/config.yml
