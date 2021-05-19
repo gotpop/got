@@ -6,7 +6,7 @@ menu:
     mainmenu:
         name: "Contact"
         params:
-            menuIcon: "academic-cap.svg"
+            menuIcon: annotation.svg
 ---
 
 This is the contact page

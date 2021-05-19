@@ -6,7 +6,7 @@ menu:
     mainmenu:
         name: "Work"
         params:
-            menuIcon: "academic-cap.svg"
+            menuIcon: "adjustments.svg"
 ---
 
 This is the work page
