@@ -1,6 +1,6 @@
 <a class="header__logo" href="/">
     <h1>Si</h1>
-    {{ $liam := "academic-cap.svg"}}
-    {{ $icon := resources.Get (print "svg/heroicons/outline/" $liam) }}
+    {{ $logoIcon := "academic-cap"}}
+    {{ $icon := resources.Get (print "svg/heroicons/outline/" $logoIcon ".svg") }}
     {{ $icon.Content | safeHTML }}
 </a>
