@@ -1,6 +1,7 @@
 baseURL = "https://gotpop.netlify.app/"
 languageCode = "en-GB"
 title = "Got"
+"[Params].logoIcon" = "academic-cap"
 
 [params]
 wrap = true
