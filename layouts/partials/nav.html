@@ -2,8 +2,8 @@
     {{ range .Site.Menus.mainmenu}}
         <a class="header__link" href="{{ .URL }}">
             {{ .Name }}
-            {{ $liam := .Params.menuIcon }}
-            {{ $icon := resources.Get (print "svg/heroicons/outline/" $liam) }}
+            {{ $menuIcon := .Params.menuIcon }}
+            {{ $icon := resources.Get (print "svg/heroicons/outline/" $menuIcon ".svg") }}
             {{ $icon.Content | safeHTML }}
         </a>
     {{ end }}
