@@ -1,5 +1,7 @@
 <a class="header__logo" href="/">
-    <h1>Sieeee</h1>
+    {{ if .Site.Data.settings.display_site_title }}
+        <h1>Sieeee</h1>
+    {{ end }}
     {{ with .Site.Data.settings }}
         {{ $icon := resources.Get (print "svg/heroicons/outline/" .logoIcon ".svg") }}
         {{ $icon.Content | safeHTML }}

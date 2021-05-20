@@ -2,8 +2,6 @@
   "logoicon": "annotation",
   "logoIcon": "academic-cap",
   "site_title": "axaXax",
-  "posts": {
-    "front_limit": 2,
-    "author": "xSSxsx"
-  }
+  "display_site_title": true,
+  "display_site_icon": true
 }
