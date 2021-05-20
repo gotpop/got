@@ -1,10 +1,14 @@
-[{
-    "label": "Academic cap",
-    "value": "academic-cap"
-}, {
-    "label": "Adjustments",
-    "value": "adjustments"
-}, {
-    "label": "AnnotationLiam",
-    "value": "annotation"
-}]
+{
+    "one": {
+        "label": "Academic cap",
+        "value": "academic-cap"
+    },
+    "two": {
+        "label": "Adjustments",
+        "value": "adjustments"
+    },
+    "free": {
+        "label": "AnnotationLiam",
+        "value": "annotation"
+    }
+}
