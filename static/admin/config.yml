@@ -27,10 +27,7 @@ collections:
           - label: "Menu Icon"
             name: "logoIcon"
             widget: "select"
-            options:
-              - { label: "Academic cap", value: "academic-cap" }
-              - { label: "Adjustments", value: "adjustments" }
-              - { label: "Annotation", value: "annotation" }
+            options: 'data/icons.json'
   - label: "Work"
     name: "work"
     folder: "work"
