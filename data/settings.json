@@ -2,6 +2,6 @@
   "logoicon": "annotation",
   "logoIcon": "academic-cap",
   "site_title": "axaXax",
-  "display_site_title": false,
-  "display_site_icon": true
+  "display_site_title": true,
+  "display_site_icon": false
 }
