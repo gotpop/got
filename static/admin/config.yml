@@ -23,7 +23,7 @@ collections:
         fields:
           - { label: 'Global title', name: 'site_title', widget: 'string' }
           - label: "Menu Icon"
-            name: "logoicon"
+            name: "logoIcon"
             widget: "select"
             options:
               - { label: "Academic cap", value: "academic-cap" }
