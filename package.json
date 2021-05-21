@@ -1,0 +1,12 @@
+{
+ "comments": {
+  "dependencies": {},
+  "devDependencies": {}
+ },
+ "dependencies": {},
+ "devDependencies": {
+  "netlify-cms": "^2.10.129"
+ },
+ "name": "got",
+ "version": "0.1.0"
+}
