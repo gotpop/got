@@ -57,3 +57,5 @@ https://stackoverflow.com/questions/59014404/referencing-a-go-module-that-is-loc
 
 # Netliy config
 https://github.com/netlify/netlify-cms/blob/master/dev-test/config.yml
+
+https://mrkaluzny.com/blog/dry-netlify-cms-config-with-manual-initialization
