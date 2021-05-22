@@ -3,10 +3,16 @@
   "dependencies": {},
   "devDependencies": {}
  },
- "dependencies": {},
+ "dependencies": {
+ },
  "devDependencies": {
-  "netlify-cms": "^2.10.129"
+  "netlify-cms": "^2.10.129",
+  "parcel": "next"
  },
  "name": "got",
- "version": "0.1.0"
+ "version": "0.1.0",
+ "scripts": {
+  "build": "yarn parcel build assets/cms/index.html --dist-dir static/admin --public-url ./"
+ }
 }
+
