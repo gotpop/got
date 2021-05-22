@@ -2,8 +2,6 @@ import CMS from 'netlify-cms'
 import pages from './pages/index'
 import settings from './settings/index'
 
-window.CMS_MANUAL_INIT = true
-
 CMS.init({
     config: {
         load_config_file: false,
