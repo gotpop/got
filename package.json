@@ -1,8 +1,8 @@
 {
     "engines": {
         "node": "v14.17.0",
-        "yarn": "v14.17.0",
-        "npm": "v1.22.10"
+        "yarn": "v1.22.10",
+        "npm": "v6.14.13"
     },
     "devDependencies": {
         "netlify-cms": "^2.10.129",
