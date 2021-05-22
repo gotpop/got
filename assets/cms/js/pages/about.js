@@ -1,6 +1,6 @@
 const page = {
     file: 'content/about/_index.md',
-    label: 'About Page 22',
+    label: 'About Page',
     name: 'about',
     fields: [{
             label: 'Title',
