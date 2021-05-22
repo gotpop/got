@@ -9,9 +9,9 @@ CMS.init({
         load_config_file: false,
         local_backend: true,
         backend: {
-            // name: 'git-gateway',
-            name: 'proxy',
-            proxy_url: 'http://localhost:8081/api/v1',
+            name: 'git-gateway',
+            // name: 'proxy',
+            // proxy_url: 'http://localhost:8081/api/v1',
             branch: 'master'
         },
         media_folder: '/static/images/uploads',

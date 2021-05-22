@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build && hugo"
+  command = "yarn build && hugo"
   publish = "public"
 
 [build.environment]
