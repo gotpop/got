@@ -1,5 +1,5 @@
 [build]
-  command = "hugo"
+  command = "yarn build:prod && hugo"
   publish = "public"
 
 [build.environment]
