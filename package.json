@@ -1,19 +1,17 @@
 {
- "comments": {
-  "dependencies": {},
-  "devDependencies": {}
- },
- "dependencies": {
- },
- "devDependencies": {
-  "netlify-cms": "^2.10.129",
-  "parcel": "next"
- },
- "name": "got",
- "version": "0.1.0",
- "scripts": {
-  "prebuild": "rm -rf static/admin",
-  "build": "yarn parcel build assets/cms/index.html --dist-dir static/admin --public-url ./"
- }
+    "engines": {
+        "node": "v14.17.0",
+        "yarn": "v14.17.0",
+        "npm": "v1.22.10"
+    },
+    "devDependencies": {
+        "netlify-cms": "^2.10.129",
+        "parcel": "next"
+    },
+    "name": "got",
+    "version": "0.1.0",
+    "scripts": {
+        "prebuild": "rm -rf static/admin",
+        "build": "yarn parcel build assets/cms/index.html --dist-dir static/admin --public-url ./"
+    }
 }
-
