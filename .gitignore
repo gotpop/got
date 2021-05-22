@@ -3,3 +3,5 @@ public
 _vendor
 node_modules
 .parcel-cache
+static/admin
+
