@@ -1,7 +1,6 @@
 import CMS from 'netlify-cms'
 import pages from './pages/index'
-// import posts from './collections/posts'
-
+import settings from './settings/index'
 
 window.CMS_MANUAL_INIT = true
 
@@ -17,6 +16,6 @@ CMS.init({
         },
         media_folder: '/static/images/uploads',
         public_folder: '/images/uploads',
-        collections: [pages]
+        collections: [pages, settings]
     },
 })

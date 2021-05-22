@@ -18,11 +18,22 @@ const page = {
             label: "Menu Icon",
             name: "menu.mainmenu.params.menuIcon",
             widget: "select",
-            options: [
-                { label: "Academic cap", value: "academic-cap.svg" },
-                { label: "Adjustments", value: "adjustments.svg" },
-                { label: "Liam", value: "adjustments.svg" },
-                { label: "Annotation", value: "annotation.svg" }
+            options: [{
+                    label: "Academic cap",
+                    value: "academic-cap.svg"
+                },
+                {
+                    label: "Adjustments",
+                    value: "adjustments.svg"
+                },
+                {
+                    label: "Liam",
+                    value: "adjustments.svg"
+                },
+                {
+                    label: "Annotation",
+                    value: "annotation.svg"
+                }
             ]
         }
     ],
