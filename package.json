@@ -12,6 +12,7 @@
  "name": "got",
  "version": "0.1.0",
  "scripts": {
+  "prebuild": "rm -rf static/admin",
   "build": "yarn parcel build assets/cms/index.html --dist-dir static/admin --public-url ./"
  }
 }
