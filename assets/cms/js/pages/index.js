@@ -5,6 +5,7 @@ import work from './work'
 const pages = {
   name: 'pages',
   label: 'Pages',
+  create: true,
   files: [about, work],
 }
 
