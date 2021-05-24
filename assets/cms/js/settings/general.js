@@ -1,3 +1,5 @@
+import menuIcon from "../partials/menu.icon"
+
 const general = {
     file: 'data/settings.general.json',
     label: 'General Settings',
@@ -23,28 +25,8 @@ const general = {
             name: 'display_site_icon',
             widget: "boolean",
             default: true
-        }, {
-            label: "Menu Icon",
-            name: "logoIcon",
-            widget: "select",
-            options: [{
-                    label: "Academic cap",
-                    value: "academic-cap.svg"
-                },
-                {
-                    label: "Adjustments",
-                    value: "adjustments.svg"
-                },
-                {
-                    label: "Rich",
-                    value: "adjustments.svg"
-                },
-                {
-                    label: "Annotation",
-                    value: "annotation.svg"
-                }
-            ]
-        }
+        }, 
+        menuIcon
     ],
 }
 
