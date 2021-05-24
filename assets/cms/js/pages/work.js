@@ -1,3 +1,6 @@
+import menuMain from "../partials/menu.main"
+import testimonials from "../partials/testimonials"
+
 const page = {
     file: 'content/work/_index.md',
     label: 'Work Page',
@@ -14,28 +17,8 @@ const page = {
             name: "body",
             widget: "markdown"
         },
-        {
-            label: "Menu Icon",
-            name: "menu.mainmenu.params.menuIcon",
-            widget: "select",
-            options: [{
-                    label: "Academic cap",
-                    value: "academic-cap.svg"
-                },
-                {
-                    label: "Adjustments",
-                    value: "adjustments.svg"
-                },
-                {
-                    label: "Liam",
-                    value: "adjustments.svg"
-                },
-                {
-                    label: "Annotation",
-                    value: "annotation.svg"
-                }
-            ]
-        }
+        menuMain,
+        testimonials
     ],
 }
 
