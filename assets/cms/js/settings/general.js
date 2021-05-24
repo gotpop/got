@@ -1,4 +1,4 @@
-import menuIcon from "../partials/menu.icon"
+import menuIcon from "../fields/select.icon"
 
 const general = {
     file: 'data/settings.general.json',

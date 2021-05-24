@@ -1,4 +1,4 @@
-import menuIcon from "./menu.icon"
+import selectIcon from "../fields/select.icon"
 
 const menuMain = {
     "label": "Menu",
@@ -14,7 +14,7 @@ const menuMain = {
                     "label": "params",
                     "name": "params",
                     "widget": "object",
-                    "fields": [menuIcon]
+                    "fields": [selectIcon]
                 }
             ]
         }
