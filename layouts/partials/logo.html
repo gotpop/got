@@ -3,7 +3,7 @@
         <h1>{{ $.Site.Data.settings.site_title }}</h1>
     {{ end }}
     {{ with .Site.Data.settings.display_site_icon }}
-        {{ $icon := resources.Get (print "svg/heroicons/outline/" $.Site.Data.settings.logoIcon ".svg") }}
+        {{ $icon := resources.Get (print "svg/heroicons/outline/" $.Site.Data.settings.icon ".svg") }}
         {{ $icon.Content | safeHTML }}
     {{ end }}
 </a>
