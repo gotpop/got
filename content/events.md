@@ -6,7 +6,7 @@ menu:
     mainmenu:
         name: Events
         params:
-            menuIcon: academic-cap
+            icon: academic-cap
 ---
 
 Events will be added here with shortcodes

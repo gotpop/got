@@ -6,7 +6,7 @@ menu:
     mainmenu:
         name: About
         params:
-            menuIcon: academic-cap
+            icon: academic-cap
 ---
  
  This is the info about the org.

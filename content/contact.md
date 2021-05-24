@@ -6,7 +6,7 @@ menu:
     mainmenu:
         name: Contact
         params:
-            menuIcon: annotation
+            icon: annotation
 ---
 
 This is the contact page
