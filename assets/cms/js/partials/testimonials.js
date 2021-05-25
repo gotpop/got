@@ -2,7 +2,7 @@ const testimonials = {
     "label": "Testimonials",
     "name": "testimonials",
     "widget": "list",
-    "summary": "{{fields.quote}} - {{fields.author.name}}",
+    // "summary": "{{fields.quote}} - {{fields.author.name}}",
     "fields": [{
             "label": "Quote",
             "name": "quote",

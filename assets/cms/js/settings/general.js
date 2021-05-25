@@ -27,7 +27,7 @@ const general = {
             default: true
         }, 
         menuIcon
-    ],
+    ]
 }
 
 export default general

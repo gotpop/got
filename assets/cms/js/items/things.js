@@ -2,9 +2,11 @@ import menuMain from "../partials/menu.main"
 import testimonials from "../partials/testimonials"
 
 const page = {
-    file: 'content/work/_index.md',
-    label: 'Work Page',
-    name: 'work',
+    // file: 'content/items/_index.md',
+    label: 'Items Page',
+    name: 'item',
+    create: true,
+    folder: 'content/items',
     fields: [{
             label: 'Title',
             name: 'title',
@@ -17,8 +19,8 @@ const page = {
             name: "body",
             widget: "markdown"
         },
-        menuMain,
-        testimonials
+        // menuMain,
+        // testimonials
     ]
 }
 
