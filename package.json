@@ -5,7 +5,7 @@
         "server": "hugo server --disableFastRender",
         "proxy": "npx netlify-cms-proxy-server",
         "prebuild:dev": "rm -rf static/admin",
-        "build:dev": "webpack --watch --color --devtool source-map --mode development",
+        "build:dev": "webpack -w --color --devtool source-map --mode development",
         "build:prod": "webpack --optimization-minimize --mode production"
     },
     "dependencies": {
