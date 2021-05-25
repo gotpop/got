@@ -1,8 +1,6 @@
-
 let envObject = {
     branch: 'master'
 };
-
 
 if (process.env.NODE_ENV === 'development') {
     envObject.name = 'proxy';

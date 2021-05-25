@@ -1,11 +1,10 @@
-import about from './about'
-import work from './work'
+import about from './about';
+import work from './work';
 
 
 const pages = {
   name: 'pages',
-  label: 'Pages',
-  create: true,
+  label: 'Pagesf',
   folder: "content/pages",
   // files: [about, work],
   // file: 'content/pages/_index.md',
@@ -25,4 +24,4 @@ const pages = {
   ]
 }
 
-export default pages
+export default pages;

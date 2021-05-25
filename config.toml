@@ -1,16 +1,8 @@
 baseURL = "https://gotpop.netlify.app/"
 languageCode = "en-GB"
 title = "Got"
-"[Params].logoIcon" = "academic-cap"
-
-[params]
-wrap = true
-headerLogo = true
-headerNav = true
-logoIcon = "adjustments"
 
 [module]
-
 [[module.imports]]
 disable = false
 path = "github.com/gotpop/gotscss"

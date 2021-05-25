@@ -4,7 +4,7 @@ const testimonials = {
     "widget": "list",
     // "summary": "{{fields.quote}} - {{fields.author.name}}",
     "fields": [{
-            "label": "Quote",
+            "label": "Quotes",
             "name": "quote",
             "widget": "string",
             "default": "Everything is awesome!"

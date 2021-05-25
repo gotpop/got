@@ -1,13 +1,14 @@
 {
     "name": "got",
     "version": "0.1.0",
+    "main": "static/admin/index.html",
     "scripts": {
         "server": "hugo server --disableFastRender",
         "proxy": "npx netlify-cms-proxy-server",
-        "build:dev": "yarn parcel watch assets/cms/index.html --dist-dir static/admin --public-url ./ --no-hmr",
-        "build:prod": "yarn parcel build assets/cms/index.html --dist-dir static/admin --public-url ./"
+        "prebuild": "rm -rf static/admin",
+        "build": "yarn parcel build assets/cms/index.html --public-url ./"
     },
-    "devDependencies": {
+    "dependencies": {
         "netlify-cms": "^2.10.129",
         "parcel": "^2.0.0-beta.3.1"
     }
