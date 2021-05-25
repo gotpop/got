@@ -1,5 +1,3 @@
-import menuIcon from "../fields/select.icon"
-
 const general = {
     file: 'data/general.json',
     label: 'General Settings',
@@ -13,20 +11,7 @@ const general = {
             label: 'Global title',
             name: 'site_title',
             widget: 'string'
-        },
-        {
-            label: 'Display site title',
-            name: 'display_site_title',
-            widget: "boolean",
-            default: true
-        },
-        {
-            label: 'Display site icon',
-            name: 'display_site_icon',
-            widget: "boolean",
-            default: true
-        }, 
-        menuIcon
+        }
     ]
 }
 

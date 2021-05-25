@@ -1,3 +1,5 @@
+import menuIcon from "../fields/select.icon";
+
 const header = {
     file: 'data/header.json',
     label: 'Header Settings',
@@ -8,10 +10,23 @@ const header = {
         preview: false
     },
     fields: [{
-            label: 'header',
-            name: 'Header_title',
+            label: 'Logo text',
+            name: 'logo_text',
             widget: 'string'
-        }
+        },
+        {
+            label: 'Display site title',
+            name: 'display_site_title',
+            widget: "boolean",
+            default: true
+        },
+        {
+            label: 'Display site icon',
+            name: 'display_site_icon',
+            widget: "boolean",
+            default: true
+        }, 
+        menuIcon
     ]
 }
 

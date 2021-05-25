@@ -1,8 +1,8 @@
 {
-    "icon": "academic-cap",
-    "logo_text": "Liam",
-    "display_site_title": true,
-    "display_site_icon": true,
-    "display_site_logo": true,
-    "display_site_nav": true
+  "icon": "archive",
+  "logo_text": "Liam",
+  "display_site_title": true,
+  "display_site_icon": true,
+  "display_site_logo": true,
+  "display_site_nav": true
 }
