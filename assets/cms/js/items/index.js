@@ -1,5 +1,5 @@
 
-import things from './things';
+import menuMain from '../partials/menu.main';
 
 const items = {
   label: 'Item',
@@ -18,9 +18,8 @@ const items = {
           label: "Body",
           name: "body",
           widget: "markdown"
-      }
-      // menuMain,
-      // testimonials
+      },
+      menuMain
   ]
 };
 
