@@ -14,5 +14,3 @@ CMS.init({
         collections: [pages, settings, items]
     }
 });
-
-console.log('The environment isddd:', process.env.NODE_ENV);

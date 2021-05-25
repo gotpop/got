@@ -4,7 +4,7 @@ import work from './work';
 
 const pages = {
   name: 'pages',
-  label: 'Pagesf',
+  label: 'Pages!',
   folder: "content/pages",
   // files: [about, work],
   // file: 'content/pages/_index.md',
