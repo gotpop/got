@@ -4,7 +4,7 @@ _vendor
 node_modules
 .parcel-cache
 static/admin
-
 .cache
 .DS_Store
 .env
+# yarn-error.log
