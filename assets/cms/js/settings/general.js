@@ -1,7 +1,7 @@
 import menuIcon from "../fields/select.icon"
 
 const general = {
-    file: 'data/settings.general.json',
+    file: 'data/settings_general.json',
     label: 'General Settings',
     description: 'General Site Settings',
     name: 'general',

@@ -1,9 +1,9 @@
 <header class="header" role="banner">
 	<div class="header__inner">
-		{{ if $.Site.Params.headerLogo }}
-			{{ partial "logo.html" . }}
+		{{ if .Site.Data.settings_header.display_site_logo }}
+		{{ partial "logo.html" . }}
         {{ end }}
-		{{ if $.Site.Params.headerNav }}
+		{{ if .Site.Data.settings_header.display_site_nav }}
 			{{ partial "nav.html" . }}
         {{ end }}
 	</div>

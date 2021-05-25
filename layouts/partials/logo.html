@@ -1,9 +1,9 @@
 <a class="header__logo" href="/">
-    {{ with .Site.Data.settings.display_site_title }}
-        <h1>{{ $.Site.Data.settings.site_title }}</h1>
+    {{ with .Site.Data.settings_header.display_site_title }}
+        <h1>{{ $.Site.Data.settings_header.site_title }}</h1>
     {{ end }}
-    {{ with .Site.Data.settings.display_site_icon }}
-        {{ $icon := resources.Get (print "svg/heroicons/outline/" $.Site.Data.settings.icon ".svg") }}
+    {{ with .Site.Data.settings_header.display_site_icon }}
+        {{ $icon := resources.Get (print "svg/heroicons/outline/" $.Site.Data.settings_header.icon ".svg") }}
         {{ $icon.Content | safeHTML }}
     {{ end }}
 </a>

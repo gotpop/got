@@ -1,5 +1,5 @@
 const footer = {
-    file: 'data/settings.footer.json',
+    file: 'data/settings_footer.json',
     label: 'Footer Settings',
     description: 'Footer Settings',
     name: 'footer',
