@@ -1,5 +1,5 @@
 const header = {
-    file: 'data/settings_header.json',
+    file: 'data/header.json',
     label: 'Header Settings',
     description: 'Header Settings',
     name: 'header',
