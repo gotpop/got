@@ -1,5 +1,4 @@
 import CMS from "netlify-cms";
-import pages from './pages/index';
 import settings from './settings/index';
 import envObject from './partials/envObject';
 import items from './items';

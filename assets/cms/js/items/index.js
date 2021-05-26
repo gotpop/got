@@ -1,5 +1,7 @@
 
-import menuMain from '../partials/menu.main';
+import menuMain from '../partials/menuMain';
+import smallHero from '../partials/smallHero';
+import gallery from '../partials/gallery';
 
 const items = {
   label: 'Item',
@@ -18,6 +20,12 @@ const items = {
           label: "Body",
           name: "body",
           widget: "markdown"
+      },
+      {
+        label: 'Sections',
+        name: 'sections',
+        widget: 'list',
+        types: [smallHero, gallery],
       },
       menuMain
   ]

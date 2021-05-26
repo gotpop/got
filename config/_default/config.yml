@@ -1,0 +1,11 @@
+baseURL: https://gotpop.netlify.app/
+languageCode: en-GB
+title: Got
+module:
+  imports:
+    - disable: false
+      path: github.com/gotpop/gotscss
+      mounts:
+        - source: styles
+          target: assets
+    - path: github.com/gohugoio/hugo-mod-heroicons

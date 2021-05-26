@@ -1,4 +1,4 @@
-import menuIcon from "../fields/select.icon";
+import menuIcon from "../fields/selectIcon";
 
 const header = {
     file: 'data/header.json',

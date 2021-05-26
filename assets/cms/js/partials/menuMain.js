@@ -1,17 +1,18 @@
-import selectIcon from "../fields/select.icon"
+import selectIcon from "../fields/selectIcon";
 
 const menuMain = {
-    "label": "Menu",
+    "label": "Menu options",
     "name": "menu",
     "widget": "object",
+    "collapsed": true,
     "fields": [
         {
-            "label": "mainmenu",
+            "label": "Main menu",
             "name": "mainmenu",
             "widget": "object",
             "fields": [
                 {
-                    "label": "params",
+                    "label": "Choose menu options",
                     "name": "params",
                     "widget": "object",
                     "fields": [selectIcon]

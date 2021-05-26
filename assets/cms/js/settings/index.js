@@ -5,7 +5,7 @@ import header from './header';
 const settings = {
     label: 'Settings',
     name: 'settings',
-    files: [general, header, footer]
+    files: [general, header, footer, menus]
 };
 
 export default settings;
