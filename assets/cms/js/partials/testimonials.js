@@ -8,19 +8,18 @@ const testimonials = {
             "widget": "string",
             "default": "Everything is awesome!"
         },
-        { 
+        {
             "label": "Author",
             "name": "author",
             "widget": "object",
             "fields": [{
-                    "label": "Name",
-                    "name": "name",
-                    "widget": "string",
-                    "default": "Emmet"
-                }
-            ]
+                "label": "Name",
+                "name": "name",
+                "widget": "string",
+                "default": "Emmet"
+            }]
         }
     ]
 }
 
-export default testimonials
+export default testimonials;

@@ -1,4 +1,4 @@
-const image = {
+const gallery = {
     label: 'Gallery',
     name: 'gallery',
     widget: 'object',
@@ -25,4 +25,4 @@ const image = {
     ],
   }
   
-  export default image
+  export default gallery

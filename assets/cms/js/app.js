@@ -10,6 +10,6 @@ CMS.init({
         backend: envObject,
         media_folder: '/static/images/uploads',
         public_folder: '/images/uploads',
-        collections: [pages, settings, items]
+        collections: [settings, items]
     }
 });
