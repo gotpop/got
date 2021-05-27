@@ -1,28 +1,23 @@
 const gallery = {
-    label: 'Gallery',
+    label: 'Gallery item',
     name: 'gallery',
-    widget: 'object',
-    collapsed: false,
-    fields: [
-      {
-        label: 'Title',
-        name: 'title',
-        widget: 'string',
-        required: false,
-      },
-      {
-        label: 'Header',
-        name: 'header',
-        widget: 'string',
-        required: false,
-      },
-      {
-        label: 'Content',
-        name: 'content',
-        widget: 'markdown',
-        required: false,
-      },
-    ],
-  }
-  
-  export default gallery
+    widget: "list",
+    fields: [{
+        label: 'Gallery image',
+        name: 'galleryImage',
+        widget: "list",
+        fields: [{
+            label: "Featured Image",
+            name: "thumbnail",
+            widget: "image",
+            default: "/uploads/code.jpg",
+            media_library: {
+                config: {
+                    multiple: true
+                }
+            }
+        }]
+    }]
+}
+
+export default gallery
