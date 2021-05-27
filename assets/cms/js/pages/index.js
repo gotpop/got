@@ -6,17 +6,17 @@ import testimonials from "../partials/testimonials";
 import textTitle from "../partials/textTitle";
 
 const pages = {
-    label: "Pages",
-    name: "pages",
     create: true,
     folder: "content/pages",
+    label: "Pages",
+    name: "pages",
     fields: [
         {
+            default: "",
             label: "Title",
             name: "title",
-            widget: "string",
-            default: "",
-            required: true
+            required: true,
+            widget: "string"
         },
         menuMain,
         {
@@ -24,9 +24,9 @@ const pages = {
             name: "sections",
             widget: "list",
             types: [
-                smallHero,
                 gallery,
                 image,
+                smallHero,
                 testimonials,
                 textTitle
             ]
