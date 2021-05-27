@@ -1,22 +1,25 @@
 {{ define "main" }}
 <main class="main" role="main">
 	<div class="main__inner">
-
 		{{ with .Params.sections }}
 			{{ range . }}
-			
-				<h1>{{ .type }}</h1>
-
-				{{ if eq .type "textTitle" }}
-					<h1>{{ .title }}</h1>
-					<p>{{ .content }}</p>
+				{{ if eq .type "gallery" }}
+					 {{ partial "sections/gallery.html" . }}
 				{{ end }}
-
-
+				{{ if eq .type "image" }}
+					 {{ partial "sections/image.html" . }}
+				{{ end }}
+				{{ if eq .type "smallHero" }}
+					 {{ partial "sections/small_hero.html" . }}
+				{{ end }}
+				{{ if eq .type "testimonials" }}
+					 {{ partial "sections/testimonials.html" . }}
+				{{ end }}
+				{{ if eq .type "textTitle" }}
+					 {{ partial "sections/text_title.html" . }}
+				{{ end }}
 			{{ end }}
 		{{ end }}
-
-
 	</div>
 </main>
 {{ end }}
