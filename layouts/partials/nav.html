@@ -1,10 +1,10 @@
 <nav class="header__nav">
     {{ range .Site.Menus.mainmenu}}
-        <a class="header__link" href="{{ .URL }}">
-            {{ .Name }}
-            {{ $icon := .Params.icon }}
-            {{ $icon := resources.Get (print "svg/heroicons/outline/" $icon ".svg") }}
-            {{ $icon.Content | safeHTML }}
-        </a>
+    <a class="header__link" href="{{ .URL }}">
+        {{ .Name }}
+        {{ $icon := .Params.icon }}
+        {{ $icon := resources.Get (print "svg/heroicons/outline/" $icon ".svg") }}
+        {{ $icon.Content | safeHTML }}
+    </a>
     {{ end }}
 </nav>
