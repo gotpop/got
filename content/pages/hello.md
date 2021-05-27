@@ -23,4 +23,31 @@ sections:
       component.
   - type: gallery
     thumbnail: /uploads/code.jpg
+  - type: textTitle
+    title: Badboy
+    content: >-
+      Here is some text about lisboa Here is some text about lisboa Here is some
+      text about lisboa Here is some text about lisboa Here is some text
+
+      about lisboa Here is some text about lisboa Here is some text about lisboa
+
+      Here is some text about lisboa Here is some text about lisboa Here is some
+
+      text about lisboa Here is some text about lisboa Here is some text about
+
+      lisboa Here is some text about lisboa Here is some text about lisboa Here
+
+      is some text about lisboa Here is some text about lisboa Here is some text
+
+      about lisboa Here is some text about lisboa Here is some text about lisboa
+
+      Here is some text about lisboa Here is some text about lisboa Here is some
+
+      text about lisboa Here is some text about lisboa Here is some text about
+
+      lisboa Here is some text about lisboa Here is some text about lisboa Here
+
+      is some text about lisboa Here is some text about lisboa Here is some text
+
+      about lisboa
 ---

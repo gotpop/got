@@ -1,9 +1,22 @@
-
 {{ define "main" }}
 <main class="main" role="main">
 	<div class="main__inner">
-		<h1>Nibbles</h1>
-        <h1>Nibbles</h1>
+
+		{{ with .Params.sections }}
+			{{ range . }}
+			
+				<h1>{{ .type }}</h1>
+
+				{{ if eq .type "textTitle" }}
+					<h1>{{ .title }}</h1>
+					<p>{{ .content }}</p>
+				{{ end }}
+
+
+			{{ end }}
+		{{ end }}
+
+
 	</div>
 </main>
 {{ end }}

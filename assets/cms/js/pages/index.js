@@ -12,7 +12,6 @@ const pages = {
     name: "pages",
     fields: [
         {
-            default: "",
             label: "Title",
             name: "title",
             required: true,
