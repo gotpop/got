@@ -5,12 +5,12 @@ import smallHero from "../partials/smallHero";
 import testimonials from "../partials/testimonials";
 import textTitle from "../partials/textTitle";
 
-const items = {
-    label: "Items",
-    name: "item",
+const pages = {
+    label: "Pages",
+    name: "pages",
     create: true,
-    folder: "content/items",
-    file: "content/items/_index.md",
+    folder: "content/pages",
+    file: "content/pages/_index.md",
     fields: [
         {
             label: "Title",
@@ -35,4 +35,4 @@ const items = {
     ]
 };
 
-export default items;
+export default pages;
