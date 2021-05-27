@@ -1,33 +1,34 @@
 import menuIcon from "../fields/selectIcon";
 
 const header = {
-    file: 'data/header.json',
-    label: 'Header Settings',
-    description: 'Header Settings',
-    name: 'header',
+    file: "data/header.json",
+    label: "Header Settings",
+    description: "Header Settings",
+    name: "header",
     delete: false,
     editor: {
         preview: false
     },
-    fields: [{
-            label: 'Logo text',
-            name: 'logo_text',
-            widget: 'string'
+    fields: [
+        {
+            label: "Logo text",
+            name: "logo_text",
+            widget: "string"
         },
         {
-            label: 'Display site title',
-            name: 'display_site_title',
+            label: "Display site title",
+            name: "display_site_title",
             widget: "boolean",
             default: true
         },
         {
-            label: 'Display site icon',
-            name: 'display_site_icon',
+            label: "Display site icon",
+            name: "display_site_icon",
             widget: "boolean",
             default: true
         }, 
         menuIcon
     ]
-}
+};
 
-export default header
+export default header;
