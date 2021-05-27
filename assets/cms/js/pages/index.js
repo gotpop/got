@@ -10,7 +10,6 @@ const pages = {
     name: "pages",
     create: true,
     folder: "content/pages",
-    file: "content/pages/_index.md",
     fields: [
         {
             label: "Title",
