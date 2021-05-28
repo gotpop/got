@@ -1,9 +1,0 @@
-{{ define "main" }}
-<main class="main" role="main">
-	<div class="main__inner">
-		{{ range where .Site.RegularPages "Section" "work" }}
-		{{ partial "card.html" . }}
-		{{ end }}
-	</div>
-</main>
-{{ end }}

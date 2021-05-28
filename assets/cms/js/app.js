@@ -2,6 +2,7 @@ import CMS from "netlify-cms";
 import settings from "./settings/index";
 import envObject from "./partials/envObject";
 import pages from "./pages";
+import home from "./home";
 
 CMS.init({
     config: {
@@ -11,8 +12,9 @@ CMS.init({
         media_folder: "/static/images/uploads",
         public_folder: "/images/uploads",
         collections: [
-            settings,
-            pages
+            home,
+            pages,
+            settings
         ]
     }
 });

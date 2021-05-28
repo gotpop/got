@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main class="main main__pages">
+	<div class="main__inner">
+		{{ with .Params.sections }}
+			{{ range . }}
+				<section class="section section__{{ .type }}">
+					{{ if eq .type "gallery" }}
+						{{ partial "sections/gallery.html" . }}
+					{{ end }}
+					{{ if eq .type "image" }}
+						{{ partial "sections/image.html" . }}
+					{{ end }}
+					{{ if eq .type "smallHero" }}
+						{{ partial "sections/small_hero.html" . }}
+					{{ end }}
+					{{ if eq .type "testimonials" }}
+						{{ partial "sections/testimonials.html" . }}
+					{{ end }}
+					{{ if eq .type "textTitle" }}
+						{{ partial "sections/text_title.html" . }}
+					{{ end }}
+				</section>
+			{{ end }}
+		{{ end }}
+	</div>
+</main>
+{{ end }}
