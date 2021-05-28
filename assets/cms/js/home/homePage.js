@@ -1,14 +1,14 @@
-import gallery from "./partials/gallery";
-import image from "./partials/image";
-import menuMain from "./partials/menuMain";
-import smallHero from "./partials/smallHero";
-import testimonials from "./partials/testimonials";
-import textTitle from "./partials/textTitle";
+import gallery from "../partials/gallery";
+import image from "../partials/image";
+import menuMain from "../partials/menuMain";
+import smallHero from "../partials/smallHero";
+import testimonials from "../partials/testimonials";
+import textTitle from "../partials/textTitle";
 
-const home = {
-    folder: "content/_index.md",
-    label: "Home",
-    name: "home",
+const homePage = {
+    file: "content/_index.md",
+    label: "Home page",
+    name: "homePage",
     fields: [
         {
             label: "Title",
@@ -32,4 +32,4 @@ const home = {
     ]
 };
 
-export default home;
+export default homePage;

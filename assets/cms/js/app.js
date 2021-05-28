@@ -1,8 +1,8 @@
 import CMS from "netlify-cms";
-import settings from "./settings/index";
-import envObject from "./partials/envObject";
 import pages from "./pages";
 import home from "./home";
+import settings from "./settings/index";
+import envObject from "./partials/envObject";
 
 CMS.init({
     config: {
