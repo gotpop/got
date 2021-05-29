@@ -1,5 +1,6 @@
 ---
 title: Hello
+key: asia
 menu:
   mainmenu:
     params:

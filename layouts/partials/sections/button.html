@@ -1,0 +1,6 @@
+{{ range .pages }}
+    {{ if eq .Params.key "asia" }}
+    <a href="{{ .URL }}">{{ .Title }}</a>
+    {{ end }}
+{{ end }}
+

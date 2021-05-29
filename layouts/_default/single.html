@@ -4,6 +4,9 @@
 		{{ with .Params.sections }}
 			{{ range . }}
 				<section class="section section__{{ .type }}">
+                    {{ if eq .type "button" }}
+						{{ partial "sections/button.html" . }}
+					{{ end }}
 					{{ if eq .type "gallery" }}
 						{{ partial "sections/gallery.html" . }}
 					{{ end }}

@@ -1,3 +1,4 @@
+import button from "../partials/button";
 import gallery from "../partials/gallery";
 import image from "../partials/image";
 import menuMain from "../partials/menuMain";
@@ -22,6 +23,7 @@ const homePage = {
             name: "sections",
             widget: "list",
             types: [
+                button,
                 gallery,
                 image,
                 smallHero,

@@ -18,3 +18,5 @@ CMS.init({
         ]
     }
 });
+
+console.log("pages", CMS);
