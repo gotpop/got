@@ -1,3 +1,4 @@
+import id from "../fields/id";
 import button from "../partials/button";
 import gallery from "../partials/gallery";
 import image from "../partials/image";
@@ -17,6 +18,7 @@ const homePage = {
             required: true,
             widget: "string"
         },
+        id,
         menuMain,
         {
             label: "Sections",

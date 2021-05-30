@@ -1,8 +1,13 @@
 import CMS from "netlify-cms";
+import {Widget as IdWidget} from "@ncwidgets/id";
+
 import pages from "./pages";
 import home from "./home";
 import settings from "./settings/index";
 import envObject from "./partials/envObject";
+
+// use 'ncw-id' in config.yml
+CMS.registerWidget(IdWidget);
 
 CMS.init({
     config: {
@@ -18,5 +23,6 @@ CMS.init({
         ]
     }
 });
+
 
 console.log("pages", CMS);

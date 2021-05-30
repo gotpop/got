@@ -1,3 +1,4 @@
+import id from "../fields/id";
 import button from "../partials/button";
 import gallery from "../partials/gallery";
 import image from "../partials/image";
@@ -11,13 +12,17 @@ const pages = {
     folder: "content/pages",
     label: "Pages",
     name: "pages",
+    description: "Build top level site pages here!",
+    identifier_field: "{{ title }}",
     fields: [
         {
             label: "Title",
             name: "title",
+            hint: "title",
             required: true,
             widget: "string"
         },
+        id,
         menuMain,
         {
             label: "Sections",

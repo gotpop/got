@@ -1,6 +1,8 @@
+{{ $button := .context }}
+
 {{ range .pages }}
-    {{ if eq .Params.key "asia" }}
-    <a href="{{ .URL }}">{{ .Title }}</a>
+    {{ if eq .Params.id $button.buttonrel }}
+    <a href="{{ .URL }}">{{ $button.title }}</a>
     {{ end }}
 {{ end }}
 

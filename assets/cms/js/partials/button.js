@@ -19,7 +19,7 @@ const button = {
             search_fields: [
                 "title"
             ],
-            value_field: "title",
+            value_field: "id",
             display_fields: [
                 "title"
             ]
