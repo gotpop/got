@@ -6,7 +6,7 @@
 				<section class="section section__{{ .type }}">
 					{{ if eq .type "button" }}
 						<!-- Pass double context into partial -->
-						{{ partial "sections/button.html" (dict "context" . "pages" $.Site.RegularPages) }}
+						{{ partial "sections/link.html" (dict "context" . "pages" $.Site.RegularPages) }}
 					{{ end }}
 					{{ if eq .type "gallery" }}
 						{{ partial "sections/gallery.html" . }}
@@ -28,5 +28,4 @@
 		{{ end }}
 	</div>
 </main>
-<br>
 {{ end }}

@@ -4,8 +4,9 @@
 		{{ with .Params.sections }}
 			{{ range . }}
 				<section class="section section__{{ .type }}">
-                    {{ if eq .type "button" }}
-						{{ partial "sections/button.html" . }}
+					{{ if eq .type "button" }}
+						<!-- Pass double context into partial -->
+						{{ partial "sections/link.html" (dict "context" . "pages" $.Site.RegularPages) }}
 					{{ end }}
 					{{ if eq .type "gallery" }}
 						{{ partial "sections/gallery.html" . }}
@@ -18,45 +19,15 @@
 					{{ end }}
 					{{ if eq .type "testimonials" }}
 						{{ partial "sections/testimonials.html" . }}
-					{{ end }}
-					{{ if eq .type "textTitle" }}
+                        {{ end }}
+                    {{ if eq .type "textTitle" . }}
 						{{ partial "sections/text_title.html" . }}
 					{{ end }}
 				</section>
 			{{ end }}
 		{{ end }}
-		  <aside id="meta">
-            <div>
-                {{ with .Params.topics }}
-                <ul id="topics">
-                    {{ range . }}
-                    <li>
-                        <a href="{{ "topics" | absURL}}/{{ . | urlize }}">{{ . }}</a>
-                    </li>
-                    {{ end }}
-                </ul>
-                {{ end }}
-                {{ with .Params.tags }}
-                <ul id="tags">
-                    {{ range . }}
-                    <li>
-                        <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
-                    </li>
-                    {{ end }}
-                </ul>
-                {{ end }}
-            </div>
-            <div>
-                {{ with .PrevInSection }}
-                <a class="previous" href="{{.Permalink}}">
-                    {{.Title}}</a> |
-                {{ end }}
-                {{ with .NextInSection }}
-                <a class="next" href="{{.Permalink}}">
-                    {{.Title}}</a>
-                {{ end }}
-            </div>
-        </aside>
+        {{ partial "meta.html" . }}            
+        {{ partial "pagination.html" . }}            
 	</div>
 </main>
 {{ end }}
