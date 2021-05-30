@@ -1,5 +1,6 @@
 ---
 title: Home
+id: gxJP2zbtN
 menu:
   mainmenu:
     params:
@@ -9,6 +10,6 @@ sections:
     title: "This is the homepage "
     content: This is the homepage i like it a lot.
   - type: button
-    title: This a nice button on the homepage
-    buttonrel: Hello
+    title: Water is ..
+    buttonrel: S5eWER50j
 ---
