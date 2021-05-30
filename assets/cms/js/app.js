@@ -1,6 +1,5 @@
 import CMS from "netlify-cms";
 import {Widget as IdWidget} from "@ncwidgets/id";
-
 import pages from "./pages";
 import home from "./home";
 import settings from "./settings/index";
@@ -23,6 +22,3 @@ CMS.init({
         ]
     }
 });
-
-
-console.log("pages", CMS);
