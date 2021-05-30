@@ -2,7 +2,6 @@ import id from "../fields/id";
 import button from "../partials/button";
 import gallery from "../partials/gallery";
 import image from "../partials/image";
-import menuMain from "../partials/menuMain";
 import smallHero from "../partials/smallHero";
 import testimonials from "../partials/testimonials";
 import textTitle from "../partials/textTitle";
@@ -19,7 +18,6 @@ const homePage = {
             widget: "string"
         },
         id,
-        menuMain,
         {
             label: "Sections",
             name: "sections",

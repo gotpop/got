@@ -1,10 +1,6 @@
 ---
 title: Home
 id: gxJP2zbtN
-menu:
-  mainmenu:
-    params:
-      icon: home
 sections:
   - type: textTitle
     title: "This is the homepage "
