@@ -12,6 +12,7 @@ const pages = {
     label: "Pages",
     name: "pages",
     description: "Build top level site pages here!",
+    summary: "{{title}}",
     identifier_field: "{{ title }}",
     fields: [
         {

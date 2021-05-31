@@ -2,18 +2,28 @@
   "footer": [
     {
       "type": "link",
-      "name": "Link 1 ",
-      "buttonrel": "S5eWER50j",
+      "name": "First link",
+      "linkrel": "S5eWER50j",
       "Params": {
         "icon": "archive"
       }
     },
     {
       "type": "link",
-      "name": "Link 2",
-      "buttonrel": "nqohh2Vn9",
+      "name": "Second link",
+      "linkrel": "nqohh2Vn9",
       "Params": {
         "icon": "arrow-circle-down"
+      }
+    }
+  ],
+  "header": [
+    {
+      "type": "link",
+      "name": "This is a link",
+      "linkrel": "nqohh2Vn9",
+      "Params": {
+        "icon": "arrows-expand"
       }
     }
   ]

@@ -1,6 +1,8 @@
+{{ $currentPage := . }}
+
 <nav class="header__nav">
     {{ range .Site.Menus.footer}}
-    <a class="header__link" href="{{ .URL }}">
+    <a class="header__link {{ if $currentPage.IsMenuCurrent "header" . }}active{{ end }}" href="{{ .URL }}">
         {{ .Name }}
         {{ partial "icon.html" .Params.icon }}
     </a>

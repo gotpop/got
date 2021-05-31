@@ -1,14 +1,11 @@
-import footer from "./footer";
-import header from "./header";
-
+import menuPage from "./menuPage";
 
 const menus = {
     label: "Menus",
     name: "menus",
     description: "Configure your menus here!",
     files: [
-        footer,
-        header
+        menuPage
     ]
 };
 
