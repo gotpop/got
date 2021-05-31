@@ -1,0 +1,20 @@
+{
+  "footer": [
+    {
+      "type": "link",
+      "name": "Link 1 ",
+      "buttonrel": "S5eWER50j",
+      "Params": {
+        "icon": "archive"
+      }
+    },
+    {
+      "type": "link",
+      "name": "Link 2",
+      "buttonrel": "nqohh2Vn9",
+      "Params": {
+        "icon": "arrow-circle-down"
+      }
+    }
+  ]
+}
