@@ -4,6 +4,7 @@ import pages from "./pages";
 import home from "./home";
 import settings from "./settings/index";
 import envObject from "./partials/envObject";
+import menus from "./menus";
 
 // use 'ncw-id' in config.yml
 CMS.registerWidget(IdWidget);
@@ -18,7 +19,8 @@ CMS.init({
         collections: [
             home,
             pages,
-            settings
+            settings,
+            menus
         ]
     }
 });
