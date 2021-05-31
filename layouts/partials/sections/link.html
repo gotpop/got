@@ -2,7 +2,7 @@
 
 {{ range .pages }}
     {{ if eq .Params.id $button.buttonrel }}
-    <a href="{{ .URL }}">{{ $button.title }}</a>
+    <a href="{{ .Permalink }}">{{ $button.title }}</a>
     {{ end }}
 {{ end }}
 

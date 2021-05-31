@@ -3,7 +3,6 @@
     <h1>{{ $.Site.Data.header.logo_text }}</h1>
     {{ end }}
     {{ with .Site.Data.header.display_site_icon }}
-    {{ $icon := resources.Get (print "svg/heroicons/outline/" $.Site.Data.header.icon ".svg") }}
-    {{ $icon.Content | safeHTML }}
+        {{ partial "icon.html" $.Site.Data.header.icon }}
     {{ end }}
 </a>
