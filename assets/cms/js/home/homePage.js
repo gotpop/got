@@ -17,7 +17,6 @@ const homePage = {
             required: true,
             widget: "string"
         },
-        id,
         {
             label: "Sections",
             name: "sections",
@@ -30,7 +29,8 @@ const homePage = {
                 testimonials,
                 textTitle
             ]
-        }
+        },
+        id
     ]
 };
 

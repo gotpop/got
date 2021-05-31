@@ -21,7 +21,6 @@ const pages = {
             required: true,
             widget: "string"
         },
-        id,
         {
             label: "Sections",
             name: "sections",
@@ -34,7 +33,8 @@ const pages = {
                 testimonials,
                 textTitle
             ]
-        }
+        },
+        id
     ]
 };
 

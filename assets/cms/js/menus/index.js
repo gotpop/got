@@ -1,13 +1,15 @@
-import menus from "./menu";
+import footer from "./footer";
+import header from "./header";
 
 
-const themenu = {
-    label: "themenu",
-    name: "themenu",
-    description: "This is the themenupage config",
+const menus = {
+    label: "Menus",
+    name: "menus",
+    description: "Configure your menus here!",
     files: [
-        menus
+        footer,
+        header
     ]
 };
 
-export default themenu;
+export default menus;

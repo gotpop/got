@@ -1,12 +1,9 @@
-// import button from "../partials/button";
-
 import iconSelect from "../fields/selectIcon";
 
-const menus = {
+const header = {
     file: "config/_default/menus.json",
-    label: "Footer menu",
-    description: "menus Site Settings",
-    name: "menus",
+    label: "Header menu",
+    name: "headerMenu",
     delete: false,
     editor: {
         preview: false
@@ -14,8 +11,8 @@ const menus = {
     fields: [
         {
   
-            label: "Footer menu",
-            name: "footer",
+            label: "Header menu",
+            name: "header",
             widget: "list",
             types: [
                 {
@@ -33,7 +30,7 @@ const menus = {
                         {
                             label: "Page link",
                             required: false,
-                            name: "buttonrel",
+                            name: "linkrel",
                             widget: "relation",
                             collection: "pages",
                             search_fields: [
@@ -61,4 +58,4 @@ const menus = {
     ]
 };
 
-export default menus;
+export default header;
