@@ -1,10 +1,20 @@
 {{ $currentPage := . }}
-
 <nav class="header__nav">
-    {{ range .Site.Menus.footer}}
-    <a class="header__link {{ if $currentPage.IsMenuCurrent "header" . }}active{{ end }}" href="{{ .URL }}">
-        {{ .Name }}
-        {{ partial "icon.html" .Params.icon }}
-    </a>
+    {{ range .Site.Menus.header}}
+        {{ $button := .Params }}
+        {{ $liam := "" }}
+        {{ $liamUrl := "" }}
+        {{ range $.Site.RegularPages}}
+            {{ if eq .Params.id $button.linkrel }}
+                {{ $liam = .URL }}
+            {{ end }}
+        {{ end }}
+        
+        <a class="header__link {{ if eq $currentPage.URL $liam }}is-active{{ end }}" href="{{ $liam }}">
+            {{ .Name }}
+            {{ partial "icon.html" .Params.icon }}
+        </a>
     {{ end }}
 </nav>
+
+

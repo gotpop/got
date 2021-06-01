@@ -13,7 +13,6 @@ const pages = {
     name: "pages",
     description: "Build top level site pages here!",
     summary: "{{title}}",
-    identifier_field: "{{ title }}",
     fields: [
         {
             label: "Title",

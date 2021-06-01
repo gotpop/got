@@ -8,23 +8,9 @@ const linkInternal =  {
     fields: [
         {
             label: "Link title",
-            name: "title",
+            name: "name",
             widget: "string",
             required: false
-        },
-        {
-            label: "Page link",
-            required: false,
-            name: "linkrel",
-            widget: "relation",
-            collection: "pages",
-            search_fields: [
-                "title"
-            ],
-            value_field: "id",
-            display_fields: [
-                "title"
-            ]
         },
         {
             label: "Params",
@@ -32,7 +18,21 @@ const linkInternal =  {
             widget: "object",
             collapsed: false,
             fields: [
-                iconSelect
+                iconSelect,
+                {
+                    label: "Page link",
+                    required: false,
+                    name: "linkrel",
+                    widget: "relation",
+                    collection: "pages",
+                    search_fields: [
+                        "title"
+                    ],
+                    value_field: "id",
+                    display_fields: [
+                        "title"
+                    ]
+                }
             ]
         }
     ]

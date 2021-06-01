@@ -1,30 +1,29 @@
 {
-  "footer": [
+  "header": [
     {
       "type": "link",
-      "name": "First link",
-      "linkrel": "S5eWER50j",
+      "name": "Page 1",
       "Params": {
-        "icon": "archive"
+        "icon": "archive",
+        "linkrel": "chgZ0Z-Ez"
       }
     },
     {
       "type": "link",
-      "name": "Second link",
-      "linkrel": "nqohh2Vn9",
+      "name": "Page 3",
       "Params": {
-        "icon": "arrow-circle-down"
+        "linkrel": "SVXRLFuL3",
+        "icon": "annotation"
+      }
+    },
+    {
+      "type": "link",
+      "name": "Page two",
+      "Params": {
+        "linkrel": "reViZ6ywm",
+        "icon": "annotation"
       }
     }
   ],
-  "header": [
-    {
-      "type": "link",
-      "name": "This is a link",
-      "linkrel": "nqohh2Vn9",
-      "Params": {
-        "icon": "arrows-expand"
-      }
-    }
-  ]
+  "footer": []
 }
