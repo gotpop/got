@@ -4,7 +4,7 @@ const linkInternal =  {
     label: "Link",
     name: "link",
     widget: "object",
-    collapsed: false,
+    collapsed: true,
     fields: [
         {
             label: "Link title",

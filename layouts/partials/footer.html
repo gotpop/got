@@ -1,26 +1,6 @@
 <footer role="contentinfo">
     <hr>
-    {{ $.Scratch.Set "greeting" . }}
-
-     <nav class="header__nav">
-         {{ range .Site.Menus.footer}}
-            {{ $Params := .Params }}
-            {{ range $.Site.RegularPages }}
-            {{ if eq .Params.id $Params.linkrel }}
-            {{ $currentPage := .Scratch.Get "greeting" }}
-                <a 
-                    class="header__link" 
-                    href="{{ .Permalink }}">{{ .Title }}</a>
-    
-                {{ end }}
-            {{ end }}
-        {{ end }}
-    </nav>
-
-
     <div class="copyright">Copyright &copy; 2019</div>
-
+    <hr>
     {{ partial "menus/footer.html" . }}
 </footer>
-
-

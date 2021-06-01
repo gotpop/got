@@ -1,3 +1,18 @@
+{{ $currentPage := . }}
+<nav class="header__nav">
+    {{ range .Site.Menus.footer}}
+        {{ $Item := .Params }}
+        {{ $URL := "" }}
 
-
-
+        {{ range $.Site.RegularPages}}
+            {{ if eq .Params.id $Item.linkrel }}
+                {{ $URL = .URL }}
+            {{ end }}
+        {{ end }}
+        
+        <a class="header__link {{ if eq $currentPage.URL $URL }}is-active{{ end }}" href="{{ $URL }}">
+            {{ .Name }}
+            {{ partial "icon.html" .Params.icon }}
+        </a>
+    {{ end }}
+</nav>

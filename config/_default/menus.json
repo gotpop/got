@@ -10,20 +10,37 @@
     },
     {
       "type": "link",
-      "name": "Page 3",
+      "name": "Page 2",
       "Params": {
-        "linkrel": "SVXRLFuL3",
-        "icon": "annotation"
+        "icon": "archive",
+        "linkrel": "reViZ6ywm"
       }
     },
     {
       "type": "link",
-      "name": "Page two",
+      "name": "Page 3",
       "Params": {
-        "linkrel": "reViZ6ywm",
-        "icon": "annotation"
+        "icon": "archive",
+        "linkrel": "SVXRLFuL3"
       }
     }
   ],
-  "footer": []
+  "footer": [
+    {
+      "type": "link",
+      "name": "Footer 1",
+      "Params": {
+        "icon": "archive",
+        "linkrel": "chgZ0Z-Ez"
+      }
+    },
+    {
+      "type": "link",
+      "name": "Footer 2",
+      "Params": {
+        "icon": "annotation",
+        "linkrel": "reViZ6ywm"
+      }
+    }
+  ]
 }
