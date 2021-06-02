@@ -10,15 +10,6 @@
       "name": "Page 2"
     },
     {
-      "type": "linkExternal",
-      "Params": {
-        "type": "linkExternal",
-        "url": "http://www.google.com",
-        "icon": "annotation"
-      },
-      "name": "Google"
-    },
-    {
       "type": "linkInternal",
       "Params": {
         "type": "linkInternal",
@@ -26,6 +17,15 @@
         "linkrel": "chgZ0Z-Ez"
       },
       "name": "Page 1"
+    },
+    {
+      "type": "linkExternal",
+      "Params": {
+        "type": "linkExternal",
+        "url": "http://www.google.com",
+        "icon": "annotation"
+      },
+      "name": "Google"
     }
   ],
   "footer": [
