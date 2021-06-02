@@ -1,0 +1,32 @@
+{
+  "footer": [
+    {
+      "type": "linkExternal",
+      "url": "http://www.google.com",
+      "name": "YouTube",
+      "icon": "annotation"
+    },
+    {
+      "type": "linkInternal",
+      "name": "Footer 1",
+      "icon": "annotation",
+      "linkrel": "chgZ0Z-Ez"
+    },
+    {
+      "type": "linkInternal",
+      "name": "Footer 2",
+      "icon": "archive",
+      "linkrel": "reViZ6ywm"
+    },
+    {
+      "type": "linkAdmin",
+      "name": "Admin",
+      "icon": "annotation"
+    },
+    {
+      "type": "linkHome",
+      "name": "Home",
+      "icon": "archive"
+    }
+  ]
+}

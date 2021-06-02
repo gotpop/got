@@ -17,6 +17,16 @@
       "url": "http://www.google.com",
       "name": "Twitter",
       "icon": "arrow-circle-right"
+    },
+    {
+      "type": "linkAdmin",
+      "name": "Admin",
+      "icon": "information-circle"
+    },
+    {
+      "type": "linkHome",
+      "name": "Home",
+      "icon": "home"
     }
   ]
 }
