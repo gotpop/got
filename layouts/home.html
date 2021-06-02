@@ -4,24 +4,16 @@
 		{{ with .Params.sections }}
 			{{ range . }}
 				<section class="section section__{{ .type }}">
-					{{ if eq .type "button" }}
-						<!-- Pass double context into partial -->
-						{{ partial "sections/link.html" (dict "context" . "pages" $.Site.RegularPages) }}
-					{{ end }}
-					{{ if eq .type "gallery" }}
-						{{ partial "sections/gallery.html" . }}
-					{{ end }}
-					{{ if eq .type "image" }}
-						{{ partial "sections/image.html" . }}
-					{{ end }}
-					{{ if eq .type "smallHero" }}
-						{{ partial "sections/small_hero.html" . }}
-					{{ end }}
-					{{ if eq .type "testimonials" }}
-						{{ partial "sections/testimonials.html" . }}
-					{{ end }}
-					{{ if eq .type "textTitle" }}
-						{{ partial "sections/text_title.html" . }}
+					{{ if eq .type "bannerCards" }}
+						{{ partial "partials/banners/banner_cards.html" . }}
+					{{ else if eq .type "bannerGallery" }}
+						{{ partial "partials/banners/banner_gallery.html" . }}
+					{{ else if eq .type "imageTitleText" }}
+						{{ partial "partials/banners/banner_image_title_text" . }}
+					{{ else if eq .type "bannerPage" }}
+						{{ partial "partials/banners/banner_page.html" . }}
+					{{ else if eq .type "banner_testimonials" }}
+						{{ partial "partials/banners/banner_testimonials.html" . }}
 					{{ end }}
 				</section>
 			{{ end }}

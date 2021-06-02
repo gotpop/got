@@ -1,10 +1,10 @@
 import id from "../fields/id";
-import button from "../partials/button";
-import gallery from "../partials/gallery";
-import image from "../partials/image";
-import smallHero from "../partials/smallHero";
-import testimonials from "../partials/testimonials";
-import textTitle from "../partials/textTitle";
+import bannerCards from "../partials/banner_cards";
+import bannerGallery from "../partials/banner_gallery";
+import baannerImageTitleText from "../partials/banner_image_title_text";
+import bannerPage from "../partials/banner_page";
+import bannerTestimonials from "../partials/banner_testimonials";
+
 
 const homePage = {
     file: "content/_index.md",
@@ -29,12 +29,11 @@ const homePage = {
             name: "sections",
             widget: "list",
             types: [
-                button,
-                gallery,
-                image,
-                smallHero,
-                testimonials,
-                textTitle
+                bannerCards,
+                bannerGallery,
+                baannerImageTitleText,
+                bannerPage,
+                bannerTestimonials
             ]
         },
         id
