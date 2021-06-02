@@ -12,33 +12,19 @@ const linkInternal = {
             widget: "string",
             required: false
         },
+        iconSelect,
         {
-            label: "Params",
-            name: "Params",
-            widget: "object",
-            collapsed: false,
-            fields: [
-                iconSelect,
-                {
-                    label: "Layout",
-                    name: "type",
-                    widget: "hidden",
-                    default: "linkInternal"
-                },
-                {
-                    label: "Page link",
-                    required: false,
-                    name: "linkrel",
-                    widget: "relation",
-                    collection: "pages",
-                    search_fields: [
-                        "title"
-                    ],
-                    value_field: "id",
-                    display_fields: [
-                        "title"
-                    ]
-                }
+            label: "Page link",
+            required: false,
+            name: "linkrel",
+            widget: "relation",
+            collection: "pages",
+            search_fields: [
+                "title"
+            ],
+            value_field: "id",
+            display_fields: [
+                "title"
             ]
         }
     ]

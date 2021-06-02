@@ -12,27 +12,13 @@ const linkExternal = {
             widget: "string",
             required: false
         },
+        iconSelect,
         {
-            label: "Link details",
-            name: "Params",
-            widget: "object",
-            collapsed: false,
-            fields: [
-                iconSelect,
-                {
-                    label: "Layout",
-                    name: "type",
-                    widget: "hidden",
-                    default: "linkExternal"
-                },
-                {
-                    label: "External URL",
-                    name: "url",
-                    widget: "string",
-                    hint: "Add full URL to desired location including http://www.",
-                    default: "http://www.google.com"
-                }
-            ]
+            label: "External URL",
+            name: "url",
+            widget: "string",
+            hint: "Add full URL to desired location including http://www.",
+            default: "http://www.google.com"
         }
     ]
 };

@@ -1,10 +1,10 @@
 import linkExternal from "../fields/link_external";
 import linkInternal from "../fields/link_internal";
 
-const menuPage = {
-    file: "config/_default/menus.json",
-    label: "Menu editor",
-    name: "menuPage",
+const menuHeader = {
+    file: "data/menuHeader.json",
+    label: "Header menu",
+    name: "menuHeader",
     delete: false,
     editor: {
         preview: false
@@ -19,19 +19,8 @@ const menuPage = {
                 linkInternal,
                 linkExternal
             ]
-        },
-        {
-            
-            label: "Footer menu",
-            name: "footer",
-            widget: "list",
-            summary: "{{fields.name}}",
-            types: [
-                linkInternal,
-                linkExternal
-            ]
         }
     ]
 };
 
-export default menuPage;
+export default menuHeader;
