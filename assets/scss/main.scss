@@ -20,3 +20,24 @@
 .is-active {
     background: yellow !important;
 }
+
+.header {
+    &__wrap--home {
+        display: grid;
+        height: 100vh;
+        grid-template-rows: 1fr 11fr;
+    }
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    &__inner {
+        padding: 2rem;
+        margin: 2rem;
+        background-color: white;    
+    }
+}

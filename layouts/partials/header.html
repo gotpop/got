@@ -1,10 +1,19 @@
-<header class="header" role="banner">
-	<div class="header__inner">
-		{{ if .Site.Data.header.display_site_logo }}
-		{{ partial "logo.html" . }}
+<div class="header__wrap{{ with .IsHome }} header__wrap--home{{ end }}">
+	<header class="header{{ with .IsHome }} header--home{{ end }}">
+		<div class="header__inner">
+			{{ if .Site.Data.header.display_site_logo }}
+				{{ partial "logo.html" . }}
+			{{ end }}
+			{{ if .Site.Data.header.display_site_nav }}
+				{{ partial "menus/header.html" . }}
+			{{ end }}
+		</div>
+	</header>
+	{{ $displayHero := .Page.Params.displayHero }}
+	{{ with .IsHome }}
+		{{ with $displayHero }}
+			{{ partial "hero.html" . }}
 		{{ end }}
-		{{ if .Site.Data.header.display_site_nav }}
-		{{ partial "menus/header.html" . }}
-		{{ end }}
-	</div>
-</header>
+	{{ end }}
+</div>
+

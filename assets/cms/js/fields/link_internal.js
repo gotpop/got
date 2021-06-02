@@ -1,8 +1,8 @@
 import iconSelect from "./selectIcon";
 
-const linkInternal =  {
-    label: "Link",
-    name: "link",
+const linkInternal = {
+    label: "Link internal",
+    name: "linkInternal",
     widget: "object",
     collapsed: true,
     fields: [
@@ -19,6 +19,12 @@ const linkInternal =  {
             collapsed: false,
             fields: [
                 iconSelect,
+                {
+                    label: "Layout",
+                    name: "type",
+                    widget: "hidden",
+                    default: "linkInternal"
+                },
                 {
                     label: "Page link",
                     required: false,

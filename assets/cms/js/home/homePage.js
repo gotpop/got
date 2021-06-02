@@ -18,6 +18,13 @@ const homePage = {
             widget: "string"
         },
         {
+            label: "Display Hero",
+            name: "displayHero",
+            widget: "boolean",
+            default: true,
+            hint: "The hero is the large introduction area on the homepage"
+        },
+        {
             label: "Sections",
             name: "sections",
             widget: "list",

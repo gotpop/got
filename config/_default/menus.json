@@ -1,46 +1,51 @@
 {
   "header": [
     {
-      "type": "link",
-      "name": "Page 1",
+      "type": "linkInternal",
       "Params": {
-        "icon": "archive",
-        "linkrel": "chgZ0Z-Ez"
-      }
-    },
-    {
-      "type": "link",
-      "name": "Page 2",
-      "Params": {
+        "type": "linkInternal",
         "icon": "archive",
         "linkrel": "reViZ6ywm"
-      }
+      },
+      "name": "Page 2"
     },
     {
-      "type": "link",
-      "name": "Page 3",
+      "type": "linkExternal",
       "Params": {
-        "icon": "archive",
-        "linkrel": "SVXRLFuL3"
-      }
+        "type": "linkExternal",
+        "url": "http://www.google.com",
+        "icon": "annotation"
+      },
+      "name": "Google"
+    },
+    {
+      "type": "linkInternal",
+      "Params": {
+        "type": "linkInternal",
+        "icon": "annotation",
+        "linkrel": "chgZ0Z-Ez"
+      },
+      "name": "Page 1"
     }
   ],
   "footer": [
     {
-      "type": "link",
-      "name": "Footer 1",
+      "type": "linkInternal",
       "Params": {
+        "type": "linkInternal",
         "icon": "archive",
         "linkrel": "chgZ0Z-Ez"
-      }
+      },
+      "name": "Footer 1"
     },
     {
-      "type": "link",
-      "name": "Footer 2",
+      "type": "linkInternal",
       "Params": {
-        "icon": "annotation",
+        "type": "linkInternal",
+        "icon": "archive",
         "linkrel": "reViZ6ywm"
-      }
+      },
+      "name": "Footer 2"
     }
   ]
 }

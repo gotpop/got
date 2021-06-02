@@ -1,6 +1,6 @@
 ---
 title: Home
-id: gxJP2zbtN
+displayHero: true
 sections:
   - type: textTitle
     title: "This is the homepage "
@@ -8,4 +8,5 @@ sections:
   - type: button
     title: Water is ..
     buttonrel: S5eWER50j
+id: gxJP2zbtN
 ---

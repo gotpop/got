@@ -1,3 +1,4 @@
+import linkExternal from "../fields/link_external";
 import linkInternal from "../fields/link_internal";
 
 const menuPage = {
@@ -15,7 +16,8 @@ const menuPage = {
             widget: "list",
             summary: "{{fields.name}}",
             types: [
-                linkInternal
+                linkInternal,
+                linkExternal
             ]
         },
         {
@@ -25,7 +27,8 @@ const menuPage = {
             widget: "list",
             summary: "{{fields.name}}",
             types: [
-                linkInternal
+                linkInternal,
+                linkExternal
             ]
         }
     ]

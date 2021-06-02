@@ -1,18 +1,26 @@
 {{ $currentPage := . }}
+{{/* Comment  */}}
 <nav class="header__nav">
     {{ range .Site.Menus.header}}
-        {{ $Item := .Params }}
-        {{ $URL := "" }}
+        {{ $MenuItem := .Params }}
+        {{ $PageLinkURL := "" }}
 
         {{ range $.Site.RegularPages}}
-            {{ if eq .Params.id $Item.linkrel }}
-                {{ $URL = .URL }}
+            {{ if eq .Params.id $MenuItem.linkrel }}
+                {{ $PageLinkURL = .URL }}
             {{ end }}
         {{ end }}
-        
-        <a class="header__link {{ if eq $currentPage.URL $URL }}is-active{{ end }}" href="{{ $URL }}">
+
+        {{ if eq $MenuItem.type "linkExternal" }}
+        <a class="header__link header__link--external" href="{{ $MenuItem.url }}">
             {{ .Name }}
             {{ partial "icon.html" .Params.icon }}
-        </a>
+            </a>
+        {{ else if eq $MenuItem.type "linkInternal" }}
+            <a class="header__link header__link--internal{{ if eq $currentPage.URL $PageLinkURL }} is-active{{ end }}" href="{{ $PageLinkURL }}">
+                {{ .Name }}
+                {{ partial "icon.html" .Params.icon }}
+            </a>
+        {{ end }}
     {{ end }}
 </nav>
