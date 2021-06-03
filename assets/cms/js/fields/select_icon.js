@@ -1,4 +1,4 @@
-import icons from "../partials/icons";
+import icons from "../partials/data/icons";
 
 const iconSelect = {
     label: "Icon",
