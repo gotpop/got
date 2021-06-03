@@ -1,26 +1,19 @@
-import alt from "../../fields/alt";
-import image from "../../fields/image";
-import title from "../../fields/title";
+import blockImage from "../blocks/block_image";
 
 const bannerGallery = {
     label: "Banner Gallery",
     name: "bannerGallery",
-    widget: "list",
     collapsed: true,
     fields: [
         {
-            label: "Gallery image",
-            name: "galleryImage",
+            label: "Banner Gallery",
+            name: "bannerCardList",
             widget: "list",
-            fields: [
-                image,
-                title,
-                alt
+            types: [
+                blockImage
             ]
         }
     ]
 };
 
 export default bannerGallery;
-
-

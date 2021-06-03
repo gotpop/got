@@ -3,7 +3,6 @@ import bannerCard from "./banner_card";
 const bannerCards = {
     label: "Banner Cards",
     name: "bannerCards",
-    widget: "list",
     collapsed: true,
     fields: [
         {

@@ -1,4 +1,4 @@
-import body from "../../fields/body_text";
+import bodyText from "../../fields/body_text";
 import image from "../../fields/image";
 import linkPage from "../../fields/link_page";
 import title from "../../fields/title";
@@ -11,7 +11,7 @@ const bannerCard = {
     collapsed: true,
     fields: [
         title,
-        body,
+        bodyText,
         image,
         linkPage
     ]

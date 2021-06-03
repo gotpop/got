@@ -13,5 +13,9 @@ sections:
   - type: textTitle
     title: Text 2
     content: efefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse\`fdsedfdcefefse`fdsedfdc
+  - type: gallery
+    galleryImage:
+      - thumbnail: /uploads/code.jpg
+      - thumbnail: /uploads/code.jpg
 id: chgZ0Z-Ez
 ---

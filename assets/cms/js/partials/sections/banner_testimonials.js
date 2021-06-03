@@ -8,7 +8,6 @@ const bannerTestimonials = {
     collapsed: false,
     fields: [
         title,
-        
         linkPage
     ]
 };
