@@ -1,5 +1,5 @@
 const title = {
-    label: "Section title",
+    label: "Title",
     name: "title",
     widget: "string",
     required: false

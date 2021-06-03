@@ -1,6 +1,6 @@
 const linkPerma = {
-    label: "Link",
-    name: "link",
+    label: "Link Perma",
+    name: "linkPerma",
     widget: "string",
     required: false
 };
