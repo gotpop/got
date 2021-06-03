@@ -1,5 +1,5 @@
-import iconSelect from "../fields/select_icon";
-import title from "../fields/title";
+import iconSelect from "../../fields/select_icon";
+import title from "../../fields/title";
 
 const linkExternal = {
     label: "Link external",

@@ -1,6 +1,6 @@
-import alt from "../fields/alt";
-import image from "../fields/image";
-import title from "../fields/title";
+import alt from "../../fields/alt";
+import image from "../../fields/image";
+import title from "../../fields/title";
 
 const imageoOne = {
     label: "Image",
