@@ -1,0 +1,30 @@
+// Footer
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background: #3d3d3d;
+
+  &__inner {
+    display: grid;
+    flex: 0 1 $width;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+    padding: $gutter * 2 $gutter $gutter * 4 $gutter;
+  }
+
+  &__nav {
+    grid-column: 3 / 11;
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+
+  &__link {
+    background: #ffffff;
+    color: #3d3d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $gutter;
+  }
+}

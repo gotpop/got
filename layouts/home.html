@@ -1,23 +1,21 @@
 {{ define "main" }}
-<main class="main main__pages">
-	<div class="main__inner">
-		{{ with .Params.sections }}
-			{{ range . }}
-				<section class="section section__{{ .type }}">
-					{{ if eq .type "bannerCards" }}
-						{{ partial "partials/banners/banner_cards.html" . }}
-					{{ else if eq .type "bannerGallery" }}
-						{{ partial "partials/banners/banner_gallery.html" . }}
-					{{ else if eq .type "imageTitleText" }}
-						{{ partial "partials/banners/banner_image_title_text" . }}
-					{{ else if eq .type "bannerPage" }}
-						{{ partial "partials/banners/banner_page.html" . }}
-					{{ else if eq .type "banner_testimonials" }}
-						{{ partial "partials/banners/banner_testimonials.html" . }}
-					{{ end }}
-				</section>
-			{{ end }}
+<main class="main main--home">
+	{{ with .Params.sections }}
+		{{ range . }}
+			<section class="section section__{{ .type }}">
+				{{ if eq .type "bannerCards" }}
+					{{ partial "partials/banners/banner_cards.html" . }}
+				{{ else if eq .type "bannerGallery" }}
+					{{ partial "partials/banners/banner_gallery.html" . }}
+				{{ else if eq .type "imageTitleText" }}
+					{{ partial "partials/banners/banner_image_title_text" . }}
+				{{ else if eq .type "bannerPage" }}
+					{{ partial "partials/banners/banner_page.html" . }}
+				{{ else if eq .type "banner_testimonials" }}
+					{{ partial "partials/banners/banner_testimonials.html" . }}
+				{{ end }}
+			</section>
 		{{ end }}
-	</div>
+	{{ end }}
 </main>
 {{ end }}

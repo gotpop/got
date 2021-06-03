@@ -2,6 +2,24 @@
     "baseURL": "https://gotpop.netlify.app/",
     "languageCode": "en-GB",
     "title": "Got",
+    "params": {
+       "style": {
+          "backgroundColor": "red",
+          "textColor": "blue"
+       },
+      "google_fonts": [
+        [
+          "Fira Code",
+          "400, 700"
+        ],
+        [
+          "Open Sans",
+          "400, 400i, 700, 700i"
+        ]
+      ],
+      "heading_font": "Fira Code",
+      "body_font": "Open Sans"
+    },
     "module": {
        "imports": [
           {
