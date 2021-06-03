@@ -1,4 +1,5 @@
-import iconSelect from "../fields/selectIcon";
+import iconSelect from "../fields/select_icon";
+import title from "../fields/title";
 
 const linkAdmin = {
     label: "Link admin",
@@ -6,13 +7,7 @@ const linkAdmin = {
     widget: "object",
     collapsed: true,
     fields: [
-        {
-            label: "Link title",
-            name: "name",
-            widget: "string",
-            default: "Admin",
-            required: false
-        },
+        title,
         iconSelect
     ]
 };

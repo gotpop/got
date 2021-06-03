@@ -1,3 +1,7 @@
+import alt from "../fields/alt";
+import image from "../fields/image";
+import title from "../fields/title";
+
 const bannerGallery = {
     label: "Banner Gallery",
     name: "bannerGallery",
@@ -7,31 +11,11 @@ const bannerGallery = {
         {
             label: "Gallery image",
             name: "galleryImage",
-            widget: "list",
+            widget: "object",
             fields: [
-                {
-                    label: "Featured Image",
-                    name: "thumbnail",
-                    widget: "image",
-                    default: "/uploads/code.jpg",
-                    media_library: {
-                        config: {
-                            multiple: true
-                        }
-                    }
-                },
-                {
-                    label: "Title",
-                    name: "title",
-                    widget: "string",
-                    required: false
-                },
-                {
-                    label: "Alt text",
-                    name: "header",
-                    widget: "string",
-                    required: false
-                }
+                image,
+                title,
+                alt
             ]
         }
     ]

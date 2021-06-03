@@ -1,4 +1,4 @@
-import iconSelect from "../fields/selectIcon";
+import iconSelect from "../fields/select_icon";
 import linkPage from "../fields/link_page";
 import title from "../fields/title";
 

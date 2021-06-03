@@ -1,4 +1,5 @@
 import id from "../fields/id";
+import title from "../fields/title";
 import bannerCards from "../partials/banner_cards";
 import bannerGallery from "../partials/banner_gallery";
 import baannerImageTitleText from "../partials/banner_image_title_text";
@@ -11,12 +12,7 @@ const homePage = {
     label: "Home page",
     name: "homePage",
     fields: [
-        {
-            label: "Title",
-            name: "title",
-            required: true,
-            widget: "string"
-        },
+        title,
         {
             label: "Display Hero",
             name: "displayHero",

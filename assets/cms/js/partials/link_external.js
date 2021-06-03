@@ -1,4 +1,5 @@
-import iconSelect from "../fields/selectIcon";
+import iconSelect from "../fields/select_icon";
+import title from "../fields/title";
 
 const linkExternal = {
     label: "Link external",
@@ -6,12 +7,7 @@ const linkExternal = {
     widget: "object",
     collapsed: true,
     fields: [
-        {
-            label: "Link title",
-            name: "name",
-            widget: "string",
-            required: false
-        },
+        title,
         iconSelect,
         {
             label: "External URL",

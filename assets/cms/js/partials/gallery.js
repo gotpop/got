@@ -1,3 +1,7 @@
+import alt from "../fields/alt";
+import image from "../fields/image";
+import title from "../fields/title";
+
 const gallery = {
     label: "Gallery item",
     name: "gallery",
@@ -8,29 +12,9 @@ const gallery = {
             name: "galleryImage",
             widget: "list",
             fields: [
-                {
-                    label: "Featured Image",
-                    name: "thumbnail",
-                    widget: "image",
-                    default: "/uploads/code.jpg",
-                    media_library: {
-                        config: {
-                            multiple: true
-                        }
-                    }
-                },
-                {
-                    label: "Title",
-                    name: "title",
-                    widget: "string",
-                    required: false
-                },
-                {
-                    label: "Alt text",
-                    name: "header",
-                    widget: "string",
-                    required: false
-                }
+                image,
+                title,
+                alt
             ]
         }
     ]

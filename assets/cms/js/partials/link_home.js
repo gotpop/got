@@ -1,4 +1,4 @@
-import iconSelect from "../fields/selectIcon";
+import iconSelect from "../fields/select_icon";
 
 const linkHome = {
     label: "Link home",
