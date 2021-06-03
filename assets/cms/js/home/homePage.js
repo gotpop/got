@@ -1,10 +1,10 @@
 import id from "../fields/id";
 import title from "../fields/title";
-import bannerCards from "../partials/banner_cards";
-import bannerGallery from "../partials/banner_gallery";
-import baannerImageTitleText from "../partials/banner_image_title_text";
-import bannerPage from "../partials/banner_page";
-import bannerTestimonials from "../partials/banner_testimonials";
+import bannerCards from "../partials/sections/banner_cards";
+import bannerGallery from "../partials/sections/banner_gallery";
+import baannerImageTitleText from "../partials/sections/banner_image_title_text";
+import bannerPage from "../partials/sections/banner_page";
+import bannerTestimonials from "../partials/sections/banner_testimonials";
 
 
 const homePage = {
