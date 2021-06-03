@@ -1,5 +1,5 @@
 const image = {
-    label: "Section Image",
+    label: "Add Image",
     name: "thumbnail",
     widget: "image",
     default: "/uploads/code.jpg",

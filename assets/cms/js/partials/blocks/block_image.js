@@ -2,9 +2,9 @@ import alt from "../../fields/alt";
 import image from "../../fields/image";
 import title from "../../fields/title";
 
-const imageoOne = {
+const blockImage = {
     label: "Image",
-    name: "imageoOne",
+    name: "blockImage",
     widget: "object",
     collapsed: false,
     fields: [
@@ -14,4 +14,4 @@ const imageoOne = {
     ]
 };
 
-export default imageoOne;
+export default blockImage;

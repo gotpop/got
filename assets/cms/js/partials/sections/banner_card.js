@@ -1,17 +1,20 @@
 import body from "../../fields/body_text";
 import image from "../../fields/image";
+import linkPage from "../../fields/link_page";
 import title from "../../fields/title";
 
-const baannerImageTitleText = {
-    label: "Image Title Text",
-    name: "imageTitleText",
+
+const bannerCard = {
+    label: "Add a card",
+    name: "bannerCard",
     widget: "object",
-    collapsed: false,
+    collapsed: true,
     fields: [
         title,
         body,
-        image
+        image,
+        linkPage
     ]
 };
 
-export default baannerImageTitleText;
+export default bannerCard;

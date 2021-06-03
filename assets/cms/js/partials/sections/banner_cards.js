@@ -1,7 +1,4 @@
-import body from "../../fields/body";
-import image from "../../fields/image";
-import linkPage from "../../fields/link_page";
-import title from "../../fields/title";
+import bannerCard from "./banner_card";
 
 const bannerCards = {
     label: "Banner Cards",
@@ -13,11 +10,8 @@ const bannerCards = {
             label: "Banner card",
             name: "bannerCard",
             widget: "list",
-            fields: [
-                title,
-                body,
-                image,
-                linkPage
+            types: [
+                bannerCard
             ]
         }
     ]

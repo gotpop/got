@@ -1,4 +1,4 @@
-const body = {
+const bodyMarkdown = {
     label: "Section body text",
     name: "body",
     widget: "text",
@@ -7,4 +7,4 @@ const body = {
     required: true
 };
 
-export default body;
+export default bodyMarkdown;

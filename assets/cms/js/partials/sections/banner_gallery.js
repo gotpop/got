@@ -11,7 +11,7 @@ const bannerGallery = {
         {
             label: "Gallery image",
             name: "galleryImage",
-            widget: "object",
+            widget: "list",
             fields: [
                 image,
                 title,

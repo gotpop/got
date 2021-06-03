@@ -8,6 +8,7 @@ const bannerPage = {
     collapsed: false,
     fields: [
         title,
+
         linkPage
     ]
 };
