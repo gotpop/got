@@ -1,95 +1,12 @@
+// Hugo variables are processed into SCSS varables here
+// The rest of the styles are then loaded
+// This file is not linted - .stylelintignore 
 
-// Imports
-
-///////////////////////////////////////////////////////////////
-$backgroundColor: {{ .Param "style.backgroundColor" }};
+$backgroundColor: {{ .Param "style.backgroundColor" }}; 
 $textColor: {{ .Param "style.textColor" }};
-///////////////////////////////////////////////////////////////
-
-
-@import "./styles/vars/vars";
-@import "./styles/vars/colour";
-@import "./styles/vars";
-@import "./styles/global";
-@import "./styles/footer";
-@import "./styles/header";
-@import "./styles/layout";
-@import "./styles/main"; 
-
-
-
-
-
-
-/* Use the font config as variables in your SCSS */
-
 $font-heading: {{ $.Site.Params.heading_font | default "'Roboto', sans-serif" }};
 $font-body: {{ $.Site.Params.body_font | default "'Roboto', sans-serif" }};
 
-body {
-  font-family: $font-body;
-}
+// Import rest of styles
+@import "./app"; 
 
-h1, h2, h3, h4, h5, h6 {
- font-family: $font-heading; 
-}
-
-
-
-
-
-
-
-.site {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: Arial,Helvetica,sans-serif;
-}
-
-.is-active {
-    background: yellow !important;
-}
-
-.header {
-    &__wrap--home {
-        display: grid;
-        height: 100vh;
-        grid-template-rows: 1fr 11fr;
-    }
-}
-
-.hero {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-    &__inner {
-        padding: 2rem;
-        margin: 2rem;
-        background-color: white;    
-    }
-}
-
-.main {
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-}
-
-.section {
-    background-color: whitesmoke;
-    padding: 2rem;
-    grid-column: 1 / 13;
-
-    &:nth-child(even) {
-        background-color: yellow;
-    }
-}
-
-.footer {
-    background-color: darkgrey;
-    padding: 2rem;
-}

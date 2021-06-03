@@ -50,3 +50,67 @@
     background: #ffffff;
   }
 }
+
+
+
+body {
+  font-family: $font-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: $font-heading; 
+}
+
+.site {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.is-active {
+    background: yellow !important;
+}
+
+.header {
+    &__wrap--home {
+        display: grid;
+        height: 100vh;
+        grid-template-rows: 1fr 11fr;
+    }
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    &__inner {
+        padding: 2rem;
+        margin: 2rem;
+        background-color: white;    
+    }
+}
+
+.main {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.section {
+    background-color: whitesmoke;
+    padding: 2rem;
+    grid-column: 1 / 13;
+
+    &:nth-child(even) {
+        background-color: yellow;
+    }
+}
+
+.footer {
+    background-color: darkgrey;
+    padding: 2rem;
+}

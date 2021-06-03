@@ -1,3 +1,7 @@
 {
-    "workbench.colorTheme": "Solarized Dark"
+    "workbench.colorTheme": "Solarized Dark",
+    "scss.lint.boxModel": "warning",
+    "scss.lint.duplicateProperties": "warning",
+    "scss.lint.ieHack": "error",
+    "scss.lint.important": "error"
 }
