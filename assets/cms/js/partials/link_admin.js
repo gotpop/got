@@ -1,8 +1,8 @@
-import iconSelect from "./selectIcon";
+import iconSelect from "../fields/selectIcon";
 
-const linkHome = {
-    label: "Link home",
-    name: "linkHome",
+const linkAdmin = {
+    label: "Link admin",
+    name: "linkAdmin",
     widget: "object",
     collapsed: true,
     fields: [
@@ -10,11 +10,11 @@ const linkHome = {
             label: "Link title",
             name: "name",
             widget: "string",
-            default: "Home",
+            default: "Admin",
             required: false
         },
         iconSelect
     ]
 };
 
-export default linkHome;
+export default linkAdmin;

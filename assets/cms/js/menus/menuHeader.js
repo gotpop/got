@@ -1,7 +1,7 @@
-import linkAdmin from "../fields/link_admin";
-import linkExternal from "../fields/link_external";
-import linkHome from "../fields/link_home";
-import linkInternal from "../fields/link_internal";
+import linkAdmin from "../partials/link_admin";
+import linkExternal from "../partials/link_external";
+import linkHome from "../partials/link_home";
+import linkInternal from "../partials/link_internal";
 
 const menuHeader = {
     file: "data/menus/header.json",

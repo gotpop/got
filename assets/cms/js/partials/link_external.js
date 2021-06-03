@@ -1,4 +1,4 @@
-import iconSelect from "./selectIcon";
+import iconSelect from "../fields/selectIcon";
 
 const linkExternal = {
     label: "Link external",

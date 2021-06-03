@@ -1,30 +1,42 @@
 const bannerGallery = {
     label: "Banner Gallery",
     name: "bannerGallery",
-    widget: "object",
-    collapsed: false,
+    widget: "list",
+    collapsed: true,
     fields: [
         {
-            label: "Banner Gallery title",
-            name: "title",
-            widget: "string",
-            required: false
-        },
-        {
-            label: "Pages",
-            required: false,
-            name: "bannerGalleryRel",
-            widget: "relation",
-            collection: "pages",
-            search_fields: [
-                "title"
-            ],
-            value_field: "id",
-            display_fields: [
-                "title"
+            label: "Gallery image",
+            name: "galleryImage",
+            widget: "list",
+            fields: [
+                {
+                    label: "Featured Image",
+                    name: "thumbnail",
+                    widget: "image",
+                    default: "/uploads/code.jpg",
+                    media_library: {
+                        config: {
+                            multiple: true
+                        }
+                    }
+                },
+                {
+                    label: "Title",
+                    name: "title",
+                    widget: "string",
+                    required: false
+                },
+                {
+                    label: "Alt text",
+                    name: "header",
+                    widget: "string",
+                    required: false
+                }
             ]
         }
     ]
 };
 
 export default bannerGallery;
+
+
