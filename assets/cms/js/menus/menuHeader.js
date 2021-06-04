@@ -16,7 +16,7 @@ const menuHeader = {
             label: "Header menu",
             name: "header",
             widget: "list",
-            summary: "{{fields.name}}",
+            summary: "{{fields.title}}",
             types: [
                 linkInternal,
                 linkExternal,

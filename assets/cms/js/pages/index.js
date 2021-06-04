@@ -9,7 +9,7 @@ import textTitle from "../partials/blocks/text_title";
 
 const pages = {
     create: true,
-    folder: "content/pages",
+    folder: "content",
     label: "Pages",
     name: "pages",
     description: "Build top level site pages here!",

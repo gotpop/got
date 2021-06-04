@@ -16,7 +16,7 @@ const menuFooter = {
             label: "Footer menu",
             name: "footer",
             widget: "list",
-            summary: "{{fields.name}}",
+            summary: "{{fields.title}}",
             types: [
                 linkInternal,
                 linkExternal,
