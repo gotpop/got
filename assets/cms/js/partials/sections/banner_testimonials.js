@@ -5,7 +5,7 @@ const bannerTestimonials = {
     label: "Banner Testimonials",
     name: "bannerTestimonials",
     widget: "object",
-    collapsed: false,
+    collapsed: true,
     fields: [
         title,
         linkPage

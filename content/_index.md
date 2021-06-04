@@ -22,8 +22,8 @@ sections:
   - type: bannerPage
     title: Banner page
     linkrel: Oub5c1GEC
-  - type: banner_testimonials
-    title: Testimonials
+  - type: bannerTestimonials
+    title: Lquis nostrud
     linkrel: ZluVFYW8k
 id: gxJP2zbtN
 ---
