@@ -1,5 +1,4 @@
 {{ $button := .context }}
-
 {{ range .pages }}
     {{ if eq .Params.id $button.linkrel }}
     <a href="{{ .Permalink }}">{{ $button.title }}</a>

@@ -1,1 +1,5 @@
-<h1>Gallery</h1>
+{{ with .galleryImage }}
+    {{ range . }}
+        <img src="{{ .thumbnail }}" title="{{ .title }}" alt="{{ .alt }}">
+    {{ end }}
+{{ end }}
