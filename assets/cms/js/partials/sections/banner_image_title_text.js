@@ -6,7 +6,7 @@ const baannerImageTitleText = {
     label: "Image Title Text",
     name: "imageTitleText",
     widget: "object",
-    collapsed: false,
+    collapsed: true,
     fields: [
         title,
         bodyText,

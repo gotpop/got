@@ -5,6 +5,7 @@ const iconSelect = {
     name: "icon",
     widget: "select",
     hint: "Scroll to select or type to search",
+    default : "arrow-circle-right",
     options: icons
 };
 

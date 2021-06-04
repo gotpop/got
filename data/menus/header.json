@@ -2,31 +2,15 @@
   "header": [
     {
       "type": "linkInternal",
-      "name": "Page 1 ",
+      "title": "Page 1",
       "icon": "arrow-circle-right",
-      "linkrel": "chgZ0Z-Ez"
+      "linkrel": "ZluVFYW8k"
     },
     {
       "type": "linkInternal",
-      "name": "Page 2",
-      "icon": "arrow-circle-right",
-      "linkrel": "reViZ6ywm"
-    },
-    {
-      "type": "linkExternal",
-      "url": "http://www.google.com",
-      "name": "Twitter",
-      "icon": "arrow-circle-right"
-    },
-    {
-      "type": "linkAdmin",
-      "name": "Admin",
-      "icon": "information-circle"
-    },
-    {
-      "type": "linkHome",
-      "name": "Home",
-      "icon": "home"
+      "title": "Page 2",
+      "icon": "arrow-circle-down",
+      "linkrel": "ZluVFYW8k"
     }
   ]
 }

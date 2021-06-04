@@ -1,8 +1,10 @@
+import { lorumIpsumMedium } from "../partials/data/loremIpsum";
+
 const bodyText = {
     label: "Section body text",
     name: "bodyText",
     widget: "text",
-    default: "This is some text",
+    default: lorumIpsumMedium,
     hint: "Add text to the module here",
     required: true
 };

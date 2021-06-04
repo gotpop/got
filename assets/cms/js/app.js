@@ -1,10 +1,11 @@
 import CMS from "netlify-cms";
 import { Widget as IdWidget } from "@ncwidgets/id";
+import envObject from "./partials/utils/env_object";
 import pages from "./pages";
 import home from "./home";
-import settings from "./settings/index";
-import envObject from "./partials/utils/env_object";
+import settings from "./settings";
 import menus from "./menus";
+import social from "./social";
 
 // // Register unique ID widget. Use 'ncw-id' in config.yml
 CMS.registerWidget(IdWidget);
@@ -20,7 +21,8 @@ CMS.init({
             home,
             pages,
             settings,
-            menus
+            menus,
+            social
         ]
     }
 });

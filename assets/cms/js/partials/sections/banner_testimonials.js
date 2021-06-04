@@ -3,7 +3,7 @@ import title from "../../fields/title";
 
 const bannerTestimonials = {
     label: "Banner Testimonials",
-    name: "banner_testimonials",
+    name: "bannerTestimonials",
     widget: "object",
     collapsed: false,
     fields: [

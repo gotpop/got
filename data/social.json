@@ -1,0 +1,24 @@
+{
+  "socialMediaProfile": [
+    {
+      "type": "socialGitHub",
+      "linkPerma": "http://www.google.com",
+      "title": "Github"
+    },
+    {
+      "type": "socialInstagram",
+      "linkPerma": "http://www.google.com",
+      "title": "Insta"
+    },
+    {
+      "type": "socialTwitter",
+      "linkPerma": "http://www.google.com",
+      "title": "Twitter"
+    },
+    {
+      "type": "socialYouTube",
+      "linkPerma": "http://www.google.com",
+      "title": "YouTube"
+    }
+  ]
+}

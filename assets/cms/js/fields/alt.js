@@ -1,7 +1,10 @@
+import { lorumIpsumShort } from "../partials/data/loremIpsum";
+
 const alt = {
     label: "Alt text",
-    name: "header",
+    name: "alt",
     widget: "string",
+    default: lorumIpsumShort,
     required: false
 };
 

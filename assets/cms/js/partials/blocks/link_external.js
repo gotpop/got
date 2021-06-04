@@ -11,7 +11,7 @@ const linkExternal = {
         iconSelect,
         {
             label: "External URL",
-            name: "url",
+            name: "relLink",
             widget: "string",
             hint: "Add full URL to desired location including http://www.",
             default: "http://www.google.com"
