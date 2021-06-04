@@ -27,4 +27,5 @@ sections:
     title: Lquis nostrud
     bodyMarkdown: Love the small hero vibe
 id: ZluVFYW8k
+visible: true
 ---

@@ -6,6 +6,7 @@ import home from "./home";
 import settings from "./settings";
 import menus from "./menus";
 import social from "./social";
+import sidebars from "./sidebars";
 
 // // Register unique ID widget. Use 'ncw-id' in config.yml
 CMS.registerWidget(IdWidget);
@@ -22,7 +23,8 @@ CMS.init({
             pages,
             settings,
             menus,
-            social
+            social,
+            sidebars
         ]
     }
 });

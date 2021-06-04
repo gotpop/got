@@ -14,6 +14,7 @@ const pages = {
     name: "pages",
     description: "Build top level site pages here!",
     summary: "{{title}}",
+    filter: {field: "visible", value: true},
     fields: [
         title,
         {
