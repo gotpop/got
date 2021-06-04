@@ -3,9 +3,9 @@ import title from "../../fields/title";
 
 const smallHero = {
     label: "Small Hero",
-    name: "hero",
+    name: "smallHero",
     widget: "object",
-    collapsed: false,
+    collapsed: true,
     fields: [
         title,
         bodyMarkdown

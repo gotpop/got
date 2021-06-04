@@ -23,5 +23,8 @@ sections:
   - type: button
     title: Button second
     linkrel: ZluVFYW8k
+  - type: smallHero
+    title: Lquis nostrud
+    bodyMarkdown: Love the small hero vibe
 id: Oub5c1GEC
 ---

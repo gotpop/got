@@ -16,10 +16,6 @@ sections:
     thumbnail: /uploads/code.jpg
     title: A nice image
     alt: Look at the nice image
-  - type: hero
-    title: Small hero
-    header: A header field
-    content: Nice content area
   - type: testimonials
     quote: Everything is awesome!
     author:
@@ -27,5 +23,8 @@ sections:
   - type: textTitle
     title: Title text
     content: This is some text
+  - type: smallHero
+    title: Lquis nostrud
+    bodyMarkdown: Love the small hero vibe
 id: ZluVFYW8k
 ---

@@ -1,27 +1,27 @@
 {{ define "main" }}
-<main class="main main__pages">
+<main class="main main--pages">
 	<div class="main__inner">
 		{{ with .Params.sections }}
 			{{ range . }}
 				<section class="section section__{{ .type }}">
 					{{ if eq .type "button" }}
 						<!-- Pass double context into partial -->
-						{{ partial "sections/link.html" (dict "context" . "pages" $.Site.RegularPages) }}
+						{{ partial "blocks/link.html" (dict "context" . "pages" $.Site.RegularPages) }}
 					{{ end }}
 					{{ if eq .type "gallery" }}
-						{{ partial "sections/gallery.html" . }}
+						{{ partial "blocks/gallery.html" . }}
 					{{ end }}
-					{{ if eq .type "image" }}
-						{{ partial "sections/image.html" . }}
+					{{ if eq .type "blockImage" }}
+						{{ partial "blocks/image.html" . }}
 					{{ end }}
 					{{ if eq .type "smallHero" }}
-						{{ partial "sections/small_hero.html" . }}
+						{{ partial "blocks/small_hero.html" . }}
 					{{ end }}
 					{{ if eq .type "testimonials" }}
-						{{ partial "sections/testimonials.html" . }}
+						{{ partial "blocks/testimonials.html" . }}
                         {{ end }}
                     {{ if eq .type "textTitle" . }}
-						{{ partial "sections/text_title.html" . }}
+						{{ partial "blocks/text_title.html" . }}
 					{{ end }}
 				</section>
 			{{ end }}
