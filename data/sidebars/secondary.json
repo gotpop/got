@@ -1,1 +1,9 @@
-{}
+{
+  "secondarySidebar": [
+    {
+      "type": "textTitle",
+      "title": "This is the text to go in the secondary sidebar ",
+      "content": "This is the text to go in the secondary sidebar This is the text to go in the secondary sidebar This is the text to go in the secondary sidebar This is the text to go in the secondary sidebar This is the text to go in the secondary sidebar This is the text to go in the secondary sidebar This is the text to go in the secondary sidebar This is the text to go in the secondary sidebar This is the text to go in the secondary sidebar This is the text to go in the secondary sidebar This is the text to go in the secondary sidebar"
+    }
+  ]
+}

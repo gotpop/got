@@ -127,3 +127,19 @@ h1, h2, h3, h4, h5, h6 {
     background-color: darkgrey;
     padding: 2rem;
 }
+
+
+.main__inner--pages {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  .content {
+    grid-column: 1 / 10;
+  }
+  
+  .sidebar {
+    background-color: white;
+    padding: 2rem;
+    grid-column: 10 / 13;
+  }
+}

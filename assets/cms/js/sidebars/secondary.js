@@ -1,7 +1,4 @@
-import linkAdmin from "../partials/blocks/link_admin";
-import linkExternal from "../partials/blocks/link_external";
-import linkHome from "../partials/blocks/link_home";
-import linkInternal from "../partials/blocks/link_internal";
+import textTitle from "../partials/blocks/text_title";
 
 const secondarySidebar = {
     file: "data/sidebars/secondary.json",
@@ -18,10 +15,7 @@ const secondarySidebar = {
             widget: "list",
             summary: "{{fields.title}}",
             types: [
-                linkInternal,
-                linkExternal,
-                linkAdmin,
-                linkHome
+                textTitle
             ]
         }
     ]

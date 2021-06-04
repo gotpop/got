@@ -1,33 +1,36 @@
 {{ define "main" }}
 <main class="main main--pages">
-	<div class="main__inner">
-		{{ with .Params.sections }}
-			{{ range . }}
-				<section class="section section__{{ .type }}">
-					{{ if eq .type "button" }}
-						<!-- Pass double context into partial -->
-						{{ partial "blocks/link.html" (dict "context" . "pages" $.Site.RegularPages) }}
-					{{ end }}
-					{{ if eq .type "gallery" }}
-						{{ partial "blocks/gallery.html" . }}
-					{{ end }}
-					{{ if eq .type "blockImage" }}
-						{{ partial "blocks/image.html" . }}
-					{{ end }}
-					{{ if eq .type "smallHero" }}
-						{{ partial "blocks/small_hero.html" . }}
-					{{ end }}
-					{{ if eq .type "testimonials" }}
-						{{ partial "blocks/testimonials.html" . }}
-                        {{ end }}
-                    {{ if eq .type "textTitle" . }}
-						{{ partial "blocks/text_title.html" . }}
-					{{ end }}
-				</section>
+	<div class="main__inner main__inner--pages">
+		<div class="content">
+			{{ with .Params.sections }}
+				{{ range . }}
+					<section class="section section__{{ .type }}">
+						{{ if eq .type "button" }}
+							<!-- Pass double context into partial -->
+							{{ partial "blocks/link.html" (dict "context" . "pages" $.Site.RegularPages) }}
+						{{ end }}
+						{{ if eq .type "gallery" }}
+							{{ partial "blocks/gallery.html" . }}
+						{{ end }}
+						{{ if eq .type "blockImage" }}
+							{{ partial "blocks/image.html" . }}
+						{{ end }}
+						{{ if eq .type "smallHero" }}
+							{{ partial "blocks/small_hero.html" . }}
+						{{ end }}
+						{{ if eq .type "testimonials" }}
+							{{ partial "blocks/testimonials.html" . }}
+							{{ end }}
+						{{ if eq .type "textTitle" . }}
+							{{ partial "blocks/text_title.html" . }}
+						{{ end }}
+					</section>
+				{{ end }}
 			{{ end }}
-		{{ end }}
-        {{ partial "meta.html" . }}            
-        {{ partial "pagination.html" . }}            
+			{{ partial "meta.html" . }}            
+			{{ partial "pagination.html" . }}          
+		</div>
+        {{ partial "sidebar.html" . }}            
 	</div>
 </main>
 {{ end }}
