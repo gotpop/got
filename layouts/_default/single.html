@@ -4,7 +4,7 @@
 		<div class="content">
 			{{ with .Params.sections }}
 				{{ range . }}
-					<section class="section section--{{ .type }}">
+					<section class="section section--{{ .type }}" id="{{ .id }}">
 						{{ if eq .type "button" }}
 							<!-- Pass double context into partial -->
 							{{ partial "blocks/link.html" (dict "context" . "pages" $.Site.RegularPages) }}

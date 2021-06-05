@@ -1,9 +1,8 @@
 {
   "primarySidebar": [
     {
-      "type": "textTitle",
-      "title": "This is the text to go in the primary sidebar",
-      "content": "This is the text to go in the primary sidebarThis is the text to go in the primary sidebarThis is the text to go in the primary sidebarThis is the text to go in the primary sidebarThis is the text to go in the primary sidebarThis is the text to go in the primary sidebarThis is the text to go in the primary sidebarThis is the text to go in the primary sidebarThis is the text to go in the primary sidebarThis is the text to go in the primary sidebarThis is the text to go in the primary sidebarThis is the text to go in the primary sidebar"
+      "type": "menuSub",
+      "title": "Lquis nostrud"
     }
   ]
 }

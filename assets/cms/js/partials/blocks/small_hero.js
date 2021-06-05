@@ -1,4 +1,5 @@
 import bodyMarkdown from "../../fields/body_markdown";
+import id from "../../fields/id";
 import title from "../../fields/title";
 import blockImage from "./block_image";
 
@@ -10,7 +11,8 @@ const smallHero = {
     fields: [
         title,
         bodyMarkdown,
-        blockImage
+        blockImage,
+        id
     ]
 };
 

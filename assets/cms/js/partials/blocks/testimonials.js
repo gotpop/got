@@ -1,3 +1,5 @@
+import id from "../../fields/id";
+
 const testimonials = {
     label: "Testimonials",
     name: "testimonials",
@@ -21,7 +23,8 @@ const testimonials = {
                     default: "Emmet"
                 }
             ]
-        }
+        },
+        id
     ]
 };
 

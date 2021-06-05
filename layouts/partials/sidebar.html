@@ -1,3 +1,8 @@
 <aside class="sidebar sidebar--primary">
-    <h1>Side bar primary</h1>
+    {{ $currentPage := . }}
+    {{ range .Site.Data.sidebars.primary.primarySidebar }}
+        {{ if eq .type "menuSub" }}
+            {{ partial "sidebars/widgets/menu_sub.html" $currentPage }}
+        {{ end }}
+    {{ end }}
 </aside>

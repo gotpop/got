@@ -1,6 +1,7 @@
 import alt from "../../fields/alt";
 import image from "../../fields/image";
 import title from "../../fields/title";
+import id from "../../fields/id";
 
 const blockImage = {
     label: "Image",
@@ -10,7 +11,8 @@ const blockImage = {
     fields: [
         image,
         title,
-        alt
+        alt,
+        id
     ]
 };
 

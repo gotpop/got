@@ -1,0 +1,5 @@
+<nav class="subnav subnav--sidebar">
+    {{ range .Params.sections }}
+        <a href="#{{ .id }}">{{ .title }}</a>
+    {{ end }}
+</nav>

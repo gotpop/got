@@ -1,3 +1,5 @@
+import id from "../../fields/id";
+
 const textTitle = {
     label: "Text with sub heading",
     name: "textTitle",
@@ -15,7 +17,8 @@ const textTitle = {
             name: "content",
             widget: "markdown",
             required: false
-        }
+        },
+        id
     ]
 };
 

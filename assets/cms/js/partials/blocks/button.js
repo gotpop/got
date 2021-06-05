@@ -1,6 +1,7 @@
 import { lorumIpsumMedium } from "../data/loremIpsum";
 import linkPage from "../../fields/link_page";
 import title from "../../fields/title";
+import id from "../../fields/id";
 
 const button = {
     label: "Button",
@@ -15,7 +16,8 @@ const button = {
             default: lorumIpsumMedium,
             required: false
         },
-        linkPage
+        linkPage,
+        id
     ]
 };
 

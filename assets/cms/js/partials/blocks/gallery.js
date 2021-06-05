@@ -1,4 +1,5 @@
 import alt from "../../fields/alt";
+import id from "../../fields/id";
 import image from "../../fields/image";
 import title from "../../fields/title";
 
@@ -16,7 +17,8 @@ const gallery = {
                 title,
                 alt
             ]
-        }
+        },
+        id
     ]
 };
 

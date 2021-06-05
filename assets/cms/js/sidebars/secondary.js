@@ -1,4 +1,4 @@
-import textTitle from "../partials/blocks/text_title";
+import menuSub from "../partials/blocks/menu_sub";
 
 const secondarySidebar = {
     file: "data/sidebars/secondary.json",
@@ -15,7 +15,7 @@ const secondarySidebar = {
             widget: "list",
             summary: "{{fields.title}}",
             types: [
-                textTitle
+                menuSub
             ]
         }
     ]

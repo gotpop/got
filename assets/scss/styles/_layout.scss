@@ -2,3 +2,18 @@
     display: flex;
     justify-content: center;
 }
+
+.sidebar {
+    position: relative;
+}
+
+.subnav {
+    position: sticky;
+    top: 2rem;
+    
+    a {
+        color: darkgrey;
+        display: flex;
+    }    
+}
+
