@@ -7,7 +7,7 @@ const bannerGallery = {
     fields: [
         {
             label: "Banner Gallery",
-            name: "bannerCardList",
+            name: "bannerGalleryList",
             widget: "list",
             types: [
                 blockImage

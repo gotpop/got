@@ -1,1 +1,9 @@
-<h1>Banner Testimonials</h1>
+<div class="section__inner">
+    <h1>{{ .title }}</h1>
+    {{ range .bannerTestimonial }}
+        <article class="testimonial">
+            <h4>{{ .title }}</h4>
+            <p>{{ .bodyText }}</p>
+        </article>
+    {{ end }}
+</div>

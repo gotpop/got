@@ -1,1 +1,12 @@
-<h1>Banner cards</h1>
+<div class="section__inner">
+    <div class="section__intro">
+        <h2>Banner cards</h2>
+    </div>
+    {{ range .bannerCard }}
+        <article class="card">
+            <h3>{{ .title }}</h3>
+            <p>{{ .bodyText }}</p>
+            <img src="/images/{{ .thumbnail }}" title="{{ .title }}" alt="{{ .alt }}" loading="lazy">
+        </article>
+    {{ end }}
+</div>

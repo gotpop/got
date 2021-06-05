@@ -10,7 +10,7 @@
 				{{ else if eq .type "imageTitleText" }}
 					{{ partial "partials/sections/banner_image_title_text" . }}
 				{{ else if eq .type "bannerPage" }}
-					{{ partial "partials/sections/banner_page.html" . }}
+					{{ partial "partials/sections/banner_page.html" (dict "context" . "pages" $.Site.RegularPages) }}
 				{{ else if eq .type "bannerTestimonials" }}
 					{{ partial "partials/sections/banner_testimonials.html" . }}
 				{{ end }}

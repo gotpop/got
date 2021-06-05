@@ -1,0 +1,21 @@
+.section__bannerCards {
+    display: flex;
+    justify-content: center;
+}
+
+.section__inner {
+    flex-wrap: wrap;
+    display: flex;
+    flex: 0 0 1200px
+}
+
+.section__intro {
+    flex: 0  100%;
+    background-color: beige;
+    margin-bottom: 2rem;
+}
+
+.card {
+    flex: 0 1 200px;
+    background-color: white;
+}

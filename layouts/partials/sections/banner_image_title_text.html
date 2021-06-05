@@ -1,1 +1,11 @@
-<h1> Image</h1>
+<div class="section__inner">
+    <article class="image-title-text">
+        <h3>{{ .title }}</h3>
+        <p>{{ .bodyText }}</p>
+    </article>
+    <figure>
+        <img src="{{ .blockImage.thumbnail }}" title="{{ .blockImage.title }}" alt="{{ .blockImage.alt }}"
+            loading="lazy">
+        <figcaption>{{ .title}}</figcaption>
+    </figure>
+</div>

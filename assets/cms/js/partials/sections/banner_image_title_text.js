@@ -1,6 +1,6 @@
 import bodyText from "../../fields/body_text";
-import image from "../../fields/image";
 import title from "../../fields/title";
+import blockImage from "../blocks/block_image";
 
 const baannerImageTitleText = {
     label: "Image Title Text",
@@ -10,7 +10,7 @@ const baannerImageTitleText = {
     fields: [
         title,
         bodyText,
-        image
+        blockImage
     ]
 };
 

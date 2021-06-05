@@ -1,1 +1,4 @@
-<h1>Banner gallery</h1>
+{{ range .bannerGalleryList }}
+    <img src="/images/{{ .thumbnail }}" title="{{ .title }}" alt="{{ .alt }}" loading="lazy">
+{{ end }}
+

@@ -1,5 +1,4 @@
-import linkPage from "../../fields/link_page";
-import title from "../../fields/title";
+import bannerTestimonial from "./banner_testimonial";
 
 const bannerTestimonials = {
     label: "Banner Testimonials",
@@ -7,8 +6,14 @@ const bannerTestimonials = {
     widget: "object",
     collapsed: true,
     fields: [
-        title,
-        linkPage
+        {
+            label: "Testimonial",
+            name: "bannerTestimonial",
+            widget: "list",
+            types: [
+                bannerTestimonial
+            ]
+        }
     ]
 };
 

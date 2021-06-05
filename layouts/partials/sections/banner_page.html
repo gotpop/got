@@ -1,1 +1,10 @@
-<h1>Page</h1>
+<div class="section__inner">
+    {{ $button := .context }}
+        {{ range .pages }}
+        {{ if eq .Params.id $button.linkrel }}
+            <p>{{ $button.textSupporting }}</p>
+            <a class="button" href="{{ .Permalink }}">{{ $button.title }}</a>
+        {{ end }}
+    {{ end }}
+</div>
+

@@ -9,13 +9,15 @@
 			{{ end }}
 		</div>
 	</header>
-	{{ $displayHero := .Page.Params.displayHero }}
+	{{ $page := .Page.Params }}
 	{{ with .IsHome }}
-		{{ with $displayHero }}
+		{{ with $page.displayHero }}
 			{{ partial "hero.html" . }}
 		{{ end }}
 	{{ else }}
-		{{ partial "hero_medium.html" . }}
+		{{ with $page.displayPageHero }}
+			{{ partial "hero_medium.html" $page }}
+		{{ end }}
 	{{ end }}
 </div>
 

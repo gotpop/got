@@ -14,9 +14,18 @@ const pages = {
     name: "pages",
     description: "Build top level site pages here!",
     summary: "{{title}}",
-    filter: {field: "visible", value: true},
+    filter: {
+        field: "visible",
+        value: true
+    },
     fields: [
         title,
+        {
+            label: "Display page hero",
+            name: "displayPageHero",
+            widget: "boolean",
+            default: true
+        },
         {
             label: "Sections",
             name: "sections",
