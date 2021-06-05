@@ -1,5 +1,6 @@
 import bodyMarkdown from "../../fields/body_markdown";
 import title from "../../fields/title";
+import blockImage from "./block_image";
 
 const smallHero = {
     label: "Small Hero",
@@ -8,7 +9,8 @@ const smallHero = {
     collapsed: true,
     fields: [
         title,
-        bodyMarkdown
+        bodyMarkdown,
+        blockImage
     ]
 };
 

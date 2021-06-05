@@ -1,5 +1,5 @@
 {{ with .galleryImage }}
     {{ range . }}
-        <img src="{{ .thumbnail }}" title="{{ .title }}" alt="{{ .alt }}">
+        <img src="/images/{{ .thumbnail }}" title="{{ .title }}" alt="{{ .alt }}" loading="lazy">
     {{ end }}
 {{ end }}

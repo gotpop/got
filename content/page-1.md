@@ -2,8 +2,9 @@
 title: Page 1
 sections:
   - type: button
-    title: A nice button
-    linkrel: ZluVFYW8k
+    title: Lquis nostrud
+    textSupporting: Here is some nice supporting text
+    linkrel: xITjgxXNW
   - type: gallery
     galleryImage:
       - thumbnail: /uploads/code.jpg
@@ -25,7 +26,11 @@ sections:
     content: This is some text
   - type: smallHero
     title: Lquis nostrud
-    bodyMarkdown: Love the small hero vibe
+    blockImage:
+      thumbnail: /uploads/code.jpg
+      title: Lquis nostrud
+      alt: Lquis nostrud
+    bodyMarkdown: This is the second small hero
 id: ZluVFYW8k
 visible: true
 ---
