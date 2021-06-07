@@ -27,6 +27,11 @@ const pages = {
             default: true
         },
         {
+            name: "visible",
+            widget: "hidden",
+            default: true
+        },
+        {
             label: "Sections",
             name: "sections",
             widget: "list",

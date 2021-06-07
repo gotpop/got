@@ -1,5 +1,7 @@
 ---
-title: Page 1
+title: Services
+displayPageHero: true
+visible: true
 sections:
   - type: textTitle
     title: The first header tag title goes here
@@ -74,6 +76,4 @@ sections:
     bodyMarkdown: This is the second small hero
     id: s9BARIG9dx
 id: ZluVFYW8k
-visible: true
-displayPageHero: true
 ---

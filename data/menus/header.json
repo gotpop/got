@@ -2,15 +2,27 @@
   "header": [
     {
       "type": "linkInternal",
-      "title": "Page 1",
-      "icon": "arrow-circle-right",
+      "title": "Services",
+      "icon": "book-open",
       "linkrel": "ZluVFYW8k"
     },
     {
       "type": "linkInternal",
-      "title": "Page 2",
-      "icon": "arrow-circle-down",
-      "linkrel": "Oub5c1GEC"
+      "title": "Contact",
+      "icon": "information-circle",
+      "linkrel": "xITjgxXNW"
+    },
+    {
+      "type": "linkInternal",
+      "title": "Extras",
+      "icon": "book-open",
+      "linkrel": "gbGSNBIq7"
+    },
+    {
+      "type": "linkInternal",
+      "title": "About",
+      "icon": "information-circle",
+      "linkrel": "fAjyLrg-K"
     }
   ]
 }
