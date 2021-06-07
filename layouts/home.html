@@ -2,7 +2,7 @@
 <main class="main main--home">
 	{{ with .Params.sections }}
 		{{ range . }}
-			<section class="section section__{{ .type }}">
+			<section class="section section--{{ lower .type }}">
 				{{ if eq .type "bannerCards" }}
 					{{ partial "partials/sections/banner_cards.html" . }}
 				{{ else if eq .type "bannerGallery" }}

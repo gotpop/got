@@ -1,4 +1,4 @@
-<div class="section__inner">
+<div class="section__inner section__inner--{{ lower .type }}">
     {{ $button := .context }}
         {{ range .pages }}
         {{ if eq .Params.id $button.linkrel }}
@@ -7,4 +7,3 @@
         {{ end }}
     {{ end }}
 </div>
-

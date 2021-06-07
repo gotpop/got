@@ -1,7 +1,18 @@
 .section {
     background-color: whitesmoke;
-    padding: 2rem;
+    display: flex;
     grid-column: 1 / 13;
+    justify-content: center;
+
+    &__inner {
+        @include grid();
+    }
+
+    &__intro {
+        grid-column: span 12;
+        background-color: beige;
+        margin-bottom: 2rem;
+    }
 
     &:nth-child(even) {
         background-color: beige;

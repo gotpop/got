@@ -2,7 +2,7 @@ import bannerCard from "./banner_card";
 
 const bannerCards = {
     label: "Banner Cards",
-    name: "bannerCards",
+    name: "cards",
     collapsed: true,
     fields: [
         {

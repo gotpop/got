@@ -1,23 +1,29 @@
-// Import global
 // This would normally be the entry point for a SCSS application 
 // but in this case we allow Hugo to set some variables in the CMS
-@import "./styles/vars/vars";
-@import "./styles/global/reset";
+
+// Import Vars
 @import "./styles/vars/colour";
 @import "./styles/vars/vars";
+@import "./styles/global/reset";
+
+// Import Mixins
+@import "./styles/mixins/grid";
+
+// Import global
+@import "./styles/global/button"; 
 @import "./styles/global/global";
 @import "./styles/global/layout";
 @import "./styles/global/main"; 
-@import "./styles/global/button"; 
 @import "./styles/global/typography"; 
 
 // Import partials
-@import "./styles/partials/sections"; 
 @import "./styles/partials/footer";
 @import "./styles/partials/header";
 @import "./styles/partials/hero"; 
 @import "./styles/partials/menu_footer"; 
 @import "./styles/partials/menu_header"; 
+@import "./styles/partials/sections"; 
+@import "./styles/partials/sidebar"; 
 
 // Import components
 @import "./styles/components/block_button";
@@ -32,3 +38,4 @@
 @import "./styles/components/section_image";
 @import "./styles/components/section_page_link";
 @import "./styles/components/section_testimonials";
+@import "./styles/components/section_image_title_text";

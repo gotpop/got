@@ -6,12 +6,8 @@
   justify-content: center;
 
   &__inner {
-    display: grid;
-    flex: 0 1 $width;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(12, 1fr);
-    margin: $gutter;
-    align-items: center;
+    margin: $spacing;
+    @include grid();
   }
 
   &__logo {
@@ -49,5 +45,15 @@
     }
   }
 }
+
+
+.header {
+  &__wrap--home {
+      display: grid;
+      height: 100vh;
+      grid-template-rows: 1fr 11fr;
+  }
+}
+
 
 

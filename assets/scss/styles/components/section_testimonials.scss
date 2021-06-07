@@ -1,0 +1,9 @@
+.section__inner--bannertestimonials {
+    padding: $spacing;
+}
+
+.testimonial {
+    background-color: white;
+    grid-column: span 4;
+    padding: $spacing;
+}

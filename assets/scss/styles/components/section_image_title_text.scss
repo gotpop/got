@@ -1,0 +1,11 @@
+//  imagetitletext
+
+.imagetitletext {
+    &__text {
+        grid-column: span 6;
+    }
+    
+    &__figure {
+        grid-column: span 6;
+    }
+}

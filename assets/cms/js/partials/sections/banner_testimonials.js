@@ -2,7 +2,7 @@ import bannerTestimonial from "./banner_testimonial";
 
 const bannerTestimonials = {
     label: "Banner Testimonials",
-    name: "bannerTestimonials",
+    name: "testimonials",
     widget: "object",
     collapsed: true,
     fields: [

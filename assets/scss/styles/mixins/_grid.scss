@@ -1,0 +1,9 @@
+// _mixins.scss
+@mixin grid() {
+    align-items: center;
+    display: grid;
+    flex: 0 1 $width;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+}
+

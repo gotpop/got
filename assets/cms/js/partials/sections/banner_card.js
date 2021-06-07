@@ -6,7 +6,7 @@ import title from "../../fields/title";
 
 const bannerCard = {
     label: "Add a card",
-    name: "bannerCard",
+    name: "card",
     widget: "object",
     collapsed: true,
     fields: [

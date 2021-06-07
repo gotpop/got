@@ -1,9 +1,9 @@
-<div class="section__inner">
-    <article class="image-title-text">
+<div class="section__inner section__inner--{{ lower .type }}">
+    <article class="imagetitletext__text">
         <h3>{{ .title }}</h3>
         <p>{{ .bodyText }}</p>
     </article>
-    <figure>
+    <figure class="imagetitletext__figure">
         <img src="{{ .blockImage.thumbnail }}" title="{{ .blockImage.title }}" alt="{{ .blockImage.alt }}"
             loading="lazy">
         <figcaption>{{ .title}}</figcaption>

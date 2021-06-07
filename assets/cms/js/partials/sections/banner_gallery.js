@@ -2,7 +2,7 @@ import blockImage from "../blocks/block_image";
 
 const bannerGallery = {
     label: "Banner Gallery",
-    name: "bannerGallery",
+    name: "gallery",
     collapsed: true,
     fields: [
         {

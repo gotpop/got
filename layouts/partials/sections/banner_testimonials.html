@@ -1,9 +1,11 @@
-<div class="section__inner">
-    <h1>{{ .title }}</h1>
+<div class="section__inner section__inner--{{ lower .type }}">
+    <div class="section__intro">
+        <h1>{{ .title }}</h1>
+    </div>
     {{ range .bannerTestimonial }}
-        <article class="testimonial">
-            <h4>{{ .title }}</h4>
-            <p>{{ .bodyText }}</p>
-        </article>
+    <article class="testimonial">
+        <h4>{{ .title }}</h4>
+        <p>{{ .bodyText }}</p>
+    </article>
     {{ end }}
 </div>

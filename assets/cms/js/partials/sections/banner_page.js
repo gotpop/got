@@ -3,7 +3,7 @@ import title from "../../fields/title";
 
 const bannerPage = {
     label: "Banner Page",
-    name: "bannerPage",
+    name: "page",
     widget: "object",
     collapsed: false,
     fields: [
