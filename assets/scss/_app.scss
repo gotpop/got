@@ -1,21 +1,25 @@
-// Imports
+// Import global
+// This would normally be the entry point for a SCSS application 
+// but in this case we allow Hugo to set some variables in the CMS
 @import "./styles/vars/vars";
-@import "./styles/reset";
+@import "./styles/global/reset";
 @import "./styles/vars/colour";
-@import "./styles/vars";
-@import "./styles/global";
-@import "./styles/footer";
-@import "./styles/header";
-@import "./styles/layout";
-@import "./styles/main"; 
-@import "./styles/button"; 
-@import "./styles/sections"; 
-@import "./styles/hero"; 
-@import "./styles/menu_footer"; 
-@import "./styles/menu_header"; 
-@import "./styles/typography"; 
+@import "./styles/vars/vars";
+@import "./styles/global/global";
+@import "./styles/global/layout";
+@import "./styles/global/main"; 
+@import "./styles/global/button"; 
+@import "./styles/global/typography"; 
 
-// Components
+// Import partials
+@import "./styles/partials/sections"; 
+@import "./styles/partials/footer";
+@import "./styles/partials/header";
+@import "./styles/partials/hero"; 
+@import "./styles/partials/menu_footer"; 
+@import "./styles/partials/menu_header"; 
+
+// Import components
 @import "./styles/components/block_button";
 @import "./styles/components/block_gallery";
 @import "./styles/components/block_image";
