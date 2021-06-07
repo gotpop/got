@@ -1,2 +1,7 @@
 {{ $icon := resources.Get (print "svg/heroicons/outline/" . ".svg") }}
-{{ $icon.Content | safeHTML }}
+{{ with $icon }}
+    {{ .Content | safeHTML }}
+{{ end }}
+
+
+
