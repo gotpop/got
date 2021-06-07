@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Home pageeeeee
 displayHero: true
 sections:
   - type: bannerCards
