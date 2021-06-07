@@ -1,0 +1,9 @@
+.section {
+    background-color: whitesmoke;
+    padding: 2rem;
+    grid-column: 1 / 13;
+
+    &:nth-child(even) {
+        background-color: beige;
+    }
+}

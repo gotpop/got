@@ -1,8 +1,8 @@
 <footer class="footer">
-    <hr>
-    <div class="copyright">
-        <small>Copyright &copy; {{ now.Format "2006"}}</small>
+    <div class="footer__inner">
+        <div class="copyright">
+            <small>Copyright &copy; {{ now.Format "2006"}}</small>
+        </div>
+        {{ partial "menus/footer.html" . }}
     </div>
-    <hr>
-    {{ partial "menus/footer.html" . }}
 </footer>

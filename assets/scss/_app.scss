@@ -1,5 +1,6 @@
 // Imports
 @import "./styles/vars/vars";
+@import "./styles/reset";
 @import "./styles/vars/colour";
 @import "./styles/vars";
 @import "./styles/global";
@@ -7,6 +8,11 @@
 @import "./styles/header";
 @import "./styles/layout";
 @import "./styles/main"; 
+@import "./styles/button"; 
+@import "./styles/sections"; 
+@import "./styles/hero"; 
+@import "./styles/menu_footer"; 
+@import "./styles/menu_header"; 
 
 // Components
 @import "./styles/components/block_button";

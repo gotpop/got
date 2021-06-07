@@ -1,3 +1,16 @@
 {
-
+  "footer": [
+    {
+      "type": "linkInternal",
+      "title": "Lquis nostrud",
+      "icon": "arrow-circle-right",
+      "linkrel": "ZluVFYW8k"
+    },
+    {
+      "type": "linkInternal",
+      "title": "Lquis nostrud",
+      "icon": "arrow-circle-right",
+      "linkrel": "Oub5c1GEC"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
-<div class="header__wrap{{ with .IsHome }} header__wrap--home{{ end }}">
-	<header class="header{{ with .IsHome }} header--home{{ end }}">
+<header class="header__wrap{{ with .IsHome }} header__wrap--home{{ end }}">
+	<section class="header{{ with .IsHome }} header--home{{ end }}">
 		<div class="header__inner">
 			{{ if .Site.Data.header.display_site_logo }}
 				{{ partial "logo.html" . }}
@@ -8,7 +8,7 @@
 				{{ partial "menus/header.html" . }}
 			{{ end }}
 		</div>
-	</header>
+	</section>
 	{{ $page := .Page.Params }}
 	{{ with .IsHome }}
 		{{ with $page.displayHero }}
@@ -19,5 +19,5 @@
 			{{ partial "hero_medium.html" $page }}
 		{{ end }}
 	{{ end }}
-</div>
+</header>
 
