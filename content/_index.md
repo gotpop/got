@@ -1,6 +1,6 @@
 ---
 title: Home
-displayHero: true
+displayHero: false
 sections:
   - type: bannerCards
     bannerCard:
