@@ -50,6 +50,16 @@ sections:
       title: Lquis nostrud
       alt: Lquis nostrud
       id: _mjUDhRU5
+  - type: bannerTestimonials
+    bannerTestimonial:
+      - type: bannerTestimonial
+        title: Lquis nostrud
+        bodyText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. "
+      - type: bannerTestimonial
+        title: Lquis nostrud
+        bodyText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. "
 id: gxJP2zbtN
 visible: false
 ---
