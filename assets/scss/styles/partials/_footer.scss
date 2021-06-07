@@ -3,7 +3,8 @@
 .footer {
   display: flex;
   justify-content: center;
-  background: #3d3d3d;
+  background-color: darkgrey;
+  padding: 2rem;
   
   &__inner {
     display: grid;
@@ -16,7 +17,6 @@
   
   &__nav {
     grid-column: span 12;
-    // grid-column: 3 / 11;
     display: grid;
     grid-template-columns: subgrid;
   }
@@ -32,13 +32,6 @@
     grid-column: span 2;
   }
 }
-
-
-.footer {
-  background-color: darkgrey;
-  padding: 2rem;
-}
-
 
 .copyright {
   grid-column: span 12;
