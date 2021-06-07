@@ -1,6 +1,6 @@
 ---
 title: Home
-displayHero: false
+displayHero: true
 sections:
   - type: bannerCards
     bannerCard:
@@ -41,6 +41,15 @@ sections:
         title: Lquis nostrud
         alt: Lquis nostrud
         id: GpuWiK3oD
+  - type: imageTitleText
+    title: Lquis nostrud
+    bodyText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. "
+    blockImage:
+      thumbnail: /uploads/code.jpg
+      title: Lquis nostrud
+      alt: Lquis nostrud
+      id: _mjUDhRU5
 id: gxJP2zbtN
 visible: false
 ---
