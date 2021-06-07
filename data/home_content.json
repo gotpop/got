@@ -1,0 +1,46 @@
+{
+  "homeContentList": [
+    {
+      "type": "cards",
+      "bannerCard": [
+        {
+          "type": "card",
+          "title": "Lquis nostrud",
+          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "thumbnail": "/uploads/code.jpg"
+        },
+        {
+          "type": "card",
+          "title": "Lquis nostrud",
+          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "thumbnail": "/uploads/code.jpg"
+        },
+        {
+          "type": "card",
+          "title": "Lquis nostrud",
+          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "thumbnail": "/uploads/code.jpg"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "bannerGalleryList": [
+        {
+          "type": "blockImage",
+          "thumbnail": "/uploads/code.jpg",
+          "title": "Lquis nostrud",
+          "alt": "Lquis nostrud",
+          "id": "ubGaVfBzd"
+        },
+        {
+          "type": "blockImage",
+          "thumbnail": "/uploads/code.jpg",
+          "title": "Lquis nostrud",
+          "alt": "Lquis nostrud",
+          "id": "6GrfidPOQ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
-title: Home
+title: index
 displayHero: true
 id: gxJP2zbtN
-visible: true
+visible: false
 ---

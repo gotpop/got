@@ -1,29 +1,23 @@
-import id from "../fields/id";
-import title from "../fields/title";
 import bannerCards from "../partials/sections/banner_cards";
 import bannerGallery from "../partials/sections/banner_gallery";
 import baannerImageTitleText from "../partials/sections/banner_image_title_text";
 import bannerPage from "../partials/sections/banner_page";
 import bannerTestimonials from "../partials/sections/banner_testimonials";
 
-
 const homePage = {
-    file: "content/_index.md",
-    label: "Home page",
-    name: "homePage",
+    file: "data/home_content.json",
+    label: "Home page content",
+    name: "homeContent",
+    delete: false,
+    editor: {
+        preview: false
+    },
     fields: [
-        title,
         {
-            label: "Display Hero",
-            name: "displayHero",
-            widget: "boolean",
-            default: true,
-            hint: "The hero is the large introduction area on the homepage"
-        },
-        {
-            label: "Sections",
-            name: "sections",
+            label: "Home content",
+            name: "homeContentList",
             widget: "list",
+            summary: "{{fields.title}}",
             types: [
                 bannerCards,
                 bannerGallery,
@@ -31,8 +25,7 @@ const homePage = {
                 bannerPage,
                 bannerTestimonials
             ]
-        },
-        id
+        }
     ]
 };
 
