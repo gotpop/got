@@ -1,0 +1,8 @@
+.block {
+    padding: $spacing;
+
+    &--gallery,
+    &--smallhero {
+        padding: 0;
+    }
+}

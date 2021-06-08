@@ -1,10 +1,10 @@
 {{ define "main" }}
 <main class="main main--pages">
 	<div class="main__inner main__inner--pages">
-		<div class="content">
+		<div class="main__content">
 			{{ with .Params.sections }}
 				{{ range . }}
-					<section class="section section--{{ .type }}" id="{{ .id }}">
+					<section class="block block--{{ lower .type }}" id="{{ .id }}">
 						{{ if eq .type "button" }}
 							<!-- Pass double context into partial -->
 							{{ partial "blocks/link.html" (dict "context" . "pages" $.Site.RegularPages) }}

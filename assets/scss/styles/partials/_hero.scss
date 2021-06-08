@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     &__inner {
         @include grid();
         margin: $gutter;
     }
-
+    
     &__intro {
+        text-align: center;
         padding: $spacing;
         background-color: white;
         grid-column: 4 / span 5;

@@ -1,8 +1,25 @@
 
 .button {
-    padding: 1em 2em;
+    padding: 1em 1.25em;
     background-color: black;
     color: white;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+    svg {
+      width: 1.5em;
+      height: auto;
+      margin-left: 1.2em;
+      fill: yellow;
+      
+      path {
+        stroke: red;
+      }
+    }
+
+    &--large {
+      font-size: 2rem;
+    }
   }
   

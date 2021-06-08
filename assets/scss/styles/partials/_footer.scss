@@ -7,16 +7,11 @@
   padding: 2rem;
   
   &__inner {
-    display: grid;
-    flex: 0 1 $width;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(12, 1fr);
-    padding: $gutter * 2 $gutter $gutter * 4 $gutter;
-    justify-items: center;
+    @include grid();
   }
   
   &__nav {
-    grid-column: span 12;
+    grid-column: 3 /span 8;
     display: grid;
     grid-template-columns: subgrid;
   }
@@ -35,4 +30,5 @@
 
 .copyright {
   grid-column: span 12;
+  text-align: center;
 }

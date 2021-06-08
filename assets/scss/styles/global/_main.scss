@@ -1,17 +1,19 @@
 // Main
 .main {
-  display: grid;
   flex-grow: 1;
-  grid-template-columns: repeat(12, 1fr);
   justify-content: center;
   min-height: 100vh;
-
+  
   &__inner {
     flex: 0 1 $width;
-    margin: $gutter*2 $gutter $gutter*4 $gutter;
+    margin: 0 $spacing;
+  }
+  
+  &__content {
+    grid-column: 1 / 10;
   }
 
-  &.main--pages {
+  &--pages {
     display: flex;
 
     &__inner {
@@ -23,13 +25,9 @@
 .main__inner--pages {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-
-  .content {
-    grid-column: 1 / 10;
-  }
+  background-color: white;
 
   .sidebar {
-    background-color: white;
     padding: 2rem;
     grid-column: 10 / 13;
   }
