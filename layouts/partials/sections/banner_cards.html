@@ -4,9 +4,15 @@
     </div>
     {{ range .bannerCard }}
         <article class="card">
-            <h3>{{ .title }}</h3>
+            <section class="card__intro">
+                <h3>{{ .title }}</h3>
             <p>{{ .bodyText }}</p>
-            <img src="/images/{{ .thumbnail }}" title="{{ .title }}" alt="{{ .alt }}" loading="lazy">
+            </section>
+            <figure class="card__figure">
+                <img src="/images{{ .blockImage.thumbnail }}" title="{{ .blockImage.title }}" alt="{{ .blockImage.alt }}"
+                    loading="lazy">
+                <figcaption>{{ .title}}</figcaption>
+            </figure>
         </article>
     {{ end }}
 </div>

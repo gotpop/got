@@ -24,6 +24,7 @@ const pages = {
             label: "Display page hero",
             name: "displayPageHero",
             widget: "boolean",
+            hint: "If you have chosen this page as your home page (home > choose home page) then use the home page content area (home > home content) to add content rather than the drag and drop area below",
             default: true
         },
         {

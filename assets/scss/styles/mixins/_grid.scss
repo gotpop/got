@@ -3,7 +3,8 @@
     align-items: center;
     display: grid;
     flex: 0 1 $width;
-    grid-gap: 1rem;
+    column-gap: $spacing;
+    row-gap: $spacing;
     grid-template-columns: repeat(12, 1fr);
 }
 

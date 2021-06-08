@@ -1,7 +1,7 @@
 import bodyText from "../../fields/body_text";
-import image from "../../fields/image";
 import linkPage from "../../fields/link_page";
 import title from "../../fields/title";
+import blockImage from "../blocks/block_image";
 
 
 const bannerCard = {
@@ -12,7 +12,7 @@ const bannerCard = {
     fields: [
         title,
         bodyText,
-        image,
+        blockImage,
         linkPage
     ]
 };

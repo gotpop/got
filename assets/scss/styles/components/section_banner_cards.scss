@@ -1,6 +1,8 @@
-
-
 .card {
-    grid-column: span 2;
+    grid-column: span 3;
     background-color: white;
+
+    &__intro {
+        padding: $spacing;
+    }
 }

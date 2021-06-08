@@ -17,7 +17,7 @@ const homePage = {
             label: "Home content",
             name: "homeContentList",
             widget: "list",
-            summary: "{{fields.title}}",
+            summary: "{{fields.type}}",
             types: [
                 bannerCards,
                 bannerGallery,
