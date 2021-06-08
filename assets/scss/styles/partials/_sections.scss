@@ -12,6 +12,7 @@
         @include grid();
 
         &--cards,
+        &--gallery,
         &--imagetitletext,
         &--testimonials {
             padding: $spacing 0 $spacing*2 0;

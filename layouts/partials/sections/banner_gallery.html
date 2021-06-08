@@ -1,5 +1,5 @@
 <div class="section__inner section__inner--{{ lower .type }}">
     {{ range .bannerGalleryList }}
-        <img src="/images/{{ .thumbnail }}" title="{{ .title }}" alt="{{ .alt }}" loading="lazy">
+        <img src="/images{{ .thumbnail }}" title="{{ .title }}" alt="{{ .alt }}" loading="lazy">
     {{ end }}
 </div>

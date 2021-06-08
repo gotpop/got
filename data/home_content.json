@@ -68,6 +68,28 @@
             "alt": "Lquis nostrud",
             "id": "z_tMbz0EO"
           }
+        },
+        {
+          "type": "card",
+          "title": "Lquis nostrud",
+          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "blockImage": {
+            "thumbnail": "/uploads/code.jpg",
+            "title": "Lquis nostrud",
+            "alt": "Lquis nostrud",
+            "id": "J1TK5-kGw"
+          }
+        },
+        {
+          "type": "card",
+          "title": "Lquis nostrud",
+          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "blockImage": {
+            "thumbnail": "/uploads/code.jpg",
+            "title": "Lquis nostrud",
+            "alt": "Lquis nostrud",
+            "id": "rsbe-zsdQ"
+          }
         }
       ]
     },
@@ -94,6 +116,41 @@
           "title": "Lquis nostrud",
           "alt": "Lquis nostrud",
           "id": "xUn434gqI"
+        },
+        {
+          "type": "blockImage",
+          "thumbnail": "/uploads/code.jpg",
+          "title": "Lquis nostrud",
+          "alt": "Lquis nostrud",
+          "id": "66IlQCvJB"
+        },
+        {
+          "type": "blockImage",
+          "thumbnail": "/uploads/code.jpg",
+          "title": "Lquis nostrud",
+          "alt": "Lquis nostrud",
+          "id": "GeKSQt-02"
+        },
+        {
+          "type": "blockImage",
+          "thumbnail": "/uploads/code.jpg",
+          "title": "Lquis nostrud",
+          "alt": "Lquis nostrud",
+          "id": "R_KPxtO48"
+        },
+        {
+          "type": "blockImage",
+          "thumbnail": "/uploads/code.jpg",
+          "title": "Lquis nostrud",
+          "alt": "Lquis nostrud",
+          "id": "B6bOOrP5X"
+        },
+        {
+          "type": "blockImage",
+          "thumbnail": "/uploads/code.jpg",
+          "title": "Lquis nostrud",
+          "alt": "Lquis nostrud",
+          "id": "b9vO0ZaG1"
         }
       ]
     },
@@ -110,8 +167,10 @@
     },
     {
       "type": "page",
-      "title": "Lquis nostrud",
-      "linkrel": "gbGSNBIq7"
+      "title": "Find out more",
+      "linkrel": "gbGSNBIq7",
+      "textSupporting": "This is some amazing text about the website",
+      "icon": "arrow-circle-down"
     },
     {
       "type": "testimonials",

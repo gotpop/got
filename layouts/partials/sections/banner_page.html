@@ -1,9 +1,12 @@
 <div class="section__inner section__inner--{{ lower .type }}">
     {{ $button := .context }}
-        {{ range .pages }}
+    {{ range .pages }}
         {{ if eq .Params.id $button.linkrel }}
-            <p>{{ $button.textSupporting }}</p>
-            <a class="button" href="{{ .Permalink }}">{{ $button.title }}</a>
+            <h3>{{ $button.textSupporting }}</h3>
+            <a class="button" href="{{ .Permalink }}">
+                {{ $button.title }}
+                {{ partial "icon.html" $button.icon }}
+            </a>
         {{ end }}
     {{ end }}
 </div>
