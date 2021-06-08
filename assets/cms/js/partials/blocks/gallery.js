@@ -8,6 +8,7 @@ const gallery = {
     name: "gallery",
     widget: "list",
     fields: [
+        title,
         {
             label: "Gallery image",
             name: "galleryImage",

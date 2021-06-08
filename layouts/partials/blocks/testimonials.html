@@ -1,4 +1,9 @@
-<h1>Testimonials</h1>
-
-<p>{{ .quote }}</p>
-<p>{{ .author.name }}</p>
+<div class="block__intro">
+    <h1>Testimonials</h1>
+</div>
+{{ range .testimonial }}
+    <article class="testimonial">
+        <h4>{{ .title }}</h4>
+        <p>{{ .bodyText }}</p>
+    </article>
+{{ end }}

@@ -1,5 +1,5 @@
-<aside id="meta">
-    <div>
+<aside class="block pagination">
+    <nav>
         {{ with .PrevInSection }}
         <a class="previous" href="{{.Permalink}}">
             {{.Title}}</a> |
@@ -8,5 +8,5 @@
         <a class="next" href="{{.Permalink}}">
             {{.Title}}</a>
         {{ end }}
-    </div>
+    </nav>
 </aside>

@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "assets/cms"
+		},
+		{
+			"path": "assets/scss"
+		},
+		{
+			"path": "layouts"
+		},
+		{
+			"path": "content"
+		},
+		{
+			"path": "data"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Solarized Dark"
+	}
+}

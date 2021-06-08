@@ -2,7 +2,7 @@ const image = {
     label: "Add Image",
     name: "thumbnail",
     widget: "image",
-    default: "/uploads/code.jpg",
+    default: "/images/uploads/forest.webp",
     hint: "Add a primary image the card here",
     media_library: {
         config: {

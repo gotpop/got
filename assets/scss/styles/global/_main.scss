@@ -5,12 +5,13 @@
   min-height: 100vh;
   
   &__inner {
+    @include grid();
     flex: 0 1 $width;
     margin: 0 $spacing;
   }
   
   &__content {
-    grid-column: 1 / 10;
+    grid-column: span 8;
   }
 
   &--pages {
@@ -23,12 +24,11 @@
 }
 
 .main__inner--pages {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
   background-color: white;
 
   .sidebar {
-    padding: 2rem;
-    grid-column: 10 / 13;
+    padding: $spacing;
+    grid-column: span 4;
+    background-color: whitesmoke;
   }
 }

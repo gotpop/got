@@ -1,8 +1,12 @@
 {{ $button := .context }}
 {{ range .pages }}
     {{ if eq .Params.id $button.linkrel }}
-    <p>{{ $button.textSupporting }}</p>
-    <a class="button" href="{{ .Permalink }}">{{ $button.title }}</a>
+    <div class="button__text">
+        <p>{{ $button.textSupporting }}</p>
+    </div>
+    <div class="button__button">
+        <a class="button" href="{{ .Permalink }}">{{ $button.title }}</a>
+    </div>
     {{ end }}
 {{ end }}
 

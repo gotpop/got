@@ -1,6 +1,5 @@
 // _mixins.scss
 @mixin grid() {
-    align-items: center;
     display: grid;
     flex: 0 1 $width;
     column-gap: $spacing;

@@ -1,9 +1,9 @@
-.section__imageTitleText {
-    display: flex;
-    padding: 0;
-    justify-content: center;
+.block--texttitle {
+    h2 {
+        margin-bottom: $spacing;
+    }
 
-    article {
-        padding: 2rem;
+    p {
+        margin-bottom: $spacing;
     }
 }

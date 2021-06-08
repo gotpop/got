@@ -1,8 +1,40 @@
 .block {
-    padding: $spacing;
+    padding: $spacing*2;
 
-    &--gallery,
+    &--button,
+    &--gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+    
+    &--blockimage {
+        background-color: whitesmoke;
+    }
+
     &--smallhero {
+        background-color: whitesmoke;
+        padding: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    &--testimonials {
+        background-color: whitesmoke;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 1rem;
+    }
+
+    &--gallery {
         padding: 0;
+    }
+
+    &__intro {
+        grid-column: span 8;
+        text-align: center;
     }
 }

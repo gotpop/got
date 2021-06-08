@@ -6,18 +6,14 @@ sections:
   - type: textTitle
     title: The first header tag title goes here
     content: >-
-      This is some textLorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-
+      **Lorem ipsum dolor** sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. 
 
 
       > Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
 
 
       This is some textLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -57,15 +53,20 @@ sections:
       est laborum.
     id: JeSv8CO-AD
   - type: blockImage
-    thumbnail: /uploads/code.jpg
+    thumbnail: /images/uploads/forest.webp
     title: A nice image
     alt: Look at the nice image
     id: s8_WwVbXA
-  - type: testimonials
-    quote: Everything is awesome!
-    author:
-      name: Emmet
-    id: kyIWa3RdLK
+  - type: textTitle
+    id: bkBw_W1M-
+    title: Here is some more text
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
   - type: smallHero
     title: Lquis nostrud
     blockImage:
@@ -75,5 +76,29 @@ sections:
       id: f6DT4Sj0px
     bodyMarkdown: This is the second small hero
     id: s9BARIG9dx
+  - type: textTitle
+    id: njYmA5lrH
+    title: A header for the text
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+  - type: testimonials
+    quote: Everything is awesome!
+    author:
+      name: Emmet
+    id: kyIWa3RdLK
+    testimonial:
+      - type: testimonial
+        title: Lquis nostrud
+        bodyText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. "
+      - type: testimonial
+        title: Lquis nostrud
+        bodyText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. "
 id: ZluVFYW8k
 ---

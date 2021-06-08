@@ -1,31 +1,21 @@
-import id from "../../fields/id";
+import testimonial from "./testimonial";
 
 const testimonials = {
     label: "Testimonials",
     name: "testimonials",
-    widget: "list",
+    widget: "object",
+    collapsed: true,
     fields: [
         {
-            label: "Quotes",
-            name: "quote",
-            widget: "string",
-            default: "Everything is awesome!"
-        },
-        {
-            label: "Author",
-            name: "author",
-            widget: "object",
-            fields: [
-                {
-                    label: "Name",
-                    name: "name",
-                    widget: "string",
-                    default: "Emmet"
-                }
+            label: "Testimonial",
+            name: "testimonial",
+            widget: "list",
+            types: [
+                testimonial
             ]
-        },
-        id
+        }
     ]
 };
 
 export default testimonials;
+
