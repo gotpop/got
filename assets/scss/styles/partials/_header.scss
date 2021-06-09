@@ -4,7 +4,6 @@
   background: $colGreyDark;
   display: flex;
   justify-content: center;
-  backdrop-filter: blur(10px);
 
   &__wrap--home {
     display: grid;
@@ -25,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-decoration: none;
 
     svg {
       max-width: 40px;
