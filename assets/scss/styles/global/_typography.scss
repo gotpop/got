@@ -1,5 +1,5 @@
 a {
-    color: #ffffff;
+    color: $colPrimary;
 }
 
 h1,
@@ -9,6 +9,7 @@ h4,
 h5,
 h6 {
     font-family: $font-heading;
+    color: $colCharcoal;
 }
 
 p {

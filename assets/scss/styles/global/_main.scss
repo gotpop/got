@@ -24,11 +24,11 @@
 }
 
 .main__inner--pages {
-  background-color: white;
+  background-color: $colWhite;
 
   .sidebar {
     padding: $spacing;
     grid-column: span 4;
-    background-color: whitesmoke;
+    background-color: $colWhiteOff;
   }
 }

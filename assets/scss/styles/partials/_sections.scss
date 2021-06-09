@@ -1,10 +1,10 @@
 .section {
-    background-color: whitesmoke;
+    background-color: $colGreyLight;
     display: flex;
     justify-content: center;
     
     &:last-of-type {
-        padding-bottom: $spacing*2;
+        padding-bottom: $spacing * 2;
     }
     
     &__inner {
@@ -26,6 +26,6 @@
     }
 
     &:nth-child(even) {
-        background-color: beige;
+        background-color: $colWhiteOff;
     }
 }

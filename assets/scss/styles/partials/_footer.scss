@@ -1,24 +1,22 @@
-// Footer
-
 .footer {
   display: flex;
   justify-content: center;
-  background-color: darkgrey;
-  padding: $spacing*2 $spacing $spacing*4 $spacing; 
+  background-color: $colGreyDark;
+  padding: $spacing * 2 $spacing $spacing * 4 $spacing; 
   
   &__inner {
     @include grid();
   }
   
   &__nav {
-    grid-column: 3 /span 8;
+    grid-column: 3 / span 8;
     display: grid;
     grid-template-columns: subgrid;
   }
 
   &__link {
-    background: #ffffff;
-    color: #3d3d3d;
+    background: $colWhiteOff;
+    color: $colGreyDark;
     display: flex;
     justify-content: space-between;
     text-decoration: none;

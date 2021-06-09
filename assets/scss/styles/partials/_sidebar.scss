@@ -1,8 +1,8 @@
 .subnav {
     a {
         padding: $spacing/2 $spacing;
-        background-color: white;
-        color: darkgray;
+        background-color: $colWhite;
+        color: $colGreyDark;
         text-decoration: none;
     }
 }

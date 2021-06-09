@@ -1,20 +1,20 @@
 
 .button {
-    padding: 1em 1.25em;
-    background-color: black;
-    color: white;
-    text-decoration: none;
+    background-color: $colCharcoal;
+    color: $colWhite;
     display: flex;
     justify-content: space-between;
+    padding: 1em 1.25em;
+    text-decoration: none;
 
     svg {
       width: 1.5em;
       height: auto;
       margin-left: 1.2em;
-      fill: yellow;
+      fill: currentColor;
       
       path {
-        stroke: red;
+        stroke: currentColor;
       }
     }
 
