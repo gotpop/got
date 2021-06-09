@@ -1,22 +1,20 @@
 {{ define "main" }}
 	<main class="main main--home">
-		{{ range .Site.RegularPages }}
-			{{ with .Site.Data.home_content.homeContentList }}
-				{{ range . }}
-					<section class="section section--{{ lower .type }}">
-						{{ if eq .type "cards" }}
-							{{ partial "partials/sections/banner_cards.html" . }}
-						{{ else if eq .type "gallery" }}
-							{{ partial "partials/sections/banner_gallery.html" . }}
-						{{ else if eq .type "imageTitleText" }}
-							{{ partial "partials/sections/banner_image_title_text" . }}
-						{{ else if eq .type "page" }}
-							{{ partial "partials/sections/banner_page.html" (dict "context" . "pages" $.Site.RegularPages) }}
-						{{ else if eq .type "testimonials" }}
-							{{ partial "partials/sections/banner_testimonials.html" . }}
-						{{ end }}
-					</section>
-				{{ end }}
+		{{ with .Site.Data.home_content.homeContentList }}
+			{{ range . }}
+				<section class="section section--{{ lower .type }}">
+					{{ if eq .type "cards" }}
+						{{ partial "partials/sections/banner_cards.html" . }}
+					{{ else if eq .type "gallery" }}
+						{{ partial "partials/sections/banner_gallery.html" . }}
+					{{ else if eq .type "imageTitleText" }}
+						{{ partial "partials/sections/banner_image_title_text" . }}
+					{{ else if eq .type "page" }}
+						{{ partial "partials/sections/banner_page.html" (dict "context" . "pages" $.Site.RegularPages) }}
+					{{ else if eq .type "testimonials" }}
+						{{ partial "partials/sections/banner_testimonials.html" . }}
+					{{ end }}
+				</section>
 			{{ end }}
 		{{ end }}
 	</main>
