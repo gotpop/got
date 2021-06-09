@@ -1,7 +1,7 @@
 import bodyText from "../fields/body_text";
 import title from "../fields/title";
 
-const homePage = {
+const homePageHero = {
     file: "data/home_hero.json",
     label: "Home page hero content",
     name: "homeHero",
@@ -22,4 +22,4 @@ const homePage = {
     ]
 };
 
-export default homePage;
+export default homePageHero;

@@ -4,7 +4,7 @@ import baannerImageTitleText from "../partials/sections/banner_image_title_text"
 import bannerPage from "../partials/sections/banner_page";
 import bannerTestimonials from "../partials/sections/banner_testimonials";
 
-const homePage = {
+const homePageContent = {
     file: "data/home_content.json",
     label: "Home page content",
     name: "homeContent",
@@ -29,4 +29,4 @@ const homePage = {
     ]
 };
 
-export default homePage;
+export default homePageContent;
