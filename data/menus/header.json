@@ -2,19 +2,13 @@
   "header": [
     {
       "type": "linkInternal",
-      "title": "Services",
-      "icon": "book-open",
+      "title": "Stack",
+      "icon": "chip",
       "linkrel": "ZluVFYW8k"
     },
     {
       "type": "linkInternal",
-      "title": "Contact",
-      "icon": "information-circle",
-      "linkrel": "xITjgxXNW"
-    },
-    {
-      "type": "linkInternal",
-      "title": "Extras",
+      "title": "Aproach",
       "icon": "book-open",
       "linkrel": "gbGSNBIq7"
     },
@@ -23,6 +17,12 @@
       "title": "About",
       "icon": "information-circle",
       "linkrel": "fAjyLrg-K"
+    },
+    {
+      "type": "linkInternal",
+      "title": "Contact",
+      "icon": "mail",
+      "linkrel": "xITjgxXNW"
     }
   ]
 }

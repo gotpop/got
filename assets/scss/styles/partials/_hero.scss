@@ -2,6 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &--medium {
+        h1 {
+            grid-column: span 12;
+        }
+    }
     
     &__inner {
         @include grid();
@@ -12,6 +18,24 @@
         text-align: center;
         padding: $spacing;
         background-color: $colWhite;
-        grid-column: 4 / span 5;
+        grid-column: 4 / span 6;
+    }
+
+    &__title {
+        font-size: 3rem;
+        margin-bottom: .5em;
+
+        &::after {
+            content: "";
+            display: flex;
+            width: calc(100% - 6rem);
+            height: 2px;
+            margin: .3em 3rem 0 3rem;
+            background: linear-gradient(to right, $colWhite, $colGreyDark, $colWhite); 
+        }
+    }
+
+    &__text {
+        font-size: 1.5rem;
     }
 }

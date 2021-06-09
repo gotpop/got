@@ -5,21 +5,21 @@
       "bannerCard": [
         {
           "type": "card",
-          "title": "Lquis nostrud",
-          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "title": "Easy to use",
+          "bodyText": "Each of these components can be dragged and dropped via the CMS and has fully customisable content.",
           "blockImage": {
-            "thumbnail": "/uploads/code.jpg",
-            "title": "Lquis nostrud",
-            "alt": "Lquis nostrud",
+            "thumbnail": "/images/uploads/600x400_3.png",
+            "title": "Easy to use",
+            "alt": "Easy to use",
             "id": "wkLbhWScc"
           }
         },
         {
           "type": "card",
-          "title": "Lquis nostrud",
-          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "title": "Custom sections",
+          "bodyText": "Every page section and be added, removed and modified. ",
           "blockImage": {
-            "thumbnail": "/uploads/code.jpg",
+            "thumbnail": "/images/uploads/600x400_2.png",
             "title": "Lquis nostrud",
             "alt": "Lquis nostrud",
             "id": "dMOp8hJeO"
@@ -27,10 +27,10 @@
         },
         {
           "type": "card",
-          "title": "Lquis nostrud",
-          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "title": "JAM Stack",
+          "bodyText": "JAM stands for JavaScript, API, Markup. JAM enables enterprise level companies to benefit from great SEO, fast load times, scalability and ease of use that working with static files.",
           "blockImage": {
-            "thumbnail": "/uploads/code.jpg",
+            "thumbnail": "/images/uploads/600x400_6.png",
             "title": "Lquis nostrud",
             "alt": "Lquis nostrud",
             "id": "SLiWvsYVW"
@@ -38,10 +38,10 @@
         },
         {
           "type": "card",
-          "title": "Lquis nostrud",
-          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "title": "User variables",
+          "bodyText": "Variables can be exposed to the CMS if required and can offer greater levels of control without bloating file size.",
           "blockImage": {
-            "thumbnail": "/uploads/code.jpg",
+            "thumbnail": "/images/uploads/600x400_4.png",
             "title": "Lquis nostrud",
             "alt": "Lquis nostrud",
             "id": "_clqBTu-W"
@@ -49,10 +49,10 @@
         },
         {
           "type": "card",
-          "title": "Lquis nostrud",
-          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "title": "CSS Grid layout",
+          "bodyText": "All components are positioned on the same grid using CSS Grid layout.",
           "blockImage": {
-            "thumbnail": "/uploads/code.jpg",
+            "thumbnail": "/images/uploads/600x400_8.png",
             "title": "Lquis nostrud",
             "alt": "Lquis nostrud",
             "id": "RnC8fI5WL"
@@ -60,10 +60,10 @@
         },
         {
           "type": "card",
-          "title": "Lquis nostrud",
-          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "title": "Good SEO",
+          "bodyText": "As Hugo renders static HTML pages the site is great for SEO out of the box.",
           "blockImage": {
-            "thumbnail": "/uploads/code.jpg",
+            "thumbnail": "/images/uploads/600x400_1.png",
             "title": "Lquis nostrud",
             "alt": "Lquis nostrud",
             "id": "z_tMbz0EO"
@@ -71,10 +71,10 @@
         },
         {
           "type": "card",
-          "title": "Lquis nostrud",
-          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "title": "Fast development",
+          "bodyText": "Working with a serverless environment means one Front End developer can rapidly iterate.",
           "blockImage": {
-            "thumbnail": "/uploads/code.jpg",
+            "thumbnail": "/images/uploads/600x400_2.png",
             "title": "Lquis nostrud",
             "alt": "Lquis nostrud",
             "id": "J1TK5-kGw"
@@ -82,10 +82,10 @@
         },
         {
           "type": "card",
-          "title": "Lquis nostrud",
-          "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+          "title": "Go modules",
+          "bodyText": "Hugo utilises Go modules to import reusable code from a central repo meaning multiple websites can be managed with a single framwork.",
           "blockImage": {
-            "thumbnail": "/uploads/code.jpg",
+            "thumbnail": "/images/uploads/600x400_3.png",
             "title": "Lquis nostrud",
             "alt": "Lquis nostrud",
             "id": "rsbe-zsdQ"
@@ -98,56 +98,56 @@
       "bannerGalleryList": [
         {
           "type": "blockImage",
-          "thumbnail": "/uploads/code.jpg",
+          "thumbnail": "/images/uploads/600x400_5.png",
           "title": "Lquis nostrud",
           "alt": "Lquis nostrud",
           "id": "V_Yypfyxn"
         },
         {
           "type": "blockImage",
-          "thumbnail": "/uploads/code.jpg",
+          "thumbnail": "/images/uploads/600x400_4.png",
           "title": "Lquis nostrud",
           "alt": "Lquis nostrud",
           "id": "UPGBUozuB"
         },
         {
           "type": "blockImage",
-          "thumbnail": "/uploads/code.jpg",
+          "thumbnail": "/images/uploads/600x400_3.png",
           "title": "Lquis nostrud",
           "alt": "Lquis nostrud",
           "id": "xUn434gqI"
         },
         {
           "type": "blockImage",
-          "thumbnail": "/uploads/code.jpg",
+          "thumbnail": "/images/uploads/600x400_1.png",
           "title": "Lquis nostrud",
           "alt": "Lquis nostrud",
           "id": "66IlQCvJB"
         },
         {
           "type": "blockImage",
-          "thumbnail": "/uploads/code.jpg",
+          "thumbnail": "/images/uploads/600x400_6.png",
           "title": "Lquis nostrud",
           "alt": "Lquis nostrud",
           "id": "GeKSQt-02"
         },
         {
           "type": "blockImage",
-          "thumbnail": "/uploads/code.jpg",
+          "thumbnail": "/images/uploads/600x400_8.png",
           "title": "Lquis nostrud",
           "alt": "Lquis nostrud",
           "id": "R_KPxtO48"
         },
         {
           "type": "blockImage",
-          "thumbnail": "/uploads/code.jpg",
+          "thumbnail": "/images/uploads/600x400_1.png",
           "title": "Lquis nostrud",
           "alt": "Lquis nostrud",
           "id": "B6bOOrP5X"
         },
         {
           "type": "blockImage",
-          "thumbnail": "/uploads/code.jpg",
+          "thumbnail": "/images/uploads/600x400_3.png",
           "title": "Lquis nostrud",
           "alt": "Lquis nostrud",
           "id": "b9vO0ZaG1"
@@ -156,10 +156,10 @@
     },
     {
       "type": "imageTitleText",
-      "title": "Lquis nostrud",
-      "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.uat. ",
+      "title": "User editable menus",
+      "bodyText": "All menus are drag and drop and can contain multiple types of links.",
       "blockImage": {
-        "thumbnail": "/images/uploads/forest.webp",
+        "thumbnail": "/images/uploads/600x400_3.png",
         "title": "Lquis nostrud",
         "alt": "Lquis nostrud",
         "id": "0eR-ScYqy"
@@ -169,8 +169,8 @@
       "type": "page",
       "title": "Find out more",
       "linkrel": "gbGSNBIq7",
-      "textSupporting": "This is some amazing text about the website",
-      "icon": "arrow-circle-down"
+      "textSupporting": "Read about the tech stack here",
+      "icon": "arrow-circle-right"
     },
     {
       "type": "testimonials",

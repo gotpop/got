@@ -1,6 +1,7 @@
 .page {
     &__text {
         grid-column: span 8;
+        align-self: center;
     }
 
     &__button {

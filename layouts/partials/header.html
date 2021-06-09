@@ -13,7 +13,7 @@
 	{{ $page := .Page.Params }}
 	{{ with .IsHome }}
 		{{ with $displayHomeHero }}
-			{{ partial "hero.html" . }}
+			{{ partial "hero.html" $ }}
 		{{ end }}
 	{{ else }}
 		{{ with $page.displayPageHero }}

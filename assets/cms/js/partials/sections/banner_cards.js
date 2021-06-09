@@ -8,6 +8,7 @@ const bannerCards = {
         {
             label: "Banner card",
             name: "bannerCard",
+            summary: "{{fields.title}}",
             widget: "list",
             types: [
                 bannerCard

@@ -1,6 +1,6 @@
 <div class="section__inner section__inner--{{ lower .type }}">
     <div class="section__intro">
-        <h2>Banner cards</h2>
+        <h2>Drag and drop repeatable elements</h2>
     </div>
     {{ range .bannerCard }}
         <article class="card">
@@ -9,7 +9,7 @@
             <p>{{ .bodyText }}</p>
             </section>
             <figure class="card__figure">
-                <img src="/images{{ .blockImage.thumbnail }}" title="{{ .blockImage.title }}" alt="{{ .blockImage.alt }}"
+                <img src="{{ .blockImage.thumbnail }}" title="{{ .blockImage.title }}" alt="{{ .blockImage.alt }}"
                     loading="lazy">
                 <figcaption>{{ .title}}</figcaption>
             </figure>

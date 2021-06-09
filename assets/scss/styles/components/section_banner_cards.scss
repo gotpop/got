@@ -1,6 +1,11 @@
 .card {
     grid-column: span 3;
     background-color: $colWhite;
+    display: grid;
+
+    &__figure {
+        align-self: end;
+    }
 
     &__intro {
         padding: $spacing;

@@ -1,8 +1,11 @@
 //  imagetitletext
 
 .imagetitletext {
+    display: grid;
+
     &__text {
         grid-column: span 6;
+        align-self: center;
     }
     
     &__figure {

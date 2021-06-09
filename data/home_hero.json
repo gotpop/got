@@ -1,5 +1,5 @@
 {
   "displayHomeHero": true,
-  "title": "The website hero!",
-  "bodyText": "This is a content builder"
+  "title": "Content Builder",
+  "bodyText": "This is website is built using an extended version of NetlifyCMS and Hugo"
 }

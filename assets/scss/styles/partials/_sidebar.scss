@@ -4,5 +4,10 @@
         background-color: $colWhite;
         color: $colGreyDark;
         text-decoration: none;
+        transition: background-color .8s ease;
+
+        &:hover {
+            background-color: $colWhiteOff;
+        }
     }
 }
