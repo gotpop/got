@@ -16,7 +16,7 @@
             {{ partial "icon.html" $MenuItem.icon }}
         </a>
         {{ else if eq $MenuItem.type "linkInternal" }}
-            <a class="header__link header__link--internal{{ if eq $currentPage.RelPermalink $PageLinkURL }} header__link--is-active{{ end }}" href="{{ $PageLinkURL }}">
+            <a class="header__link header__link--internal{{ if eq $currentPage.RelPermalink $PageLinkURL }} header__link--active{{ end }}" href="{{ $PageLinkURL }}">
                 {{ .title }}
                 {{ partial "icon.html" $MenuItem.icon }}
             </a>

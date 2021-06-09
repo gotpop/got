@@ -2,6 +2,8 @@
 // The rest of the styles are then loaded
 // This file is not linted - .stylelintignore 
 
+$colPrimary: {{ $.Site.Data.style.colour.colorPrimary }}; 
+$colSecondary: {{ $.Site.Data.style.colour.colorSecondary }};
 $backgroundColor: {{ .Param "style.backgroundColor" }}; 
 $textColor: {{ .Param "style.textColor" }};
 $font-heading: {{ $.Site.Params.heading_font | default "'Roboto', sans-serif" }};
