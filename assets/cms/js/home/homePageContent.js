@@ -14,6 +14,13 @@ const homePage = {
     },
     fields: [
         {
+            label: "Display home page hero",
+            name: "displayHomeHero",
+            widget: "boolean",
+            hint: "Choose whether to display the hero on the homepage",
+            default: true
+        },
+        {
             label: "Home content",
             name: "homeContentList",
             widget: "list",

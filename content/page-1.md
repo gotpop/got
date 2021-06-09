@@ -1,10 +1,10 @@
 ---
-title: Services
+title: "Services "
 displayPageHero: true
 visible: true
 sections:
   - type: textTitle
-    title: The first header tag title goes here
+    title: "The first header tag title "
     content: >-
       **Lorem ipsum dolor** sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -42,6 +42,7 @@ sections:
         title: Image 2
         alt: The image 2
     id: cGkP7jzz9Z
+    title: A gallery item
   - type: textTitle
     title: More text headings are nice
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

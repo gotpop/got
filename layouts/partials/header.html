@@ -9,9 +9,10 @@
 			{{ end }}
 		</div>
 	</section>
+	{{ $displayHomeHero := .Site.Data.home_content.displayHomeHero }}
 	{{ $page := .Page.Params }}
 	{{ with .IsHome }}
-		{{ with $page.displayHero }}
+		{{ with $displayHomeHero }}
 			{{ partial "hero.html" . }}
 		{{ end }}
 	{{ else }}

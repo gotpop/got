@@ -1,4 +1,3 @@
-import homePage from "./homePageChoose";
 import homePageContent from "./homePageContent";
 
 const home = {
@@ -6,7 +5,6 @@ const home = {
     name: "home",
     description: "This is the homepage config",
     files: [
-        homePage,
         homePageContent
     ]
 };

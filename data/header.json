@@ -2,7 +2,7 @@
   "icon": "archive",
   "logo_text": "Liam",
   "display_site_title": true,
-  "display_site_icon": true,
+  "display_site_icon": false,
   "display_site_logo": true,
   "display_site_nav": true
 }

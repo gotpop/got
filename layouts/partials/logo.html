@@ -4,5 +4,7 @@
     {{ end }}
     {{ with .Site.Data.header.display_site_icon }}
         {{ partial "icon.html" $.Site.Data.header.icon }}
+    {{ else }}
+        {{ partial "logo_default.html" . }}
     {{ end }}
 </a>
