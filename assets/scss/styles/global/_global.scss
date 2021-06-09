@@ -3,13 +3,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: $font-body, Arial, Helvetica, sans-serif;
-  background-color: $colSecondary;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-
-  background: #fbd3e9; /* fallback for old browsers */
-  background: linear-gradient(to right, #fbd3e9, #bb377d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-color: $colPrimary;
+  background: linear-gradient(to right, #fbd3e9, $colPrimary); 
 }
 
 figure {
