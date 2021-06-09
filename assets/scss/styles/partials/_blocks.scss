@@ -3,10 +3,10 @@
 
     &--button,
     &--gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         align-items: center;
         background-color: $colWhiteOff;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     
     &--blockimage {
@@ -14,19 +14,19 @@
     }
 
     &--smallhero {
-        background-color: $colWhiteOff;
-        padding: 4rem;
-        display: flex;
-        justify-content: center;
         align-items: center;
+        background-color: $colWhiteOff;
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        padding: 4rem;
     }
     
     &--testimonials {
         background-color: $colWhiteOff;
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
         gap: 1rem;
+        grid-template-columns: repeat(8, 1fr);
     }
 
     &--gallery {

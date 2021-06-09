@@ -1,7 +1,7 @@
 .card {
-    grid-column: span 3;
     background-color: $colWhite;
     display: grid;
+    grid-column: span 3;
 
     &__figure {
         align-self: end;

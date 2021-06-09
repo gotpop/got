@@ -1,15 +1,14 @@
-// Main
 .main {
   flex-grow: 1;
   justify-content: center;
   min-height: 100vh;
-  
+
   &__inner {
     @include grid();
     flex: 0 1 $width;
     margin: 0 $spacing;
   }
-  
+
   &__content {
     grid-column: span 8;
   }

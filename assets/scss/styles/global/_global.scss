@@ -1,24 +1,22 @@
-// Global
 body {
+  background: linear-gradient(to right, #fbd3e9, $colPrimary); 
   display: flex;
   flex-direction: column;
   font-family: $font-body, Arial, Helvetica, sans-serif;
-  background-color: $colPrimary;
-  background: linear-gradient(to right, #fbd3e9, $colPrimary); 
 }
 
 figure {
-  position: relative;
   overflow: hidden;
+  position: relative;
 
   figcaption {
-    position: absolute;
-    right: 0;
-    bottom: -3rem;
-    transition: bottom .4s ease;
     background-color: $colCharcoal;
+    bottom: -3rem;
     color: $colWhite;
     padding: $spacing / 4;
+    position: absolute;
+    right: 0;
+    transition: bottom .4s ease;
   }
 
   &:hover figcaption {

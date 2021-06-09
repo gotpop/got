@@ -1,28 +1,28 @@
 .footer {
+  background-color: $colWhite;
   display: flex;
   justify-content: center;
-  background-color: $colWhite;
-  padding: $spacing * 2 $spacing $spacing * 4 $spacing; 
-  
+  padding: $spacing * 2 $spacing $spacing * 4 $spacing;
+
   &__inner {
     @include grid();
   }
-  
+
   &__nav {
-    grid-column: 3 / span 8;
     display: grid;
+    grid-column: 3 / span 8;
     grid-template-columns: subgrid;
   }
 
   &__link {
+    align-items: center;
     background: $colWhiteOff;
     color: $colGreyDark;
     display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    align-items: center;
-    padding: $gutter;
     grid-column: span 2;
+    justify-content: space-between;
+    padding: $gutter;
+    text-decoration: none;
   }
 }
 

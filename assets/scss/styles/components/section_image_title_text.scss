@@ -1,13 +1,11 @@
-//  imagetitletext
-
 .imagetitletext {
     display: grid;
 
     &__text {
-        grid-column: span 6;
         align-self: center;
+        grid-column: span 6;
     }
-    
+
     &__figure {
         grid-column: span 6;
     }

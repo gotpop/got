@@ -1,29 +1,29 @@
 .header {
     &__logo {
-      align-items: center;
-      color: $colCharcoal;
-      display: flex;
-      font-size: 1.5rem;
-      grid-column: span 2;
-      justify-content: space-between;
-      padding: 1em 1em 1em 0;
-      text-decoration: none;
-      
-      &:hover {
-        color: $colPrimary;
-  
-        h1 {
-          color: currentColor;
+        align-items: center;
+        color: $colCharcoal;
+        display: flex;
+        font-size: 1.5rem;
+        grid-column: span 2;
+        justify-content: space-between;
+        padding: 1em 1em 1em 0;
+        text-decoration: none;
+
+        &:hover {
+            color: $colPrimary;
+
+            h1 {
+                color: currentColor;
+            }
+
+            svg {
+                fill: currentColor;
+            }
         }
-  
+
         svg {
-          fill: currentColor;
+            max-width: 2em;
+            fill: currentColor;
         }
-      }
-      
-      svg {
-        max-width: 2em;
-        fill: currentColor;
-      }
     }
 }

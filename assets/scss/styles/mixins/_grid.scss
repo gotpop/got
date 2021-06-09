@@ -1,9 +1,9 @@
 // _mixins.scss
 @mixin grid() {
+    column-gap: $spacing;
     display: grid;
     flex: 0 1 $width;
-    column-gap: $spacing;
-    row-gap: $spacing;
     grid-template-columns: repeat(12, 1fr);
+    row-gap: $spacing;
 }
 

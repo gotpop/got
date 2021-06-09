@@ -1,5 +1,3 @@
-
-
 .sidebar {
     position: relative;
 }
@@ -7,10 +5,9 @@
 .subnav {
     position: sticky;
     top: 2rem;
-    
+
     a {
         color: $colGreyMid;
         display: flex;
-    }    
+    }
 }
-
