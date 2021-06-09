@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #fbd3e9, $colPrimary); 
+  background: linear-gradient(to right, lighten($colPrimary, 90%), $colPrimary); 
   display: flex;
   flex-direction: column;
   font-family: $font-body, Arial, Helvetica, sans-serif;
