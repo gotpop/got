@@ -1,6 +1,6 @@
 github.com/gohugoio/hugo-mod-heroicons v0.0.0-20210121184556-d1635e3c8e62 h1:jtmtbc8wd17iUall0Hl6ZBE5Q4l0rQYWnpvk4/g0LuY=
 github.com/gohugoio/hugo-mod-heroicons v0.0.0-20210121184556-d1635e3c8e62/go.mod h1:6mFNBWXSBQpSRwVrb1jozCJDgQkw+5aIu1yy17D0PW4=
-github.com/gotpop/gotscss v0.0.2 h1:vWz5vrMqFEhK7cuqTnGNUs9z8MGcFFXpkMSZ7gV+Tc0=
-github.com/gotpop/gotscss v0.0.2/go.mod h1:dp539SAbhdfd5cKPVKgeGTOFN15Xn6DzkmrAr1+JNog=
+github.com/gotpop/gotscss v0.0.3 h1:ysZv7gLOKJTeVXh/A29M/FUj1hc5xvRmnTEXbTFfe0g=
+github.com/gotpop/gotscss v0.0.3/go.mod h1:dp539SAbhdfd5cKPVKgeGTOFN15Xn6DzkmrAr1+JNog=
 github.com/refactoringui/heroicons v0.4.2 h1:gLYH0RH4nLh81yxAC/JgyvKIeK0d+sBVF/I2XkPb6U8=
 github.com/refactoringui/heroicons v0.4.2/go.mod h1:82HsLWQga7MkEl5aK8TctxPPIBlXrsyWcVTB57uipuk=

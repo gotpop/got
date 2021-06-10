@@ -3,42 +3,42 @@
 
 // Import Vars
 @import "./styles/vars/colour";
-// @import "./styles/vars/vars";
-// @import "./styles/global/reset";
+@import "./styles/vars/vars";
+@import "./styles/global/reset";
 
-// // Import Mixins
-// @import "./styles/mixins/grid";
+// Import Mixins
+@import "./styles/mixins/grid";
 
-// // Import global
-// @import "./styles/global/button"; 
-// @import "./styles/global/global";
-// @import "./styles/global/layout";
-// @import "./styles/global/main"; 
-// @import "./styles/global/typography"; 
+// Import global
+@import "./styles/global/button"; 
+@import "./styles/global/global";
+@import "./styles/global/layout";
+@import "./styles/global/main"; 
+@import "./styles/global/typography"; 
 
-// // Import partials
-// @import "./styles/partials/footer";
-// @import "./styles/partials/header";
-// @import "./styles/partials/logo";
-// @import "./styles/partials/nav";
-// @import "./styles/partials/hero"; 
-// @import "./styles/partials/menu_footer"; 
-// @import "./styles/partials/menu_header"; 
-// @import "./styles/partials/sections"; 
-// @import "./styles/partials/blocks"; 
-// @import "./styles/partials/sidebar"; 
-// @import "./styles/partials/pagination"; 
+// Import partials
+@import "./styles/partials/footer";
+@import "./styles/partials/header";
+@import "./styles/partials/logo";
+@import "./styles/partials/nav";
+@import "./styles/partials/hero"; 
+@import "./styles/partials/menu_footer"; 
+@import "./styles/partials/menu_header"; 
+@import "./styles/partials/sections"; 
+@import "./styles/partials/blocks"; 
+@import "./styles/partials/sidebar"; 
+@import "./styles/partials/pagination"; 
 
-// // Import components
-// @import "./styles/components/block_button";
-// @import "./styles/components/block_gallery";
-// @import "./styles/components/block_image";
-// @import "./styles/components/block_small_hero";
-// @import "./styles/components/block_testimonials";
-// @import "./styles/components/block_title_text";
-// @import "./styles/components/section_banner_cards";
-// @import "./styles/components/section_gallery";
-// @import "./styles/components/section_image";
-// @import "./styles/components/section_page_link";
-// @import "./styles/components/section_testimonials";
-// @import "./styles/components/section_image_title_text";
+// Import components
+@import "./styles/components/block_button";
+@import "./styles/components/block_gallery";
+@import "./styles/components/block_image";
+@import "./styles/components/block_small_hero";
+@import "./styles/components/block_testimonials";
+@import "./styles/components/block_title_text";
+@import "./styles/components/section_banner_cards";
+@import "./styles/components/section_gallery";
+@import "./styles/components/section_image";
+@import "./styles/components/section_page_link";
+@import "./styles/components/section_testimonials";
+@import "./styles/components/section_image_title_text";

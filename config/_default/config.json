@@ -28,7 +28,7 @@
              "mounts": [
                 {
                    "source": "styles",
-                   "target": "assets"
+                   "target": "assets/scss/styles"
                 }
              ]
           },
