@@ -60,6 +60,8 @@ https://github.com/netlify/netlify-cms/blob/master/dev-test/config.yml
 
 https://mrkaluzny.com/blog/dry-netlify-cms-config-with-manual-initialization
 
-# HasMenu doesn't work when you set menus in menu.json
+# Custom menus offer more flexibility
+
+HasMenu doesn't work when you set menus in menu.json for this reason I think it's a good idea to use fully custom menus.
 
 https://discourse.gohugo.io/t/ismenucurrent-returns-false-for-single-pages/13970/10
